@@ -8,7 +8,6 @@ The project addresses the challenges of processing Thai text, such as its lack o
 ## Features
 - **Named Entity Recognition (NER):** Extracts entities like persons, locations, and organizations from Thai historical texts.
 - **Part-of-Speech (POS) Tagging:** Assigns grammatical roles (e.g., noun, verb, adjective) to words for linguistic analysis.
-- **Thai Language Support:** Utilizes libraries like `pythainlp` for accurate word segmentation and Thai script processing.
 - **Text Similarity Analysis:** Computes similarity scores between texts based on extracted entities and POS features.
 - **Case Study Focus:** Optimized for Suvarnabhumi-related texts, with potential applications to other Thai historical corpora.
 
