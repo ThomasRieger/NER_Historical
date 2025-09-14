@@ -1,0 +1,2 @@
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+Final_v1/ner_modelfinal/model.safetensors filter=lfs diff=lfs merge=lfs -text
