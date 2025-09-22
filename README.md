@@ -74,7 +74,7 @@ NER_Historical/
 ├── requirements.txt                            # Dependencies
 ├── .gitignore                                  # Directory for input text files
 ├── .gitattribute                               # Directory for output results
-└── README.md                                   # This file
+└── README.md                                   # README.md File
 ```
 
 **Note:** If your repository includes additional files or folders (e.g., pre-trained models, scripts, or datasets), update the structure above to reflect the actual contents. The current structure is inferred based on typical NLP project layouts.
