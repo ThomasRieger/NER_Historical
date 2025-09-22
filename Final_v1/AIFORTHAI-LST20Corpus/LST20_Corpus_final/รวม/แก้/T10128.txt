@@ -80,7 +80,7 @@ _ PU O I_CLS
 จะ AX O I_CLS
 เป็น VV O I_CLS
 ครึ่ง NU O I_CLS
-ปี CL B_MEA I_CLS
+ปี CL O I_CLS
 หลัง NU O I_CLS
 _ PU O I_CLS
 ประมาณ AJ O I_CLS
@@ -230,7 +230,7 @@ _ PU O O
 เป็น VV O I_CLS
 รายการ NN O I_CLS
 _ PU O I_CLS
-24 NU B_MEA I_CLS
+24 NU B_NUM I_CLS
 _ PU O I_CLS
 ชั่วโมง CL B_MEA I_CLS
 _ PU O I_CLS

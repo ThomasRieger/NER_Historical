@@ -422,7 +422,7 @@ _ PU O I_CLS
 _ PU O O
 ผู้นำ NN O B_CLS
 ทั้ง AJ O I_CLS
-สอง NU B_NUM I_CLS
+สอง NU O I_CLS
 มี VV O I_CLS
 ความเห็น NN O I_CLS
 ร่วม VV O I_CLS

@@ -62,9 +62,9 @@ _ PU O O
 ผ่าน VV O I_CLS
 มา AV O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA E_CLS
+1 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+วัน CL E_DUR E_CLS
 หลัง CC O B_CLS
 การ FX O I_CLS
 ทดลอง VV O I_CLS

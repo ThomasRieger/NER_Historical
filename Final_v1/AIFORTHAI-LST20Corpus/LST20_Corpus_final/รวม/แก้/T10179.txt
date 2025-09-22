@@ -94,9 +94,9 @@ _ PU O O
 ไป VV O I_CLS
 อีก AJ O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
-_ PU O I_CLS
-เดือน CL B_MEA E_CLS
+6 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+เดือน CL E_DUR E_CLS
 
 หลัง CC O B_CLS
 จาก CC O I_CLS
@@ -180,13 +180,13 @@ _ PU O O
 เวลา NN O I_CLS
 นาน VV O I_CLS
 _ PU O I_CLS
-4 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA I_CLS
-_ PU I_MEA I_CLS
-6 NU E_MEA I_CLS
-_ PU O I_CLS
-เดือน CL B_MEA I_CLS
+4 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL I_DUR I_CLS
+_ PU I_DUR I_CLS
+6 NU I_DUR I_CLS
+_ PU I_DUR I_CLS
+เดือน CL E_DUR I_CLS
 แล้ว AX O E_CLS
 _ PU O O
 และ CC O B_CLS
@@ -204,15 +204,15 @@ _ PU O I_CLS
 ได้ AX O I_CLS
 ตั้งแต่ PS O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
-_ PU O I_CLS
-เดือน CL B_MEA I_CLS
+6 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+เดือน CL E_DUR I_CLS
 จน PS O I_CLS
 ถึง PS O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA E_CLS
+5 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR E_CLS
 
 เจ้าหน้าที่ NN O B_CLS
 ตำรวจ NN O I_CLS
@@ -285,9 +285,9 @@ _ PU O I_CLS
 เป็น VV O I_CLS
 เวลา NN O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA E_CLS
+2 NU B_NUM I_CLS
+_ PU O I_CLS
+วัน CL O E_CLS
 
 และ CC O B_CLS
 มีการ FX O I_CLS
@@ -344,9 +344,9 @@ _ PU O O
 บริเวณ NN O I_CLS
 กำหนด VV O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA I_CLS
+5 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR I_CLS
 _ PU O I_CLS
 กำลัง AX O I_CLS
 จะ AX O I_CLS
@@ -378,9 +378,9 @@ _ PU O O
 ตัดสิน VV O I_CLS
 จำคุก VV O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA E_CLS
+5 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR E_CLS
 _ PU O O
 ถ้า CC O B_CLS
 ถูก AX O I_CLS

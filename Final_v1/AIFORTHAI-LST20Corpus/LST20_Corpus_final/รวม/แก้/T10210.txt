@@ -90,9 +90,9 @@ _ PU O O
 เป็น PS O I_CLS
 เวลา NN O I_CLS
 _ PU O I_CLS
-25 NU B_MEA I_CLS
-_ PU O I_CLS
-นาที CL B_MEA E_CLS
+25 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+นาที CL E_DUR E_CLS
 _ PU O O
 ก่อน CC O B_CLS
 ที่ CC O I_CLS

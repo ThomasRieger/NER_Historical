@@ -26,9 +26,9 @@ _ PU O I_CLS
 เงิน NN O I_CLS
 กว่า NU O I_CLS
 _ PU O I_CLS
-400 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU E_MEA E_CLS
+400 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA E_CLS
 
 ค้าน VV O B_CLS
 ประกัน VV O I_CLS
@@ -40,7 +40,7 @@ _ PU O I_CLS
 ให้การ VV O I_CLS
 ปฏิเสธ VV O I_CLS
 ทุก NU O I_CLS
-ข้อหา NN B_MEA E_CLS
+ข้อหา NN O E_CLS
 
 ประสาน VV O B_CLS
 _ PU O I_CLS
@@ -59,11 +59,11 @@ _ PU O I_CLS
 ขบวนการ NN O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-- PU I_MEA I_CLS
-4 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-คน CL E_MEA E_CLS
+3 NU B_NUM I_CLS
+- PU O I_CLS
+4 NU B_NUM I_CLS
+_ PU O I_CLS
+คน CL B_MEA E_CLS
 
 ( PU O B_CLS
 28 NU B_DTM I_CLS
@@ -107,7 +107,7 @@ _ PU I_PER I_CLS
 _ PU O I_CLS
 อายุ NN O I_CLS
 _ PU O I_CLS
-33 NU B_MEA I_CLS
+33 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -132,9 +132,9 @@ _ PU O I_CLS
 ธอส. NN B_STY I_CLS
 กว่า NU O I_CLS
 _ PU O I_CLS
-400 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+400 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA E_CLS
 _ PU O O
 และ CC O B_CLS
@@ -145,9 +145,9 @@ _ PU I_PER I_CLS
 _ PU O I_CLS
 อายุ NN O I_CLS
 _ PU O I_CLS
-26 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ปี CL E_MEA I_CLS
+26 NU B_NUM I_CLS
+_ PU O I_CLS
+ปี CL B_MEA I_CLS
 _ PU O I_CLS
 แฟน NN O I_CLS
 สาว VV O I_CLS
@@ -201,9 +201,9 @@ _ PU O I_CLS
 มี VV O I_CLS
 กำหนด VV O I_CLS
 _ PU O I_CLS
-12 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA I_CLS
+12 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+วัน CL E_DUR I_CLS
 _ PU O I_CLS
 ตั้งแต่ PS B_DTM I_CLS
 วันที่ NN I_DTM I_CLS
@@ -260,7 +260,7 @@ _ PU O O
 ได้ AX O I_CLS
 สอบปากคำ VV O I_CLS
 ทั้ง NU O I_CLS
-สอง NU B_NUM I_CLS
+สอง NU O I_CLS
 นั้น AJ O I_CLS
 _ PU O I_CLS
 เบื้องต้น NN O I_CLS

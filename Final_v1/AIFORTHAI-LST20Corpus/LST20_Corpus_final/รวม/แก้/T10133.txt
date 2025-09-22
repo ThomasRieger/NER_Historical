@@ -210,10 +210,10 @@ _ PU O O
 ช่อ CL O I_CLS
 ละ AJ O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
+5 NU B_NUM I_CLS
 _ PU O I_CLS
-พัน NU B_MEA I_CLS
-บาท NN E_MEA E_CLS
+พัน NU O I_CLS
+บาท NN B_MEA E_CLS
 _ PU O O
 ให้ CC O B_CLS
 ตน PR O I_CLS

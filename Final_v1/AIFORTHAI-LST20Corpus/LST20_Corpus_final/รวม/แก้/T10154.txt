@@ -333,8 +333,8 @@ _ PU O I_CLS
 ด้วย PS O I_CLS
 อายุ NN O I_CLS
 ทั้ง AJ O I_CLS
-สอง NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สอง NU O I_CLS
+คน CL O I_CLS
 _ PU O I_CLS
 แต่ CC O I_CLS
 ขึ้น VV O I_CLS

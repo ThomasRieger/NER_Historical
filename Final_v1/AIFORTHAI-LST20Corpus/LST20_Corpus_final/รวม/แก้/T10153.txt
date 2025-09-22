@@ -5,7 +5,7 @@ _ PU O I_CLS
 " PU O I_CLS
 เลกเกอร์ส NN O I_CLS
 " PU O I_CLS
-1-1 NU B_MEA E_CLS
+1-1 NU O E_CLS
 
 เดนเวอร์ NN O B_CLS
 _ PU O I_CLS
@@ -22,7 +22,7 @@ _ PU O I_CLS
 ถึง PS O I_CLS
 ถิ่น NN O I_CLS
 _ PU O I_CLS
-106-103 NU B_NUM I_CLS
+106-103 NU O I_CLS
 _ PU O I_CLS
 คะแนน CL O I_CLS
 _ PU O I_CLS
@@ -84,7 +84,7 @@ _ PU O I_CLS
 เสมอ VV O I_CLS
 กัน PR O I_CLS
 _ PU O I_CLS
-1-1 NU B_NUM I_CLS
+1-1 NU O I_CLS
 _ PU O I_CLS
 เกม CL O E_CLS
 

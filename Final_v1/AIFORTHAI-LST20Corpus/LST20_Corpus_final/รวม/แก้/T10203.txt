@@ -2,7 +2,7 @@
 รัก VV O I_CLS
 ไม้เท้ายอดทอง NN O I_CLS
 _ PU O I_CLS
-81 NU B_MEA I_CLS
+81 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA E_CLS
 
@@ -31,7 +31,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-101 NU B_MEA I_CLS
+101 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 เท่า VV O I_CLS
@@ -90,9 +90,9 @@ _ PU O I_CLS
 นั้น AJ O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA I_CLS
+2 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR I_CLS
 ก็ CC O I_CLS
 แต่งงาน VV O I_CLS
 กัน PR O I_CLS
@@ -148,7 +148,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 อายุ NN O I_CLS
 _ PU O I_CLS
-74 NU B_MEA I_CLS
+74 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS

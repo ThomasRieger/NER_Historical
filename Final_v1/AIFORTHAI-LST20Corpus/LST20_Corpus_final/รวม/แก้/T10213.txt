@@ -92,7 +92,7 @@ _ PU O I_CLS
 มี VV O I_CLS
 เสือขาว NN B_ANI I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ตัว CL B_MEA E_CLS
 
@@ -200,7 +200,7 @@ _ PU O I_CLS
 ยาก VV O I_CLS
 ประมาณ NU O I_CLS
 _ PU O I_CLS
-40 NU B_MEA I_CLS
+40 NU B_NUM I_CLS
 _ PU O I_CLS
 ตัว CL B_MEA E_CLS
 _ PU O O

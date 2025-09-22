@@ -9,9 +9,9 @@ _ PU O I_CLS
 โลก NN B_LOC I_CLS
 เฉียด VV O I_CLS
 _ PU O I_CLS
-100 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-คน CL E_MEA E_CLS
+100 NU B_NUM I_CLS
+_ PU O I_CLS
+คน CL B_MEA E_CLS
 
 เปอร์โตริโก NN B_COU B_CLS
 เชค NN B_COU I_CLS
@@ -107,7 +107,7 @@ _ PU O I_CLS
 ชาย NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-39 NU B_MEA I_CLS
+39 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA E_CLS
 ที่ CC O B_CLS
@@ -137,7 +137,7 @@ _ PU O O
 _ PU O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-29 NU B_MEA I_CLS
+29 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -203,7 +203,7 @@ _ PU O I_CLS
 ชาย NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-9 NU B_MEA I_CLS
+9 NU B_NUM I_CLS
 _ PU O I_CLS
 ขวบ CL B_MEA I_CLS
 ติด VV O I_CLS
@@ -297,7 +297,7 @@ _ PU O O
 หญิง NN O I_CLS
 อายุ NN O I_CLS
 _ PU O I_CLS
-18 NU B_MEA I_CLS
+18 NU B_NUM I_CLS
 _ PU O I_CLS
 เดือน CL B_MEA E_CLS
 ซึ่ง CC O B_CLS
@@ -316,7 +316,7 @@ _ PU O O
 ชาย NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-4 NU B_MEA I_CLS
+4 NU B_NUM I_CLS
 _ PU O I_CLS
 ขวบ CL B_MEA I_CLS
 _ PU O I_CLS

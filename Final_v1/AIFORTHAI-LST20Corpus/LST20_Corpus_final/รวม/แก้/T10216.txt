@@ -227,7 +227,7 @@ _ PU O O
 ครบ VV O I_CLS
 รอบ NN O I_CLS
 _ PU O I_CLS
-19 NU B_MEA I_CLS
+19 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA E_CLS
 _ PU O O

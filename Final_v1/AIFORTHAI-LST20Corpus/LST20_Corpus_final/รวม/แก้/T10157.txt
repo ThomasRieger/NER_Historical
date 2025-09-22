@@ -437,13 +437,13 @@ _ PU O I_CLS
 นอกจาก PS O I_CLS
 เมย์ NN B_PER I_CLS
 คน CL O I_CLS
-เดียว NU B_NUM E_CLS
+เดียว NU O E_CLS
 
 " PU O B_CLS
 ก็ CC O I_CLS
 มี VV O I_CLS
 คน CL O I_CLS
-เดียว NU B_NUM I_CLS
+เดียว NU O I_CLS
 ครับ PA O I_CLS
 " PU O E_CLS
 
@@ -560,7 +560,7 @@ _ PU O I_CLS
 ออก VV O I_CLS
 _ PU O I_CLS
 หัวเราะ VV O I_CLS
-อย่าง CL B_MEA I_CLS
+อย่าง CL O I_CLS
 เดียว NU E_MEA E_CLS
 จน CC O B_CLS
 หนุ่ม NN B_PER I_CLS

@@ -196,7 +196,7 @@ _ PU O I_CLS
 ต้อง AX O I_CLS
 อยู่ VV O I_CLS
 คน CL O I_CLS
-เดียว NU B_NUM E_CLS
+เดียว NU O E_CLS
 
 ตอน NN O B_CLS
 นี้ AJ O I_CLS

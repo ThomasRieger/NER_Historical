@@ -119,7 +119,7 @@ _ PU O I_CLS
 เบื้อง NN O I_CLS
 สูง VV O I_CLS
 หลาย AJ O I_CLS
-ครั้ง CL B_MEA I_CLS
+ครั้ง CL O I_CLS
 _ PU O I_CLS
 นาย NN B_TTL I_CLS
 สาทิตย์ NN B_PER I_CLS
@@ -150,7 +150,7 @@ _ PU O I_CLS
 ติดตาม VV O I_CLS
 อยู่ AX O I_CLS
 ทุก AJ O I_CLS
-สัปดาห์ CL B_MEA I_CLS
+สัปดาห์ CL O I_CLS
 ว่า CC O I_CLS
 ผู้ FX O I_CLS
 ที่ CC O I_CLS

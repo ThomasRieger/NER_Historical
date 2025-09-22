@@ -83,7 +83,7 @@ _ PU O O
 เกิด VV O I_CLS
 ครบ VV O I_CLS
 _ PU O I_CLS
-18 NU B_MEA I_CLS
+18 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 ของ PS O I_CLS
@@ -178,7 +178,7 @@ _ PU O I_CLS
 แบร์ลุสโคนี NN B_PER I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-72 NU B_MEA I_CLS
+72 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -240,9 +240,9 @@ _ PU O I_CLS
 มา VV O I_CLS
 เกือบ AJ O I_CLS
 _ PU O I_CLS
-19 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA I_CLS
+19 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR I_CLS
 ของ PS O I_CLS
 เขา PR O I_CLS
 _ PU O I_CLS
@@ -349,7 +349,7 @@ _ PU O O
 ที่ CC O B_CLS
 ได้ VV O I_CLS
 _ PU O I_CLS
-37.4 NU B_MEA I_CLS
+37.4 NU B_NUM I_CLS
 _ PU O I_CLS
 เปอร์เซ็นต์ CL B_MEA E_CLS
 _ PU O O
@@ -425,7 +425,7 @@ _ PU O O
 เป็น VV O I_CLS
 ผู้นำ NN O I_CLS
 คน CL O I_CLS
-เดียว NU B_NUM I_CLS
+เดียว NU O I_CLS
 เท่านั้น VV O E_CLS
 _ PU O O
 ที่ CC O B_CLS

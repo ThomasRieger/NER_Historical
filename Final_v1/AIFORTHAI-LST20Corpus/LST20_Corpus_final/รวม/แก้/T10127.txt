@@ -188,7 +188,7 @@ _ PU O I_CLS
 เอง AJ O I_CLS
 กับ PS O I_CLS
 น้อง NN B_NIC I_CLS
-ฟ้า NN I_NIC I_CLS
+ฟ้า NN E_NIC I_CLS
 ก็ CC O I_CLS
 พร้อม VV O E_CLS
 ที่ CC O B_CLS

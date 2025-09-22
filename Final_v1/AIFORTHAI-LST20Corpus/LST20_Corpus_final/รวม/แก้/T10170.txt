@@ -27,11 +27,11 @@ _ PU O I_CLS
 อานุภาพ NN O I_CLS
 ราว AJ O I_CLS
 _ PU O I_CLS
-10 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ถึง PS I_MEA I_CLS
-_ PU I_MEA I_CLS
-20 NU E_MEA I_CLS
+10 NU B_NUM I_CLS
+_ PU O I_CLS
+ถึง PS O I_CLS
+_ PU O I_CLS
+20 NU B_NUM I_CLS
 _ PU O I_CLS
 กิโลตัน CL B_MEA I_CLS
 _ PU O I_CLS
@@ -212,7 +212,7 @@ _ PU O O
 สั่นสะเทือน VV O I_CLS
 ขนาด NN O I_CLS
 _ PU O I_CLS
-4.5 NU B_MEA I_CLS
+4.5 NU B_NUM I_CLS
 _ PU O I_CLS
 ริกเตอร์ CL B_MEA E_CLS
 _ PU O O
@@ -522,11 +522,11 @@ _ PU O I_CLS
 ที่ PS O I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-10 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ถึง PS I_MEA I_CLS
-_ PU I_MEA I_CLS
-20 NU E_MEA I_CLS
+10 NU B_NUM I_CLS
+_ PU O I_CLS
+ถึง PS O I_CLS
+_ PU O I_CLS
+20 NU B_NUM I_CLS
 _ PU O I_CLS
 กิโลตัน CL B_MEA E_CLS
 

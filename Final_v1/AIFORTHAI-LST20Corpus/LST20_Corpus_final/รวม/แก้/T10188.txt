@@ -48,16 +48,16 @@ _ PU O I_CLS
 _ PU O I_CLS
 มูลค่า NN O I_CLS
 _ PU O I_CLS
-340 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU E_MEA E_CLS
+340 NU B_NUM I_CLS
+_ PU I_NUM I_CLS
+ล้าน NU E_NUM E_CLS
 
 โดย CC O B_CLS
 ให้ AX O I_CLS
 สธ. NN B_STY I_CLS
 ดำเนินการ VV O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
+3 NU B_NUM I_CLS
 _ PU O I_CLS
 แนวทาง CL B_MEA I_CLS
 คือ VV O I_CLS
@@ -82,9 +82,9 @@ _ PU O I_CLS
 แล้วเสร็จ VV O I_CLS
 ใน PS O I_CLS
 _ PU O I_CLS
-90 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA E_CLS
+90 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+วัน CL E_DUR E_CLS
 _ PU O O
 แต่ CC O B_CLS
 เลย PS O I_CLS
@@ -267,9 +267,9 @@ _ PU O I_CLS
 สรุป VV O I_CLS
 ใน PS O I_CLS
 _ PU O I_CLS
-10 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA E_CLS
+10 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+วัน CL E_DUR E_CLS
 
 และ CC O B_CLS
 การ FX O I_CLS

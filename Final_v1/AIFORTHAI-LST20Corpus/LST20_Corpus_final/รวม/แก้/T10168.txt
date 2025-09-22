@@ -39,7 +39,7 @@ _ PU O O
 หุ้น NN O I_CLS
 กู้ VV O I_CLS
 _ PU O I_CLS
-100,000 NU B_MEA I_CLS
+100,000 NU B_NUM I_CLS
 _ PU O I_CLS
 ล้าน NU B_MEA I_CLS
 หยวน CL E_MEA E_CLS
@@ -77,7 +77,7 @@ _ PU O O
 เสนอ VV O I_CLS
 เงิน NN O I_CLS
 _ PU O I_CLS
-1,470 NU B_MEA I_CLS
+1,470 NU B_NUM I_CLS
 _ PU I_MEA I_CLS
 ล้าน NU I_MEA I_CLS
 ดอลลาร์ CL I_MEA I_CLS
@@ -92,7 +92,7 @@ _ PU I_ORG I_CLS
 _ PU O I_CLS
 จำนวน NN O I_CLS
 _ PU O I_CLS
-234.5 NU B_MEA I_CLS
+234.5 NU B_NUM I_CLS
 _ PU O I_CLS
 ล้าน NU B_MEA I_CLS
 หุ้น CL E_MEA I_CLS
@@ -100,7 +100,7 @@ _ PU O I_CLS
 หรือ CC O I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-45.5 NU B_MEA I_CLS
+45.5 NU B_NUM I_CLS
 % PU E_MEA I_CLS
 _ PU O I_CLS
 จาก PS O I_CLS
@@ -112,9 +112,9 @@ _ PU O I_CLS
 ใน PS O I_CLS
 ราคา NN O I_CLS
 หุ้น NN O I_CLS
-ละ PS B_MEA I_CLS
+ละ PS O I_CLS
 _ PU O I_CLS
-6.25 NU B_MEA I_CLS
+6.25 NU B_NUM I_CLS
 _ PU O I_CLS
 ดอลลาร์ CL B_MEA I_CLS
 สิงคโปร์ NN E_MEA I_CLS
@@ -136,7 +136,7 @@ _ PU I_DTM I_CLS
 _ PU O I_CLS
 ที่ PS O I_CLS
 _ PU O I_CLS
-5.04 NU B_MEA I_CLS
+5.04 NU B_NUM I_CLS
 _ PU O I_CLS
 ดอลลาร์ CL B_MEA I_CLS
 สิงคโปร์ NN E_MEA I_CLS
@@ -224,9 +224,9 @@ _ PU O I_CLS
 มูลค่า NN O I_CLS
 รวม VV O I_CLS
 _ PU O I_CLS
-49,000 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+49,000 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 ดอลลาร์ CL E_MEA E_CLS
 _ PU O O
 เพื่อ CC O B_CLS
@@ -251,9 +251,9 @@ _ PU O O
 ประเทศ NN O I_CLS
 มูลค่า NN O I_CLS
 _ PU O I_CLS
-1.95 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+1.95 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 ล้าน NU I_MEA I_CLS
 ดอลลาร์ CL E_MEA I_CLS
 _ PU O I_CLS
@@ -278,8 +278,8 @@ _ PU O O
 ร่วง VV O I_CLS
 ลง AV O I_CLS
 _ PU O I_CLS
-58 NU B_MEA I_CLS
-% PU E_MEA I_CLS
+58 NU B_NUM I_CLS
+% PU B_MEA I_CLS
 _ PU O I_CLS
 จาก PS O I_CLS
 ระดับ NN O I_CLS
@@ -289,7 +289,7 @@ _ PU O I_CLS
 ประวัติการณ์ NN O I_CLS
 ที่ CC O I_CLS
 _ PU O I_CLS
-147.27 NU B_MEA I_CLS
+147.27 NU B_NUM I_CLS
 _ PU O I_CLS
 ดอลลาร์ CL B_MEA I_CLS
 ต่อ PS I_MEA I_CLS
@@ -392,9 +392,9 @@ _ PU O O
 ขาย VV O I_CLS
 หุ้น NN O I_CLS
 กู้ VV O I_CLS
-มูลค่า NN B_MEA I_CLS
-_ PU I_MEA I_CLS
-100,000 NU E_MEA I_CLS
+มูลค่า NN O I_CLS
+_ PU O I_CLS
+100,000 NU B_NUM I_CLS
 _ PU O I_CLS
 ล้าน NU B_MEA I_CLS
 หยวน CL E_MEA E_CLS
@@ -439,7 +439,7 @@ _ PU O I_CLS
 ใช้ VV O I_CLS
 งบประมาณ NN O I_CLS
 _ PU O I_CLS
-233,000 NU B_MEA I_CLS
+233,000 NU B_NUM I_CLS
 _ PU O I_CLS
 ล้าน NU B_MEA I_CLS
 หยวน CL E_MEA I_CLS
@@ -481,11 +481,11 @@ _ PU O O
 ประเทศ NN O I_CLS
 ช่วง NN O I_CLS
 _ PU O I_CLS
-8 NU B_MEA I_CLS
-- PU I_MEA I_CLS
-10 NU E_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA I_CLS
+8 NU B_DUR I_CLS
+- PU I_DUR I_CLS
+10 NU I_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR I_CLS
 ข้าง NN O I_CLS
 หน้า AJ O E_CLS
 

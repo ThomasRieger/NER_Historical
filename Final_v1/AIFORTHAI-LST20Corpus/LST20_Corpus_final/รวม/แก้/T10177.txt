@@ -5,7 +5,7 @@
 สาว NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-18 NU B_MEA E_CLS
+18 NU B_NUM E_CLS
 
 เอเอฟพี NN B_ORG B_CLS
 รายงาน VV O I_CLS
@@ -25,7 +25,7 @@ _ PU O I_CLS
 อิตาลี NN B_COU I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-72 NU B_MEA I_CLS
+72 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -43,7 +43,7 @@ _ PU O I_CLS
 น้อย VV O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-18 NU B_MEA I_CLS
+18 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -124,7 +124,7 @@ _ PU O I_CLS
 หนุ่ม NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-22 NU B_MEA I_CLS
+22 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS

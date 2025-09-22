@@ -226,7 +226,7 @@ _ PU O I_CLS
 ที่ PS O I_CLS
 นั่น AJ O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 คืน CL B_MEA E_CLS
 
@@ -254,7 +254,7 @@ _ PU O O
 ได้ AX O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
+6 NU B_NUM I_CLS
 _ PU O I_CLS
 เดือน CL B_MEA E_CLS
 _ PU O O
@@ -270,13 +270,13 @@ _ PU O O
 บริเวณ NN O I_CLS
 เพียง AV O I_CLS
 _ PU O I_CLS
-4 NU B_MEA I_CLS
+4 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 กับ PS O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
+6 NU B_NUM I_CLS
 _ PU O I_CLS
 เดือน CL B_MEA I_CLS
 _ PU O I_CLS
@@ -293,9 +293,9 @@ _ PU O I_CLS
 ได้ AX O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
-_ PU O I_CLS
-เดือน CL B_MEA I_CLS
+6 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+เดือน CL E_DUR I_CLS
 จึง CC O I_CLS
 จะ AX O I_CLS
 ครบ VV O I_CLS
@@ -304,9 +304,9 @@ _ PU O I_CLS
 บริเวณ NN O I_CLS
 ได้ AX O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA E_CLS
+5 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR E_CLS
 ตามที่ CC O B_CLS
 กฎหมาย NN O I_CLS
 กำหนด VV O E_CLS
@@ -340,9 +340,9 @@ _ PU I_DTM I_CLS
 ตัว NN O I_CLS
 ครบ VV O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA I_CLS
+5 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL B_DUR I_CLS
 พอดี VV O E_CLS
 
 ด้าน PS O B_CLS
@@ -367,16 +367,16 @@ _ PU O O
 คำ NN O I_CLS
 ถาม VV O I_CLS
 _ PU O I_CLS
-10 NU B_MEA I_CLS
+10 NU B_NUM I_CLS
 _ PU O I_CLS
 ข้อ CL B_MEA I_CLS
 เป็น VV O I_CLS
 เวลา NN O I_CLS
 ประมาณ NU O I_CLS
 _ PU O I_CLS
-30 NU B_MEA I_CLS
-_ PU O I_CLS
-นาที CL B_MEA E_CLS
+30 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+นาที CL E_DUR E_CLS
 _ PU O O
 โดย CC O B_CLS
 ให้การ VV O E_CLS

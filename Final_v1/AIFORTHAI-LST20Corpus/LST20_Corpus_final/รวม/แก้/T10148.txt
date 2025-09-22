@@ -72,7 +72,7 @@ _ PU O O
 เกาหลีใต้ NN B_COU I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-63 NU B_MEA I_CLS
+63 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 ได้ AX O I_CLS
@@ -196,9 +196,9 @@ _ PU O I_CLS
 นาย NN B_TTL I_CLS
 โรห์ NN B_PER I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+1 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 ดอลลาร์ CL E_MEA E_CLS
 _ PU O O
 และ CC O B_CLS
@@ -210,9 +210,9 @@ _ PU O O
 โรห์ NN B_PER I_CLS
 อีก AJ O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+5 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 ดอลลาร์ CL E_MEA E_CLS
 _ PU O O
 ซึ่ง CC O B_CLS

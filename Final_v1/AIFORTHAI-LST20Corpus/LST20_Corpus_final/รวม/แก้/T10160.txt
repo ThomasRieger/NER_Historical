@@ -176,14 +176,14 @@ _ PU O I_CLS
 ขับ VV O I_CLS
 รถ NN O I_CLS
 _ PU O I_CLS
-1,000 NU B_MEA I_CLS
+1,000 NU B_NUM I_CLS
 _ PU O I_CLS
 ปอนด์ CL B_MEA I_CLS
 _ PU O I_CLS
 ( PU O I_CLS
 ราว AJ O I_CLS
 _ PU O I_CLS
-5.3 NU B_MEA I_CLS
+5.3 NU B_NUM I_CLS
 _ PU O I_CLS
 หมื่น NU B_MEA I_CLS
 บาท CL E_MEA I_CLS
@@ -208,8 +208,8 @@ _ PU O I_CLS
 ยัง AX O I_CLS
 ได้ AX O I_CLS
 นั่ง VV O I_CLS
-รถ NN O I_CLS
-เบนท์ลีย์ NN B_BRN E_CLS
+รถ NN B_VEH I_CLS
+เบนท์ลีย์ NN E_VEH E_CLS
 _ PU O O
 ซึ่ง CC O B_CLS
 เป็น VV O I_CLS

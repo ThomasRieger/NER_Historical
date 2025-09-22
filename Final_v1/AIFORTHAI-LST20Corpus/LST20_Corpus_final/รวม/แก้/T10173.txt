@@ -327,9 +327,9 @@ _ PU O O
 คุก NN O I_CLS
 ถึง PS O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ปี CL E_MEA E_CLS
+5 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR E_CLS
 
 ขณะ CC O B_CLS
 ที่ CC O I_CLS

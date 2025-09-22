@@ -9,7 +9,7 @@ _ PU O I_CLS
 ขีปนาวุธ NN B_WEA I_CLS
 อีก AJ O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ลูก CL B_MEA E_CLS
 
@@ -37,7 +37,7 @@ _ PU O O
 พิสัย NN I_WEA I_CLS
 สั้น VV E_WEA I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ลูก CL B_MEA E_CLS
 _ PU O O
@@ -144,13 +144,13 @@ _ PU O O
 _ PU O O
 ขีปนาวุธ NN B_WEA B_CLS
 ทั้ง AJ O I_CLS
-สอง NU B_NUM I_CLS
+สอง NU O I_CLS
 ลูก CL B_MEA I_CLS
 นี้ AJ O I_CLS
 มี VV O I_CLS
 พิสัย NN O I_CLS
 _ PU O I_CLS
-130 NU B_MEA I_CLS
+130 NU B_NUM I_CLS
 _ PU O I_CLS
 กิโลเมตร CL B_MEA E_CLS
 

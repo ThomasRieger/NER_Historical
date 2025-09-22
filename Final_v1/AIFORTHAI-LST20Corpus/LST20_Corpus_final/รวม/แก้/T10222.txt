@@ -58,7 +58,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-63 NU B_MEA I_CLS
+63 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA E_CLS
 _ PU O O
@@ -104,9 +104,9 @@ _ PU O I_CLS
 นาน PS O I_CLS
 ถึง PS O I_CLS
 _ PU O I_CLS
-19 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA E_CLS
+19 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR E_CLS
 
 และ CC O B_CLS
 ขณะนี้ NN O I_CLS

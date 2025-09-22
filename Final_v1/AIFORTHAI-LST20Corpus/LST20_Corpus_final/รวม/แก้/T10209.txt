@@ -59,9 +59,9 @@ _ PU O O
 ใน PS O I_CLS
 ช่วง NN O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU O I_CLS
-เดือน CL B_MEA I_CLS
+3 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+เดือน CL E_DUR I_CLS
 แรก NU O I_CLS
 ของ PS O I_CLS
 ปี NN B_DTM I_CLS
@@ -129,7 +129,7 @@ _ PU I_DTM I_CLS
 ลด VV O I_CLS
 ลง AV O I_CLS
 _ PU O I_CLS
-15.2 NU B_MEA E_CLS
+15.2 NU B_NUM E_CLS
 _ PU O O
 และ CC O B_CLS
 เดือน NN B_DTM I_CLS
@@ -185,9 +185,9 @@ _ PU O O
 รอบ NN O I_CLS
 กว่า NU O I_CLS
 _ PU O I_CLS
-40 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA I_CLS
+40 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR I_CLS
 ใน PS O I_CLS
 ปี NN B_DTM I_CLS
 นี้ AJ E_DTM I_CLS

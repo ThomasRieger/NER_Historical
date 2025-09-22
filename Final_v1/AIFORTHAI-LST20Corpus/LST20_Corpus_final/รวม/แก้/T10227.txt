@@ -8,9 +8,9 @@
 ยักยอก VV O I_CLS
 เงิน NN O I_CLS
 _ PU O I_CLS
-499 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล. NU E_MEA E_CLS
+499 NU B_NUM I_CLS
+_ PU O I_CLS
+ล. NU B_MEA E_CLS
 
 ประธาน NN O B_CLS
 กรรมการ NN O I_CLS
@@ -34,9 +34,9 @@ _ PU O I_CLS
 ทุจริต VV O I_CLS
 เงิน NN O I_CLS
 _ PU O I_CLS
-499 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+499 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA E_CLS
 
 นาย NN B_TTL B_CLS
@@ -72,9 +72,9 @@ _ PU O I_CLS
 มูลค่า NN O I_CLS
 กว่า AV O I_CLS
 _ PU O I_CLS
-499 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+499 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA I_CLS
 _ PU O I_CLS
 ว่า CC O E_CLS
@@ -236,7 +236,7 @@ _ PU O O
 _ PU O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
+1 NU B_NUM I_CLS
 _ PU O I_CLS
 สัปดาห์ CL B_MEA I_CLS
 _ PU O I_CLS

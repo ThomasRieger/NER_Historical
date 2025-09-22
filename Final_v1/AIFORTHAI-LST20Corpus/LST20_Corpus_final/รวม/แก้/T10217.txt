@@ -36,7 +36,7 @@ _ PU O I_CLS
 กัมพูชา NN B_COU I_CLS
 _ PU O I_CLS
 นับ VV O I_CLS
-สิบ NU B_NUM I_CLS
+สิบ NU O I_CLS
 คน CL O I_CLS
 ไป AV O I_CLS
 ชุมนุม VV O I_CLS

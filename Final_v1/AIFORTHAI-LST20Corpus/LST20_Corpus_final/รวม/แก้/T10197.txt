@@ -1,10 +1,10 @@
 เรื่อง NN O B_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
+1 NU B_NUM I_CLS
 _ PU O I_CLS
 ใน PS O I_CLS
 _ PU O I_CLS
-1,000,000 NU B_MEA I_CLS
+1,000,000 NU B_NUM I_CLS
 _ PU O I_CLS
 ลูก NN B_MEA I_CLS
 แฝด NN I_MEA I_CLS
@@ -40,15 +40,15 @@ _ PU O I_CLS
 ลูก NN O I_CLS
 แฝด NN O I_CLS
 ชาย NN O I_CLS
-สอง NU B_NUM I_CLS
+สอง NU O I_CLS
 _ PU O I_CLS
 ซึ่ง CC O I_CLS
 อายุ NN O I_CLS
 เพิ่ง AX O I_CLS
 จะ AX O I_CLS
 ได้ AX O I_CLS
-หนึ่ง NU B_MEA I_CLS
-ขวบ CL E_MEA I_CLS
+หนึ่ง NU O I_CLS
+ขวบ CL O I_CLS
 นั้น AJ O I_CLS
 _ PU O I_CLS
 เกิด VV O I_CLS
@@ -79,7 +79,7 @@ _ PU O I_CLS
 มารดา NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-20 NU B_MEA I_CLS
+20 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -108,7 +108,7 @@ _ PU O I_CLS
 ห่าง VV O I_CLS
 กัน PR O I_CLS
 _ PU O I_CLS
-7 NU B_MEA I_CLS
+7 NU B_NUM I_CLS
 _ PU O I_CLS
 นาที CL B_MEA E_CLS
 
@@ -181,7 +181,7 @@ _ PU O O
 ลูก NN O B_CLS
 แฝด NN O I_CLS
 คน CL O I_CLS
-ละ NU B_MEA I_CLS
+ละ NU O I_CLS
 พ่อ CL O I_CLS
 ของ PS O I_CLS
 นาง PR O I_CLS
@@ -211,11 +211,11 @@ _ PU O O
 ได้ AX O I_CLS
 เพียง AV O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
+1 NU B_NUM I_CLS
 _ PU O I_CLS
 ใน PS O I_CLS
 _ PU O I_CLS
-1,000,000 NU B_MEA I_CLS
+1,000,000 NU B_NUM I_CLS
 _ PU O I_CLS
 นั้น AJ O I_CLS
 _ PU O I_CLS
@@ -298,6 +298,6 @@ _ PU O I_CLS
 หนึ่ง NU O I_CLS
 เพียง AV O I_CLS
 คน CL O I_CLS
-เดียว NU B_NUM I_CLS
+เดียว NU O I_CLS
 . PU O E_CLS
 

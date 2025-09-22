@@ -244,8 +244,8 @@ _ PU O I_CLS
 ก็ CC O I_CLS
 คือ VV O I_CLS
 เรา PR O I_CLS
-สอง NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สอง NU O I_CLS
+คน CL O I_CLS
 ทำงาน VV O I_CLS
 ใน PS O I_CLS
 วงการ NN O I_CLS
@@ -370,8 +370,8 @@ _ PU O I_CLS
 ไป VV O I_CLS
 กัน AV O I_CLS
 แค่ AJ O I_CLS
-สอง NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สอง NU O I_CLS
+คน CL O I_CLS
 _ PU O I_CLS
 คือ VV O E_CLS
 ว่า CC O B_CLS
@@ -522,8 +522,8 @@ _ PU O I_CLS
 ส่วน NN O I_CLS
 ตัว NN O I_CLS
 ระหว่าง PS O I_CLS
-สอง NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สอง NU O I_CLS
+คน CL O I_CLS
 ไม่ NG O I_CLS
 เคย AX O I_CLS
 คุย VV O I_CLS
@@ -618,8 +618,8 @@ _ PU O O
 คุย VV O I_CLS
 กัน AV O I_CLS
 เกี่ยวกับ VV O I_CLS
-สอง NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สอง NU O I_CLS
+คน CL O I_CLS
 มา AV O I_CLS
 เป็น VV O I_CLS
 แฟน NN O I_CLS
@@ -744,8 +744,8 @@ _ PU O I_CLS
 ว่า CC O B_CLS
 การที่ CC O I_CLS
 คน NN O I_CLS
-สอง NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สอง NU O I_CLS
+คน CL O I_CLS
 จะ AX O I_CLS
 ดูใจ VV O I_CLS
 กัน AV O I_CLS
@@ -1472,9 +1472,9 @@ _ PU O I_CLS
 กัน AV O I_CLS
 มา VV O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-- PU I_MEA I_CLS
-3 NU E_MEA I_CLS
+2 NU B_NUM I_CLS
+- PU O I_CLS
+3 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 แล้ว AX O I_CLS
@@ -1488,7 +1488,7 @@ _ PU O I_CLS
 แล้ว AX O I_CLS
 ครับ PA O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 ขั้น NN O I_CLS

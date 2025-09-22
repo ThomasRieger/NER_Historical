@@ -11,7 +11,7 @@
 ซ้ำ VV O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ลูก CL B_MEA I_CLS
 _ PU O I_CLS
@@ -48,7 +48,7 @@ _ PU O O
 พิสัย NN O I_CLS
 ใกล้ PS O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ลูก CL B_MEA I_CLS
 _ PU O I_CLS
@@ -134,7 +134,7 @@ _ PU O O
 อยู่ VV O I_CLS
 ที่ PS O I_CLS
 _ PU O I_CLS
-130 NU B_MEA I_CLS
+130 NU B_NUM I_CLS
 _ PU O I_CLS
 กิโลเมตร CL B_MEA E_CLS
 _ PU O O

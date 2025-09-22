@@ -17,8 +17,8 @@ _ PU O I_CLS
 คุณ NN O I_CLS
 พ่อแม่ NN O I_CLS
 ใน PS O I_CLS
-ช่วง NN B_DUR I_CLS
-ปลาย NN I_DUR I_CLS
+ช่วง NN O I_CLS
+ปลาย NN O I_CLS
 ปี CL I_DUR I_CLS
 นี้ AJ E_DUR E_CLS
 _ PU O O
@@ -51,12 +51,12 @@ _ PU O O
 แน่นอน VV O I_CLS
 _ PU O I_CLS
 อยาก VV O I_CLS
-บวช VV B_MEA I_CLS
+บวช VV O I_CLS
 สัก AJ O I_CLS
 _ PU O I_CLS
 2 NU B_DUR I_CLS
-_ PU O I_CLS
-อาทิตย์ CL B_MEA I_CLS
+_ PU I_DUR I_CLS
+อาทิตย์ CL E_DUR I_CLS
 _ PU O I_CLS
 คาด VV O E_CLS
 ว่า CC O B_CLS

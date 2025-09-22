@@ -348,7 +348,7 @@ _ PU O I_CLS
 คน CL O I_CLS
 นี้ AJ O I_CLS
 คน CL O I_CLS
-เดียว NU B_NUM I_CLS
+เดียว NU O I_CLS
 หรือเปล่า AV O I_CLS
 ? PU O E_CLS
 

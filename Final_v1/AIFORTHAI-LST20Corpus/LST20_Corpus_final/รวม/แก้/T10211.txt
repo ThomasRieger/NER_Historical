@@ -26,9 +26,9 @@ _ PU O I_CLS
 ใน PS O I_CLS
 รอบ NN O I_CLS
 _ PU O I_CLS
-8 NU B_MEA I_CLS
-_ PU O I_CLS
-เดือน CL B_MEA I_CLS
+8 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+เดือน CL E_DUR I_CLS
 _ PU O I_CLS
 บ่งชี้ VV O I_CLS
 ถึง VV O I_CLS
@@ -279,8 +279,8 @@ _ PU O O
 มาก VV O I_CLS
 กว่า AV O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-% PU E_MEA E_CLS
+2 NU B_NUM I_CLS
+% PU B_MEA E_CLS
 
 อย่างไรก็ตาม CC O B_CLS
 _ PU O I_CLS
@@ -339,8 +339,8 @@ _ PU O O
 ไป VV O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-18.7 NU B_MEA I_CLS
-% PU E_MEA I_CLS
+18.7 NU B_NUM I_CLS
+% PU B_MEA I_CLS
 _ PU O I_CLS
 เมื่อ PS O I_CLS
 เทียบ VV O I_CLS
@@ -365,8 +365,8 @@ _ PU O I_CLS
 ไป AV O I_CLS
 ถึง VV O I_CLS
 _ PU O I_CLS
-19.1 NU B_MEA I_CLS
-% PU E_MEA E_CLS
+19.1 NU B_NUM I_CLS
+% PU B_MEA E_CLS
 _ PU O O
 ซึ่ง CC O B_CLS
 เป็น VV O I_CLS
@@ -376,7 +376,7 @@ _ PU O O
 ใน PS O I_CLS
 รอบ NN O I_CLS
 _ PU O I_CLS
-21 NU B_MEA I_CLS
+21 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 ของ PS O I_CLS
@@ -639,14 +639,14 @@ _ PU O I_CLS
 อยู่ VV O I_CLS
 ที่ PS O I_CLS
 _ PU O I_CLS
-46.6 NU B_MEA I_CLS
-% PU E_MEA I_CLS
+46.6 NU B_NUM I_CLS
+% PU B_MEA I_CLS
 _ PU O I_CLS
 มา AV O I_CLS
 เป็น VV O I_CLS
 _ PU O I_CLS
-44.7 NU B_MEA I_CLS
-% PU E_MEA E_CLS
+44.7 NU B_NUM I_CLS
+% PU B_MEA E_CLS
 
 ส่วน CC O B_CLS
 คน NN O I_CLS
@@ -663,14 +663,14 @@ _ PU O I_CLS
 เล็กน้อย VV O I_CLS
 จาก PS O I_CLS
 _ PU O I_CLS
-4.9 NU B_MEA I_CLS
-% PU E_MEA I_CLS
+4.9 NU B_NUM I_CLS
+% PU B_MEA I_CLS
 _ PU O I_CLS
 มา AV O I_CLS
 เป็น VV O I_CLS
 _ PU O I_CLS
-5.7 NU B_MEA I_CLS
-% PU E_MEA E_CLS
+5.7 NU B_NUM I_CLS
+% PU B_MEA E_CLS
 
 ข้อมูล NN O B_CLS
 นี้ AJ O I_CLS

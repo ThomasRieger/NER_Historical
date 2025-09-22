@@ -256,9 +256,9 @@ _	PU	O	I_CLS
 พี่	NN	O	I_CLS
 อีก	NU	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	O	I_CLS
-ปี	CL	B_MEA	I_CLS
+2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ปี	CL	E_DUR	I_CLS
 "	PU	O	E_CLS
 
 มั่นใจ	VV	O	B_CLS
@@ -526,8 +526,8 @@ _	PU	O	I_CLS
 พจน์	NN	B_PER	I_CLS
 _	PU	O	I_CLS
 เขา	PR	O	I_CLS
-สอง	NU	B_MEA	I_CLS
-คน	CL	E_MEA	I_CLS
+สอง	NU	O	I_CLS
+คน	CL	O	I_CLS
 ก็	CC	O	I_CLS
 ไม่	NG	O	I_CLS
 ได้	AX	O	I_CLS

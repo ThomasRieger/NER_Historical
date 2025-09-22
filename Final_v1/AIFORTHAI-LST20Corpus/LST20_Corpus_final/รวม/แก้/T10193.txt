@@ -162,7 +162,7 @@ _ PU O I_CLS
 มี VV O I_CLS
 กำหนด VV O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
+3 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 นับ VV O I_CLS
@@ -186,9 +186,9 @@ _ PU I_DTM I_CLS
 _ PU O I_CLS
 จำนวน NN O I_CLS
 _ PU O I_CLS
-135 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+135 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA E_CLS
 
 ตามที่ CC O B_CLS
@@ -304,7 +304,7 @@ _ PU O I_CLS
 แล้ว AX O I_CLS
 กว่า NU O I_CLS
 _ PU O I_CLS
-10 NU B_MEA I_CLS
+10 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA E_CLS
 

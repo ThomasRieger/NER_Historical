@@ -170,7 +170,7 @@ _ PU O O
 รายชื่อ NN O I_CLS
 ใน PS O I_CLS
 _ PU O I_CLS
-11 NU B_MEA I_CLS
+11 NU B_NUM I_CLS
 _ PU O I_CLS
 ธนาคาร CL B_MEA I_CLS
 _ PU O I_CLS

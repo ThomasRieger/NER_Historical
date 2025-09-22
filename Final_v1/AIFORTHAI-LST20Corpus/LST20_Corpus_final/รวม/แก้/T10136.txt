@@ -57,7 +57,7 @@ _ PU I_PER I_CLS
 _ PU O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-76 NU B_MEA I_CLS
+76 NU B_NUM I_CLS
 _ PU O I_CLS
 ผู้ FX O I_CLS
 ป่วย VV O E_CLS

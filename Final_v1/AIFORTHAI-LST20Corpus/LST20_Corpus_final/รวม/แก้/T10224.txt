@@ -178,9 +178,9 @@ _ PU O I_CLS
 _ PU O I_CLS
 เวลา NN O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU O I_CLS
-ช.ม. CL B_MEA I_CLS
+2 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ช.ม. CL E_DUR I_CLS
 _ PU O I_CLS
 ซึ่ง CC O I_CLS
 ใน PS O I_CLS

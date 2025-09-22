@@ -1,4 +1,4 @@
-สอง NU B_NUM B_CLS
+สอง NU O B_CLS
 ผัว NN O I_CLS
 เมีย NN O I_CLS
 หนี VV O I_CLS
@@ -8,7 +8,7 @@
 ลาภ NN O I_CLS
 ลอย VV O I_CLS
 เป็น VV O I_CLS
-ล้าน NU B_NUM E_CLS
+ล้าน NU O E_CLS
 
 ตำรวจ NN B_STY B_CLS
 กีวี NN B_STY I_CLS
@@ -82,9 +82,9 @@ _ PU O I_CLS
 บัญชี NN O I_CLS
 ให้ VV O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+6 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 ดอลลาร์ CL I_MEA I_CLS
 สหรัฐฯ NN E_MEA I_CLS
 _ PU O I_CLS
@@ -120,8 +120,8 @@ _ PU O O
 ของ PS O I_CLS
 ผู้ต้องหา NN O I_CLS
 ทั้ง AJ O I_CLS
-สอง NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สอง NU O I_CLS
+คน CL O I_CLS
 _ PU O I_CLS
 เพียง VV O I_CLS
 บอก VV O E_CLS
@@ -168,7 +168,7 @@ _ PU O O
 ตาม VV O I_CLS
 หา VV O I_CLS
 ตัว NN O I_CLS
-สอง NU B_NUM I_CLS
+สอง NU O I_CLS
 ผัว NN O I_CLS
 เมีย NN O I_CLS
 ราย CL O I_CLS

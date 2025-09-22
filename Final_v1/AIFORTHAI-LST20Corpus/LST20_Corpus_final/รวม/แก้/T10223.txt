@@ -74,7 +74,7 @@ _ PU O I_CLS
 ขอตัว VV O I_CLS
 ไป AV O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ประเทศ CL B_MEA I_CLS
 _ PU O I_CLS

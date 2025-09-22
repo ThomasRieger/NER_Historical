@@ -31,7 +31,7 @@ _ PU O O
 มาก VV O I_CLS
 กว่า AV O I_CLS
 _ PU O I_CLS
-50,000 NU B_MEA I_CLS
+50,000 NU B_NUM I_CLS
 _ PU O I_CLS
 ลิขสิทธิ์ CL B_MEA E_CLS
 

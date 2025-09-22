@@ -118,7 +118,7 @@ _ PU O I_CLS
 โอกาส NN O I_CLS
 เต๊ะ NN B_PER I_CLS
 คน CL O I_CLS
-เดียว NU B_NUM E_CLS
+เดียว NU O E_CLS
 _ PU O O
 หรือ CC O B_CLS
 ปิด VV O I_CLS
@@ -174,9 +174,9 @@ _ PU O I_CLS
 ว่า CC O B_CLS
 เขา PR O I_CLS
 รอบุ๋ม VV O I_CLS
-มา AV B_DUR I_CLS
-_ PU I_DUR I_CLS
-7 NU I_DUR I_CLS
+มา AV O I_CLS
+_ PU O I_CLS
+7 NU B_DUR I_CLS
 _ PU I_DUR I_CLS
 ปี CL E_DUR I_CLS
 _ PU O I_CLS
@@ -189,9 +189,9 @@ _ PU O I_CLS
 บุ๋ม NN B_PER I_CLS
 มา VV O I_CLS
 _ PU O I_CLS
-7 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA I_CLS
+7 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR I_CLS
 แล้ว AX O E_CLS
 _ PU O O
 แต่ CC O B_CLS

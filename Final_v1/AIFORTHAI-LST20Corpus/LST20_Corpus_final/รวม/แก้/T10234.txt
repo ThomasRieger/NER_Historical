@@ -186,15 +186,15 @@ _	PU	O	O
 จาก	PS	O	I_CLS
 เดิม	AV	O	I_CLS
 _	PU	O	I_CLS
-90	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+90	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 _	PU	O	I_CLS
 เป็น	VV	O	I_CLS
 _	PU	O	I_CLS
-300	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	E_CLS
+300	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	E_CLS
 
 นอกจาก	PS	O	B_CLS
 นี้	AJ	O	I_CLS
@@ -275,9 +275,9 @@ _	PU	O	I_CLS
 เป็น	PS	O	I_CLS
 เวลา	NN	O	I_CLS
 _	PU	O	I_CLS
-15	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+15	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 เพื่อ	CC	O	I_CLS
 ให้	AX	O	I_CLS
 ประชาชน	NN	O	I_CLS
@@ -322,7 +322,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 5,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-สถานี	CL	B_NUM	I_CLS
+สถานี	CL	B_MEA	I_CLS
 ทั่ว	PS	O	I_CLS
 ประเทศ	NN	O	E_CLS
 
