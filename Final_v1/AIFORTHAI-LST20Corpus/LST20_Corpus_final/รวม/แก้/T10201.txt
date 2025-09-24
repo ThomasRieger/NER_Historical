@@ -405,10 +405,10 @@ _ PU O O
 อยู่ VV O I_CLS
 ที่ PS O I_CLS
 นั่น AJ O I_CLS
-เป็น PS O I_CLS
-เวลา NN O I_CLS
-_ PU O I_CLS
-2 NU B_DUR I_CLS
+เป็น PS B_DUR I_CLS
+เวลา NN I_DUR I_CLS
+_ PU I_DUR I_CLS
+2 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 วัน CL E_DUR I_CLS
 _ PU O I_CLS

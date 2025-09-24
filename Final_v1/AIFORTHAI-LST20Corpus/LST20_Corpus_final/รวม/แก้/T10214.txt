@@ -59,10 +59,10 @@ _ PU O I_CLS
 ) PU O E_CLS
 _ PU O O
 ที่ CC O B_CLS
-ผ่าน VV O I_CLS
-มา AV O I_CLS
-_ PU O I_CLS
-1 NU B_DUR I_CLS
+ผ่าน VV B_DUR I_CLS
+มา AV I_DUR I_CLS
+_ PU I_DUR I_CLS
+1 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 วัน CL E_DUR E_CLS
 หลัง CC O B_CLS

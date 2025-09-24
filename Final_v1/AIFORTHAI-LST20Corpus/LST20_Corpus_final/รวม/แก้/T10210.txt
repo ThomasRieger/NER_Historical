@@ -87,10 +87,10 @@ _ PU O O
 กับ PS O I_CLS
 นาย NN B_TTL I_CLS
 โนห์ NN B_PER I_CLS
-เป็น PS O I_CLS
-เวลา NN O I_CLS
-_ PU O I_CLS
-25 NU B_DUR I_CLS
+เป็น PS B_DUR I_CLS
+เวลา NN I_DUR I_CLS
+_ PU I_DUR I_CLS
+25 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 นาที CL E_DUR E_CLS
 _ PU O O

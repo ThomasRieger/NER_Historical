@@ -160,9 +160,9 @@ _ PU O I_CLS
 ทามิม NN B_PER I_CLS
 _ PU O I_CLS
 อยู่ AX O I_CLS
-นาน VV O I_CLS
-_ PU O I_CLS
-3 NU B_DUR I_CLS
+นาน VV B_DUR I_CLS
+_ PU I_DUR I_CLS
+3 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 ปี CL E_DUR E_CLS
 ก่อน CC O B_CLS

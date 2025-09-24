@@ -139,9 +139,9 @@ _ PU O O
 พัก VV O I_CLS
 อยู่ VV O I_CLS
 เป็น VV O I_CLS
-เวลา NN O I_CLS
-_ PU O I_CLS
-2 NU B_DUR I_CLS
+เวลา NN B_DUR I_CLS
+_ PU I_DUR I_CLS
+2 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 วัน CL E_DUR E_CLS
 

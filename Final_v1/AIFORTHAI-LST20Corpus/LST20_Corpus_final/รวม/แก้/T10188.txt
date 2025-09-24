@@ -80,9 +80,9 @@ _ PU O I_CLS
 ตรวจสอบ VV O I_CLS
 ให้ AX O I_CLS
 แล้วเสร็จ VV O I_CLS
-ใน PS O I_CLS
-_ PU O I_CLS
-90 NU B_DUR I_CLS
+ใน PS B_DUR I_CLS
+_ PU I_DUR I_CLS
+90 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 วัน CL E_DUR E_CLS
 _ PU O O
@@ -265,9 +265,9 @@ _ PU O I_CLS
 ได้ VV O I_CLS
 ข้อ NN O I_CLS
 สรุป VV O I_CLS
-ใน PS O I_CLS
-_ PU O I_CLS
-10 NU B_DUR I_CLS
+ใน PS B_DUR I_CLS
+_ PU I_DUR I_CLS
+10 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 วัน CL E_DUR E_CLS
 

@@ -60,10 +60,10 @@ _ PU O I_CLS
 
 แต่ CC O B_CLS
 เวลา NN O I_CLS
-ผ่าน VV O I_CLS
-ไป AV O I_CLS
-_ PU O I_CLS
-5 NU B_DUR I_CLS
+ผ่าน VV B_DUR I_CLS
+ไป AV I_DUR I_CLS
+_ PU I_DUR I_CLS
+5 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 ชั่วโมง CL E_DUR I_CLS
 ยัง AX O I_CLS

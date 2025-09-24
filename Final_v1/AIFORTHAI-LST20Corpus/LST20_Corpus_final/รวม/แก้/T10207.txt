@@ -372,9 +372,9 @@ _ PU O I_CLS
 ข้อ CL B_MEA I_CLS
 เป็น VV O I_CLS
 เวลา NN O I_CLS
-ประมาณ NU O I_CLS
-_ PU O I_CLS
-30 NU B_DUR I_CLS
+ประมาณ NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+30 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 นาที CL E_DUR E_CLS
 _ PU O O

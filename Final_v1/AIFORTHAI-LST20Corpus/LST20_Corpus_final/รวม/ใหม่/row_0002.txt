@@ -248,8 +248,8 @@ _ PU O I_CLS
 หุบ NN O I_CLS
 เขา NN O I_CLS
 เป็น VV O I_CLS
-จำนวน NN B_MEA I_CLS
-มาก VV E_MEA I_CLS
+จำนวน NN O I_CLS
+มาก VV O I_CLS
 _ PU O I_CLS
 และ CC O I_CLS
 ทอด VV O I_CLS

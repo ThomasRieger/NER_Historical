@@ -298,9 +298,9 @@ _ PU O I_CLS
 เขา PR O I_CLS
 ใช้ VV O I_CLS
 เวลา NN O I_CLS
-ประมาณ AJ O I_CLS
-_ PU O I_CLS
-16 NU B_DUR I_CLS
+ประมาณ AJ B_DUR I_CLS
+_ PU I_DUR I_CLS
+16 NU I_DUR I_CLS
 _ PU I_DUR I_CLS
 ชั่วโมง CL E_DUR I_CLS
 _ PU O I_CLS
