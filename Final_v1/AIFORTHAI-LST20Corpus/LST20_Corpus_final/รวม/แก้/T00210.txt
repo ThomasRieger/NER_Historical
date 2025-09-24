@@ -122,9 +122,9 @@ _	PU	I_PER	I_CLS
 พิกุลเคหา	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-47	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+47	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 และ	CC	O	I_CLS
 นาง	NN	B_TTL	I_CLS
 โสภณ	NN	B_PER	I_CLS
@@ -132,9 +132,9 @@ _	PU	I_PER	I_CLS
 พิกุลเคหา	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-44	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+44	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 อยู่	VV	O	I_CLS
 บ้าน	NN	B_LOC	I_CLS
 เลขที่	NN	I_LOC	I_CLS
@@ -165,7 +165,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 เข้า	AV	O	I_CLS
 ร้องเรียน	VV	O	I_CLS
 ต่อ	PS	O	I_CLS
@@ -185,9 +185,9 @@ _	PU	I_PER	I_CLS
 พิกุลเคหา	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-21	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+21	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 นักศึกษา	NN	O	I_CLS
 ชั้น	NN	O	I_CLS
 ปี	NN	O	I_CLS
@@ -381,9 +381,9 @@ _	PU	I_PER	I_CLS
 เกียรติศิลป์	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-42	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+42	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 หรือ	CC	O	I_CLS
 เฮีย	NN	B_NIC	I_CLS
@@ -396,9 +396,9 @@ _	PU	I_PER	I_CLS
 ขันทอง	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-37	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+37	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 หุ้นส่วน	NN	O	I_CLS
 ของ	PS	O	I_CLS
@@ -479,7 +479,7 @@ _	PU	O	I_CLS
 เมามัน	AV	O	I_CLS
 นาน	PS	O	I_CLS
 นับ	VV	O	I_CLS
-ชั่วโมง	CL	B_MEA	E_CLS
+ชั่วโมง	CL	O	E_CLS
 
 กระทั่ง	PS	O	B_CLS
 เวลา	NN	B_DTM	I_CLS
@@ -1044,9 +1044,9 @@ _	PU	I_ROLE	I_CLS
 ร้าน	NN	O	I_CLS
 จำนวน	NN	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ราย	CL	E_MEA	E_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ราย	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 จับกุม	VV	O	I_CLS

@@ -14,7 +14,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 23	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แห่ง	CL	O	E_CLS
+แห่ง	CL	B_MEA	E_CLS
 
 สพท.	NN	B_STY	B_CLS
 _	PU	I_STY	I_CLS
@@ -27,7 +27,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 23	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แห่ง	CL	O	E_CLS
+แห่ง	CL	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 ประสบ	VV	O	I_CLS
 ปัญหา	NN	O	I_CLS
@@ -125,9 +125,9 @@ _	PU	O	I_CLS
 น่าน	NN	E_RIV	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-9.36	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	I_CLS
+9.36	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	I_CLS
 ทำให้	CC	O	I_CLS
 พื้นที่	NN	O	I_CLS
 น้ำ	NN	O	I_CLS
@@ -157,11 +157,11 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ตำบล	CL	O	I_CLS
+ตำบล	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 70	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หมู่บ้าน	CL	O	I_CLS
+หมู่บ้าน	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ปัญหา	NN	O	I_CLS
 น้ำ	NN	O	I_CLS
@@ -199,14 +199,14 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 21	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แห่ง	CL	O	E_CLS
+แห่ง	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 อีก	AJ	O	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แห่ง	CL	O	I_CLS
+แห่ง	CL	B_MEA	I_CLS
 น้ำ	NN	O	I_CLS
 ไม่	NG	O	I_CLS
 ท่วม	VV	O	I_CLS
@@ -237,9 +237,9 @@ _	PU	O	I_CLS
 น้ำ	NN	O	I_CLS
 ที่	CC	O	I_CLS
 ท่วม	VV	O	I_CLS
-กว่า	AJ	O	I_CLS
-_	PU	O	I_CLS
-1	NU	B_DUR	I_CLS
+กว่า	AJ	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+1	NU	I_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 เดือน	CL	E_DUR	I_CLS
 ยัง	AX	O	I_CLS
@@ -307,18 +307,18 @@ _	PU	O	I_CLS
 สูง	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 จน	CC	O	B_CLS
 ต้อง	AX	O	I_CLS
 ปิด	VV	O	I_CLS
 เรียน	VV	O	I_CLS
 มา	AV	O	I_CLS
 นาน	VV	O	I_CLS
-กว่า	AJ	O	I_CLS
-_	PU	O	I_CLS
-1	NU	B_DUR	I_CLS
+กว่า	AJ	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+1	NU	I_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 เดือน	CL	E_DUR	E_CLS
 
@@ -607,9 +607,9 @@ _	PU	O	I_CLS
 สูง	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	I_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	I_CLS
 ขอ	VV	O	E_CLS
 ให้	CC	O	B_CLS
 ชาว	FX	O	I_CLS

@@ -66,7 +66,7 @@ _	PU	O	I_CLS
 ตัดตอน	VV	O	E_CLS
 
 คาด	VV	O	B_CLS
-สัปดาห์	CL	B_DTM	I_CLS
+สัปดาห์	CL	O	I_CLS
 หน้า	AJ	O	I_CLS
 รู้	VV	O	I_CLS
 ผล	NN	O	I_CLS
@@ -954,9 +954,9 @@ _	PU	I_PER	I_CLS
 ชี้แจง	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-นาที	CL	E_MEA	E_CLS
+20	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+นาที	CL	E_DUR	E_CLS
 
 พร้อม	CC	O	B_CLS
 กับ	PS	O	I_CLS
@@ -1230,7 +1230,7 @@ _	PU	O	I_CLS
 แต่	CC	O	B_CLS
 คาด	VV	O	E_CLS
 ว่า	CC	O	B_CLS
-สัปดาห์	CL	B_DTM	I_CLS
+สัปดาห์	CL	O	I_CLS
 หน้า	AJ	O	I_CLS
 จะ	AX	O	I_CLS
 ทราบ	VV	O	I_CLS
@@ -1488,9 +1488,9 @@ _	PU	O	I_CLS
 มาก	VV	O	I_CLS
 กว่า	AV	O	I_CLS
 _	PU	O	I_CLS
-20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+20	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 ว่า	CC	O	B_CLS
 ระเบิด	NN	B_WEA	I_CLS
 ของกลาง	NN	O	I_CLS
@@ -1516,9 +1516,9 @@ _	PU	I_MEA	I_CLS
 มาก	VV	O	I_CLS
 ถึง	PS	O	I_CLS
 _	PU	O	I_CLS
-24	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+24	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ก็ตาม	CC	O	E_CLS
 
 เช่น	NN	O	B_CLS
@@ -1751,8 +1751,8 @@ _	PU	I_MEA	I_CLS
 รีโมท	NN	O	I_CLS
 สมบูรณ์	VV	O	I_CLS
 _	PU	O	I_CLS
-100	NU	B_MEA	I_CLS
-%	PU	E_MEA	E_CLS
+100	NU	B_NUM	I_CLS
+%	PU	B_MEA	E_CLS
 
 รายงาน	VV	O	B_CLS
 ข่าว	NN	O	I_CLS
@@ -1798,9 +1798,9 @@ _	PU	O	I_CLS
 ความ	FX	O	I_CLS
 สมบูรณ์	VV	O	I_CLS
 _	PU	O	I_CLS
-100	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เปอร์เซ็นต์	CL	E_MEA	E_CLS
+100	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เปอร์เซ็นต์	CL	B_MEA	E_CLS
 
 แต่	CC	O	B_CLS
 จะ	AX	O	I_CLS
@@ -1841,9 +1841,9 @@ _	PU	I_MEA	I_CLS
 เวลา	NN	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+2	NU	B_DUR	I_CLS
+_	PU	O	I_CLS
+วัน	CL	B_MEA	I_CLS
 จะ	AX	O	I_CLS
 ทราบ	VV	O	I_CLS
 ผล	NN	O	I_CLS
@@ -1860,9 +1860,9 @@ _	PU	I_VEH	I_CLS
 สลับ	VV	O	I_CLS
 รถยนต์	NN	B_VEH	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-คัน	CL	E_MEA	E_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+คัน	CL	B_MEA	E_CLS
 
 ผู้สื่อข่าว	NN	O	B_CLS
 รายงาน	VV	O	I_CLS
@@ -1934,9 +1934,9 @@ _	PU	O	I_CLS
 ป้าย	NN	O	I_CLS
 ทะเบียน	NN	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-คัน	CL	E_MEA	I_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+คัน	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 ขบวน	NN	O	I_CLS
 เหมือน	VV	O	I_CLS
@@ -1972,9 +1972,9 @@ _	PU	O	I_CLS
 เพิ่ม	VV	O	I_CLS
 อีก	NU	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-คัน	CL	E_MEA	E_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+คัน	CL	B_MEA	E_CLS
 เพื่อ	CC	O	B_CLS
 อารักขา	VV	O	I_CLS
 ความ	FX	O	I_CLS
@@ -1986,9 +1986,9 @@ _	PU	I_MEA	I_CLS
 มี	VV	O	I_CLS
 เพียง	AJ	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-คัน	CL	E_MEA	E_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+คัน	CL	B_MEA	E_CLS
 
 ผู้สื่อข่าว	NN	O	B_CLS
 รายงาน	VV	O	I_CLS
@@ -2131,9 +2131,9 @@ _	PU	O	I_CLS
 นาน	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ชั่วโมง	CL	E_MEA	E_CLS
+2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ชั่วโมง	CL	E_DUR	E_CLS
 แต่	CC	O	B_CLS
 ไม่	NG	O	I_CLS
 มีการ	FX	O	I_CLS
@@ -2220,9 +2220,9 @@ _	PU	O	I_CLS
 เวลา	NN	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-45	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-นาที	CL	E_MEA	E_CLS
+45	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+นาที	CL	E_DUR	E_CLS
 
 โดย	CC	O	B_CLS
 ไม่	NG	O	I_CLS
@@ -2301,9 +2301,9 @@ _	PU	O	I_CLS
 มหามงคล	NN	O	I_CLS
 เฉลิมพระชนมพรรษา	NN	O	I_CLS
 _	PU	O	I_CLS
-80	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-พรรษา	CL	E_MEA	I_CLS
+80	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+พรรษา	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 5	NU	B_DTM	I_CLS
 _	PU	I_DTM	I_CLS
@@ -2538,11 +2538,11 @@ _	PU	O	I_CLS
 เลือกตั้ง	VV	O	I_CLS
 ออก	AV	O	I_CLS
 ไป	VV	O	I_CLS
-เกิน	AJ	O	I_CLS
-_	PU	O	I_CLS
-90	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+เกิน	AJ	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+90	NU	I_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 จะ	AX	O	I_CLS
 มี	VV	O	I_CLS
 ปัญหา	NN	O	I_CLS
@@ -2716,7 +2716,7 @@ _	PU	I_DTM	I_CLS
 ออก	AV	O	I_CLS
 มา	VV	O	I_CLS
 ทุก	NU	O	I_CLS
-สัปดาห์	CL	B_MEA	E_CLS
+สัปดาห์	CL	O	E_CLS
 โดย	CC	O	B_CLS
 จะ	AX	O	I_CLS
 มอบหมาย	VV	O	I_CLS
@@ -3132,7 +3132,7 @@ _	PU	I_ROLE	I_CLS
 ไทยรักไทย	NN	E_ORG	I_CLS
 _	PU	O	I_CLS
 ล้าน	NU	B_NUM	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ไม่	NG	O	I_CLS
 เคย	AX	O	I_CLS
 คิด	VV	O	I_CLS

@@ -130,10 +130,10 @@ _	PU	O	I_CLS
 โลก	NN	O	I_CLS
 ได้	AX	O	I_CLS
 ใน	PS	O	I_CLS
-ศตวรรษ	NN	O	I_CLS
-ที่	PS	O	I_CLS
-_	PU	O	I_CLS
-21	NU	B_NUM	E_CLS
+ศตวรรษ	NN	B_ERA	I_CLS
+ที่	PS	I_ERA	I_CLS
+_	PU	I_ERA	I_CLS
+21	NU	E_ERA	E_CLS
 _	PU	O	O
 และ	CC	O	B_CLS
 ด้วย	PS	O	I_CLS
@@ -222,7 +222,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 5	NU	B_MEA	I_CLS
 _	PU	O	I_CLS
-ชาติ	CL	O	I_CLS
+ชาติ	CL	B_MEA	I_CLS
 ของ	PS	O	I_CLS
 คณะ	NN	B_ORG	I_CLS
 มนตรี	NN	I_ORG	I_CLS
@@ -260,7 +260,7 @@ _	PU	O	I_CLS
 มนตรี	NN	I_ORG	I_CLS
 ฯ	PU	E_ORG	I_CLS
 ทั้ง	AJ	O	I_CLS
-สอง	NU	B_MEA	I_CLS
+สอง	NU	B_NUM	I_CLS
 รอบ	CL	E_MEA	E_CLS
 ที่	CC	O	B_CLS
 ผ่าน	VV	O	I_CLS
@@ -305,7 +305,7 @@ _	PU	O	O
 เสียง	NN	O	I_CLS
 รอบ	NN	O	I_CLS
 _	PU	O	I_CLS
-3	NU	O	I_CLS
+3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 ใน	PS	O	I_CLS
 วัน	NN	B_DTM	I_CLS

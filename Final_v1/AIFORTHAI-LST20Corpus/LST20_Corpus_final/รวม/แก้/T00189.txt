@@ -278,9 +278,9 @@ _	PU	O	I_CLS
 อยู่	VV	O	I_CLS
 ห่าง	VV	O	I_CLS
 _	PU	O	I_CLS
-1-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	I_CLS
+1-2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	I_CLS
 ได้ยิน	VV	O	I_CLS
 นาง	NN	B_TTL	I_CLS
 แบลร์	NN	B_PER	I_CLS

@@ -33,9 +33,9 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 ตั้ง	VV	O	I_CLS
 _	PU	O	I_CLS
-6	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ข้อหา	NN	E_MEA	I_CLS
+6	NU	B_NUM	I_CLS
+_	PU	o	I_CLS
+ข้อหา	NN	B_MEA	I_CLS
 ทันที	AV	O	I_CLS
 คาด	VV	O	I_CLS
 สอบปากคำ	VV	O	I_CLS
@@ -61,9 +61,9 @@ _	PU	I_PER	I_CLS
 จันทระ	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-31	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+31	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 หรือ	CC	O	I_CLS
 จ่า	NN	B_TTL	I_CLS
 ยักษ์	NN	B_NIC	I_CLS
@@ -246,7 +246,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 6	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ข้อหา	NN	O	I_CLS
+ข้อหา	NN	B_MEA	I_CLS
 เช่น	NN	O	I_CLS
 เดียว	NU	O	I_CLS
 กับ	PS	O	I_CLS

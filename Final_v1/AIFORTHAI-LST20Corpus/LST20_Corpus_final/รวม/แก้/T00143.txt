@@ -28,8 +28,8 @@ _	PU	I_DTM	I_CLS
 เซ็นทรัล	NN	E_ORG	I_CLS
 _	PU	O	I_CLS
 ขับ	VV	O	I_CLS
-รถ	NN	O	I_CLS
-ปอร์เช่	NN	B_BRN	I_CLS
+รถ	NN	B_VEH	I_CLS
+ปอร์เช่	NN	E_VEH	I_CLS
 ชน	VV	O	I_CLS
 เกาะ	NN	O	I_CLS
 กลาง	PS	O	I_CLS
@@ -91,7 +91,7 @@ _	PU	O	I_CLS
 หมายเลข	NN	O	I_CLS
 ทะเบียน	NN	O	I_CLS
 _	PU	O	I_CLS
-พจ 911	NU	B_NUM	I_CLS
+พจ 911	NU	O	I_CLS
 _	PU	O	I_CLS
 กทม.	NN	B_PRO	I_CLS
 จอด	VV	O	I_CLS
@@ -123,9 +123,9 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-30	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+30	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 อยู่	VV	O	I_CLS
 บ้าน	NN	B_LOC	I_CLS
 เลขที่	NN	I_LOC	I_CLS
@@ -188,9 +188,9 @@ _	PU	I_PER	I_CLS
 ภิภักกิจ	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-52	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+52	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 รปภ.	NN	B_ROLE	I_CLS
 หอ	NN	O	I_CLS

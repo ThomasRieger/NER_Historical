@@ -1,8 +1,8 @@
 จับ	VV	O	B_CLS
 _	PU	O	I_CLS
-11	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-แก๊ง	CL	E_MEA	I_CLS
+11	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+แก๊ง	CL	B_MEA	I_CLS
 ปล้น	VV	O	I_CLS
 ทรัพย์	NN	O	I_CLS
 ใช้	VV	O	I_CLS
@@ -16,7 +16,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 11	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ผู้ต้องหา	NN	O	I_CLS
+ผู้ต้องหา	NN	B_MEA	I_CLS
 _	PU	O	I_CLS
 "	PU	O	I_CLS
 แก๊ง	NN	O	I_CLS
@@ -31,7 +31,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เล่ม	CL	O	E_CLS
+เล่ม	CL	B_MEA	E_CLS
 
 เผย	VV	O	B_CLS
 ชอบ	VV	O	I_CLS
@@ -71,7 +71,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 อยู่	VV	O	I_CLS
 ระหว่าง	PS	O	I_CLS
@@ -117,7 +117,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 11	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 ซึ่ง	CC	O	B_CLS
 รู้จัก	VV	O	I_CLS
@@ -142,9 +142,9 @@ _	PU	O	I_CLS
 เก่ง	NN	B_NIC	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-21	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+21	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 นาย	NN	B_TTL	B_CLS
 สมชาย	NN	B_PER	I_CLS
@@ -157,9 +157,9 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-19	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+19	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 นาย	NN	B_TTL	B_CLS
 แบงค์	NN	B_PER	I_CLS
@@ -168,9 +168,9 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-18	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+18	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 นาย	NN	B_TTL	B_CLS
 คาร	NN	B_PER	I_CLS
@@ -181,9 +181,9 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+20	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 นาย	NN	B_TTL	B_CLS
 ตั้ม	NN	B_PER	I_CLS
@@ -191,9 +191,9 @@ _	PU	I_PER	I_CLS
 อิ่มเจริญ	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-24	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+24	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 นาย	NN	B_TTL	B_CLS
 เอกลักษณ์	NN	B_PER	I_CLS
@@ -204,9 +204,9 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-22	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+22	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 ผู้ต้องหา	NN	O	I_CLS
@@ -249,7 +249,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เล่ม	CL	O	E_CLS
+เล่ม	CL	B_MEA	E_CLS
 
 เสื้อ	NN	B_PRT	B_CLS
 เชิ้ต	NN	E_PRT	I_CLS
@@ -409,16 +409,16 @@ _	PU	O	I_CLS
 เก่ง	NN	B_NIC	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-21	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	I_MEA	I_CLS
+21	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 นาย	NN	B_TTL	I_CLS
 เคิ้ล	NN	B_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-17	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+17	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 (	PU	O	I_CLS
 ขอ	VV	O	I_CLS
@@ -437,9 +437,9 @@ _	PU	I_PER	I_CLS
 บาก	VV	E_NIC	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-19	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+19	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 และ	CC	O	B_CLS
 นาย	NN	B_TTL	I_CLS
 แบงค์	NN	B_PER	I_CLS
@@ -447,9 +447,9 @@ _	PU	I_PER	I_CLS
 เทียนน้ำเงิน	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-18	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+18	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 เป็น	VV	O	I_CLS
 หัวโจก	NN	B_ROLE	E_CLS
 
@@ -494,7 +494,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 กำลัง	AX	O	I_CLS
 หลบหนี	VV	O	I_CLS
@@ -517,7 +517,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 11	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 เจ้าหน้าที่	NN	O	I_CLS
 ได้	AX	O	I_CLS
 แจ้ง	VV	O	I_CLS

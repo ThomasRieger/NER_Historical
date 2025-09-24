@@ -488,15 +488,15 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 35	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 เมื่อ	CC	O	B_CLS
 รวม	VV	O	I_CLS
 นายก	NN	O	I_CLS
 ฯ	PU	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-คน	CL	E_MEA	I_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ก็	CC	O	I_CLS
 จะ	AX	O	I_CLS
 รวม	VV	O	I_CLS
@@ -666,7 +666,7 @@ _	PU	I_PER	I_CLS
 สนธิ	NN	B_PER	I_CLS
 ว่า	VV	O	I_CLS
 ใน	PS	O	I_CLS
-วัน	NN	B_DTM	I_CLS
+วัน	NN	O	I_CLS
 นี้	AJ	O	I_CLS
 จะ	AX	O	I_CLS
 หารือ	VV	O	I_CLS
@@ -813,7 +813,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ที่	CC	O	I_CLS
 ถูก	AX	O	I_CLS
 คุม	VV	O	I_CLS

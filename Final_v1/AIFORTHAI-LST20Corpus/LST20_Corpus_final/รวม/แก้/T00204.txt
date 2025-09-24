@@ -48,7 +48,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หัวโจก	NN	O	E_CLS
+หัวโจก	NN	B_MEA	E_CLS
 หลัง	CC	O	B_CLS
 หนี	VV	O	I_CLS
 กบดาน	VV	O	I_CLS
@@ -75,7 +75,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-วัยรุ่น	NN	O	I_CLS
+วัยรุ่น	NN	B_MEA	I_CLS
 ลวง	VV	O	I_CLS
 _	PU	O	I_CLS
 ด.ญ.	NN	B_TTL	I_CLS
@@ -83,9 +83,9 @@ _	PU	O	I_CLS
 แก้วเพชร	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-14	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+14	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 นักเรียน	NN	O	I_CLS
 ชั้น	NN	O	I_CLS
 _	PU	O	I_CLS
@@ -161,7 +161,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 คือ	VV	O	E_CLS
 
 นาย	NN	B_TTL	B_CLS
@@ -170,9 +170,9 @@ _	PU	I_PER	I_CLS
 มากระจัน	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-24	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+24	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 นาย	NN	B_TTL	B_CLS
 สุชิน	NN	B_PER	I_CLS
@@ -180,9 +180,9 @@ _	PU	I_PER	I_CLS
 รักษ์ราษฎร์	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-22	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+22	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 นาย	NN	B_TTL	B_CLS
 พรชัย	NN	B_PER	I_CLS
@@ -191,9 +191,9 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+20	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 เป็น	VV	O	I_CLS
@@ -266,7 +266,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 แล้ว	AX	O	E_CLS
 
 พร้อม	VV	O	E_CLS
@@ -359,9 +359,9 @@ _	PU	O	I_CLS
 ตอน	NN	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-17	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+17	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 มา	VV	O	I_CLS
 แล้ว	AX	O	E_CLS
 
@@ -379,7 +379,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 นั้น	AJ	O	I_CLS
 คง	AX	O	I_CLS
 ต้อง	AX	O	I_CLS
@@ -397,7 +397,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 นาง	NN	B_TTL	B_CLS
 สิงหา	NN	B_PER	I_CLS
@@ -405,9 +405,9 @@ _	PU	I_PER	I_CLS
 โพธิ์ทอง	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-45	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+45	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 น้า	NN	B_ROLE	I_CLS
 สาว	NN	I_ROLE	I_CLS
 _	PU	I_ROLE	I_CLS
@@ -493,7 +493,7 @@ _	PU	I_ROLE	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ถูก	AX	O	I_CLS
 ตั้ง	VV	O	I_CLS
 ข้อหา	NN	O	I_CLS
@@ -505,9 +505,9 @@ _	PU	O	I_CLS
 ไม่	NG	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-15	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+15	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ไป	VV	O	E_CLS
 เพื่อ	CC	O	B_CLS
 การ	FX	O	I_CLS
@@ -521,9 +521,9 @@ _	PU	I_MEA	I_CLS
 ไม่	NG	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-14	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+14	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 ลักษณะ	NN	O	I_CLS
 โทรม	VV	O	I_CLS

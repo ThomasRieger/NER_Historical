@@ -28,9 +28,9 @@ _	PU	I_DTM	I_CLS
 สาว	NN	O	B_CLS
 วัย	NN	O	I_CLS
 _	PU	O	I_CLS
-21	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+21	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 รัก	VV	O	I_CLS
 คุด	VV	O	I_CLS
 ซด	VV	O	I_CLS
@@ -188,9 +188,9 @@ _	PU	I_PER	I_CLS
 สรรพศาสตร์	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-21	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+21	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 พัก	VV	O	I_CLS
 อยู่	AX	O	I_CLS
@@ -239,7 +239,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 1	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ขวด	CL	O	E_CLS
+ขวด	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 จดหมาย	NN	O	I_CLS
@@ -248,11 +248,11 @@ _	PU	O	I_CLS
 ซึ่ง	CC	O	B_CLS
 เขียน	VV	O	I_CLS
 ด้วย	PS	O	I_CLS
-ดินสอ	NN	B_MAT	I_CLS
+ดินสอ	NN	B_PRT	I_CLS
 วาง	VV	O	I_CLS
 อยู่	AX	O	I_CLS
 หนึ่ง	NU	B_NUM	I_CLS
-ฉบับ	CL	O	E_CLS
+ฉบับ	CL	B_MEA	E_CLS
 _	PU	O	O
 จึง	CC	O	B_CLS
 เก็บ	VV	O	I_CLS
@@ -267,9 +267,9 @@ _	PU	I_PER	I_CLS
 สรรพศาสตร์	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-48	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+48	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 แม่	NN	O	I_CLS
 ผู้	FX	O	I_CLS
 ตาย	VV	O	I_CLS
@@ -280,9 +280,9 @@ _	PU	I_MEA	I_CLS
 เหตุ	NN	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 ตน	PR	O	I_CLS
 ได้ยิน	VV	O	I_CLS
 น้อง	NN	B_TTL	I_CLS
@@ -295,7 +295,7 @@ _	PU	O	I_CLS
 ทะเลาะ	VV	O	I_CLS
 กับ	PS	O	I_CLS
 นาย	NN	B_TTL	I_CLS
-เดี่ยว	NN	B_NIC	I_CLS
+เดี่ยว	NN	B_PER	I_CLS
 แฟน	NN	O	I_CLS
 หนุ่ม	NN	O	I_CLS
 เรื่อง	NN	O	I_CLS
@@ -405,9 +405,9 @@ _	PU	O	I_CLS
 มี	VV	O	I_CLS
 ลูกสาว	NN	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-คน	CL	O	I_CLS
-น้อง	NN	B_PER	I_CLS
-แอมป์	NN	B_NIC	I_CLS
+คน	CL	B_MEA	I_CLS
+น้อง	NN	B_TTL	I_CLS
+แอมป์	NN	B_PER	I_CLS
 เป็น	VV	O	I_CLS
 คน	CL	O	I_CLS
 สุดท้อง	AJ	O	E_CLS
@@ -425,13 +425,13 @@ _	PU	O	I_CLS
 ตลาดนัด	NN	O	I_CLS
 พร้อม	CC	O	I_CLS
 นาย	NN	B_TTL	I_CLS
-เดี่ยว	NN	B_NIC	I_CLS
+เดี่ยว	NN	B_PER	I_CLS
 เป็น	VV	O	I_CLS
 ประจำ	VV	O	E_CLS
 ซึ่ง	CC	O	B_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 รัก	VV	O	I_CLS
 กัน	AV	O	I_CLS
 มา	AV	O	I_CLS
@@ -464,7 +464,7 @@ _	PU	O	I_CLS
 
 แต่	CC	O	B_CLS
 น้อง	NN	B_TTL	I_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 กับ	PS	O	I_CLS
 มา	AV	O	I_CLS
 ด่วน	VV	O	I_CLS
@@ -484,7 +484,7 @@ _	PU	O	I_CLS
 กลัว	VV	O	E_CLS
 ว่า	CC	O	B_CLS
 นาย	NN	B_TTL	I_CLS
-เดี่ยว	NN	B_NIC	I_CLS
+เดี่ยว	NN	B_PER	I_CLS
 จะ	AX	O	I_CLS
 นอกใจ	VV	O	I_CLS
 ไป	AV	O	I_CLS
@@ -577,7 +577,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หน้า	CL	O	E_CLS
+หน้า	CL	B_MEA	E_CLS
 
 หน้า	CL	O	B_CLS
 แรก	NU	O	I_CLS
@@ -595,7 +595,7 @@ _	PU	O	I_CLS
 มี	VV	O	I_CLS
 ใจความ	NN	O	E_CLS
 ว่า	CC	O	B_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 ขอโทษ	VV	O	E_CLS
 ที่	CC	O	B_CLS
 ทำ	VV	O	I_CLS
@@ -606,7 +606,7 @@ _	PU	O	I_CLS
 นี้	PR	O	E_CLS
 
 แม่	NN	O	B_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 รัก	VV	O	I_CLS
 แม่	NN	O	I_CLS
 นะ	PA	O	I_CLS
@@ -616,13 +616,13 @@ _	PU	O	I_CLS
 แม่	NN	O	I_CLS
 ดี	VV	O	I_CLS
 กับ	PS	O	I_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 ทุก	AJ	O	I_CLS
 อย่าง	NN	O	I_CLS
 เลย	AV	O	I_CLS
 แม่	NN	O	I_CLS
 ของ	NN	O	I_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 ทุก	AJ	O	I_CLS
 ชิ้น	CL	O	I_CLS
 ใน	PS	O	I_CLS
@@ -643,14 +643,14 @@ _	PU	O	I_CLS
 ไป	AV	O	I_CLS
 ให้	VV	O	I_CLS
 ใคร	PR	O	I_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 หวง	VV	O	I_CLS
 ของ	PS	O	I_CLS
-แอมป์	NN	B_NIC	E_CLS
+แอมป์	NN	B_PER	E_CLS
 
 ตอน	NN	O	B_CLS
 เผา	VV	O	I_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 อยาก	VV	O	I_CLS
 ใส่	VV	O	I_CLS
 ชุด	NN	B_PRT	I_CLS
@@ -664,14 +664,14 @@ _	PU	O	I_CLS
 เกมบอย	NN	B_PRT	E_CLS
 และ	CC	O	B_CLS
 โทรศัพท์	NN	B_PRT	I_CLS
-_	PU	I_PRT	I_CLS
-N70	NN	E_PRT	I_CLS
+_	PU	O	I_CLS
+N70	NN	B_PRT	I_CLS
 _	PU	O	I_CLS
 กระเป๋า	NN	B_PRT	I_CLS
 ตังค์	NN	E_PRT	I_CLS
 _	PU	O	I_CLS
 นาฬิกา	NN	B_PRT	I_CLS
-รูป	NN	O	I_CLS
+รูป	NN	B_PRT	I_CLS
 อยู่	VV	O	I_CLS
 บน	PS	O	I_CLS
 ชั้น	NN	O	I_CLS
@@ -703,7 +703,7 @@ _	PU	O	I_CLS
 จะ	AX	O	I_CLS
 ได้	AX	O	I_CLS
 หาย	VV	O	I_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 รัก	VV	O	I_CLS
 ตา	NN	O	I_CLS
 มาก	VV	O	I_CLS
@@ -711,7 +711,7 @@ _	PU	O	I_CLS
 กับ	PS	O	I_CLS
 รัก	VV	O	I_CLS
 แม่	NN	O	I_CLS
-แอมป์	NN	B_NIC	I_CLS
+แอมป์	NN	B_PER	I_CLS
 รัก	VV	O	I_CLS
 ทุก	AJ	O	I_CLS
 คน	CL	O	E_CLS
@@ -745,7 +745,7 @@ _	PU	O	I_CLS
 แล้ว	AX	O	E_CLS
 
 บอก	VV	O	B_CLS
-อัด	NN	B_NIC	I_CLS
+อัด	NN	B_PER	I_CLS
 ดูแล	VV	O	I_CLS
 ลูก	NN	O	I_CLS
 ใน	PS	O	I_CLS
@@ -811,12 +811,12 @@ _	PU	O	I_CLS
 การ	FX	O	I_CLS
 กระทำ	VV	O	I_CLS
 ของ	PS	O	I_CLS
-เดี่ยว	NN	B_NIC	E_CLS
+เดี่ยว	NN	B_PER	E_CLS
 
 เขา	PR	O	B_CLS
 อยาก	VV	O	E_CLS
 ให้	CC	O	B_CLS
-เดี่ยว	NN	B_NIC	I_CLS
+เดี่ยว	NN	B_PER	I_CLS
 รัก	VV	O	I_CLS
 เขา	PR	O	I_CLS
 คน	CL	O	I_CLS
@@ -860,7 +860,7 @@ _	PU	O	I_CLS
 จาก	PS	O	B_CLS
 การ	FX	O	I_CLS
 อ่าน	VV	O	I_CLS
-จดหมาย	NN	B_MAT	I_CLS
+จดหมาย	NN	O	I_CLS
 ลา	VV	O	I_CLS
 ตาย	VV	O	I_CLS
 ก็	CC	O	I_CLS
@@ -872,7 +872,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 ประชด	VV	O	I_CLS
 นาย	NN	B_TTL	I_CLS
-เดี่ยว	NN	B_NIC	I_CLS
+เดี่ยว	NN	B_PER	I_CLS
 แฟน	NN	O	I_CLS
 หนุ่ม	NN	O	E_CLS
 ที่	CC	O	B_CLS

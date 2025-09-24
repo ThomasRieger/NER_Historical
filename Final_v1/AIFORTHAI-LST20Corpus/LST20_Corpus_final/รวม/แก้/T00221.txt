@@ -11,9 +11,9 @@
 ต่อ	AV	O	I_CLS
 อีก	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	E_CLS
+2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	E_CLS
 
 ค้นหา	VV	O	B_CLS
 คน	NN	O	I_CLS
@@ -60,9 +60,9 @@ _	PU	O	I_CLS
 ต่อไป	AV	O	I_CLS
 อีก	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 รอ	VV	O	I_CLS
 ซ่อมแซม	VV	O	I_CLS
 ราง	NN	O	I_CLS
@@ -205,9 +205,9 @@ _	PU	O	I_CLS
 รถไฟ	NN	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 นาย	NN	B_TTL	I_CLS
@@ -288,9 +288,9 @@ _	PU	O	I_CLS
 รถไฟ	NN	B_VEH	I_CLS
 จำนวน	NN	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-โบกี้	CL	E_MEA	E_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+โบกี้	CL	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 ติด	VV	O	I_CLS
 อยู่	VV	O	E_CLS
@@ -494,7 +494,7 @@ _	PU	I_DTM	I_CLS
 ของ	PS	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 ทั้งนี้	CC	O	B_CLS
 การ	FX	O	I_CLS
@@ -509,9 +509,9 @@ _	PU	I_DTM	I_CLS
 ยม	NN	E_RIV	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-7	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	I_CLS
+7	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	I_CLS
 และ	CC	O	I_CLS
 เชี่ยว	VV	O	E_CLS
 เนื่องจาก	CC	O	B_CLS
@@ -675,9 +675,9 @@ _	PU	I_DTM	I_CLS
 กันยายน	NN	E_DTM	I_CLS
 รวม	VV	O	I_CLS
 _	PU	O	I_CLS
-8	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ขบวน	CL	E_MEA	I_CLS
+8	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ขบวน	CL	B_MEA	I_CLS
 ไม่	NG	O	I_CLS
 สามารถ	AX	O	I_CLS
 เดินทาง	VV	O	I_CLS
@@ -694,9 +694,9 @@ _	PU	I_MEA	I_CLS
 การ	FX	O	I_CLS
 ซ่อมแซม	VV	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	E_CLS
+2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	E_CLS
 
 เขต	NN	O	B_CLS
 เมือง	NN	B_DIS	I_CLS
@@ -840,9 +840,9 @@ _	PU	I_DTM	I_CLS
 ที่	PS	O	I_CLS
 ปริมาณ	NN	O	I_CLS
 _	PU	O	I_CLS
-500	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-คิวบิก	CL	I_MEA	I_CLS
+500	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+คิวบิก	CL	B_MEA	I_CLS
 เมตร	CL	E_MEA	E_CLS
 
 แต่	CC	O	B_CLS
@@ -897,9 +897,9 @@ _	PU	O	I_CLS
 ที่	PS	O	I_CLS
 ระดับ	NN	O	I_CLS
 _	PU	O	I_CLS
-4.20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	I_CLS
+4.20	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 เวลา	NN	B_DTM	I_CLS
 _	PU	I_DTM	I_CLS
@@ -935,9 +935,9 @@ _	PU	I_PER	I_CLS
 สายตรง	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-42	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+42	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ชาว	FX	O	I_CLS
 บ้านโฮ่งนอก	NN	B_VIL	I_CLS
 หมู่	NN	O	I_CLS
@@ -1341,9 +1341,9 @@ _	PU	O	I_CLS
 สูง	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 
 รายงาน	NN	O	B_CLS
 ข่าว	NN	O	I_CLS
@@ -1457,9 +1457,9 @@ _	PU	O	I_CLS
 สูง	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 ทำให้	CC	O	B_CLS
 ชาวบ้าน	NN	O	I_CLS
 ต่าง	PR	O	I_CLS
@@ -1599,9 +1599,9 @@ _	PU	O	I_CLS
 เอเชีย	NN	E_ROA	I_CLS
 เพียง	AJ	O	I_CLS
 _	PU	O	I_CLS
-100	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+100	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 
 พบ	VV	O	B_CLS
 นาย	NN	B_TTL	I_CLS
@@ -1610,9 +1610,9 @@ _	PU	I_PER	I_CLS
 วันหน่อแก้ว	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-66	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+66	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 และ	CC	O	I_CLS
 นาง	NN	B_TTL	I_CLS
 วน	NN	B_PER	I_CLS
@@ -1620,9 +1620,9 @@ _	PU	I_PER	I_CLS
 วันหน่อแก้ว	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-63	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+63	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 สามี	NN	O	I_CLS
 ภรรยา	NN	O	I_CLS
 ที่	CC	O	I_CLS
@@ -1651,9 +1651,9 @@ _	PU	I_MEA	I_CLS
 นาน	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ชั่วโมง	CL	E_MEA	E_CLS
+1	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ชั่วโมง	CL	E_DUR	E_CLS
 
 เนื่องจาก	CC	O	B_CLS
 ช่วง	NN	O	I_CLS
@@ -1679,7 +1679,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	I_CLS
+นาย	CL	B_MEA	I_CLS
 ดึง	VV	O	I_CLS
 เชือก	NN	O	E_CLS
 ที่	CC	O	B_CLS
@@ -1817,15 +1817,15 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-จุด	CL	O	I_CLS
+จุด	CL	B_MEA	I_CLS
 ระดับ	NN	O	I_CLS
 น้ำ	NN	O	I_CLS
 สูง	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-50	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	E_CLS
+50	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	E_CLS
 
 นอกจาก	PS	O	B_CLS
 นี้	AJ	O	I_CLS
@@ -1840,7 +1840,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 6	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ตำบล	CL	O	I_CLS
+ตำบล	CL	B_MEA	I_CLS
 คือ	CC	O	I_CLS
 _	PU	O	I_CLS
 ต.	NN	B_SUB	I_CLS
@@ -1902,7 +1902,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ลำ	CL	O	I_CLS
+ลำ	CL	B_MEA	I_CLS
 ไป	AV	O	I_CLS
 ช่วย	VV	O	I_CLS
 ชาวบ้าน	NN	O	I_CLS
@@ -2047,7 +2047,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หลัง	CL	O	I_CLS
+หลัง	CL	B_MEA	I_CLS
 นาย	NN	B_TTL	I_CLS
 วิฑูรย์	NN	B_PER	I_CLS
 _	PU	I_PER	I_CLS
@@ -2145,7 +2145,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หลังคา	CL	O	I_CLS
+หลังคา	CL	B_MEA	I_CLS
 เรือน	CL	O	I_CLS
 รวม	VV	O	E_CLS
 ทั้ง	CC	O	B_CLS
@@ -2170,9 +2170,9 @@ _	PU	O	I_CLS
 ใน	PS	O	I_CLS
 รอบ	NN	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+10	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ปี	CL	E_DUR	E_CLS
 ที่	CC	O	B_CLS
 ผ่าน	VV	O	I_CLS
 มา	AV	O	E_CLS
@@ -2249,7 +2249,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-อำเภอ	CL	O	I_CLS
+อำเภอ	CL	B_MEA	I_CLS
 ของ	PS	O	I_CLS
 _	PU	O	I_CLS
 จ.	NN	B_PRO	I_CLS
@@ -2281,7 +2281,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ลักษณะ	CL	O	I_CLS
+ลักษณะ	CL	B_MEA	I_CLS
 คือ	VV	O	I_CLS
 น้ำ	NN	O	I_CLS
 จาก	PS	O	I_CLS
@@ -2297,9 +2297,9 @@ _	PU	O	I_CLS
 หนึ่ง	NU	O	I_CLS
 เป็น	VV	O	I_CLS
 เหตุการณ์	NN	O	I_CLS
-น้ำ	NN	B_EVO	I_CLS
-ป่า	NN	I_EVO	I_CLS
-ไหลหลาก	VV	E_EVO	I_CLS
+น้ำ	NN	O	I_CLS
+ป่า	NN	O	I_CLS
+ไหลหลาก	VV	O	I_CLS
 เช่น	CC	O	I_CLS
 ที่	PS	O	I_CLS
 _	PU	O	I_CLS
@@ -2347,7 +2347,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 14	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ครัวเรือน	CL	O	E_CLS
+ครัวเรือน	CL	B_MEA	E_CLS
 
 ส่วน	NN	O	B_CLS
 ที่	CC	O	I_CLS
@@ -2376,17 +2376,17 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 1,200	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หลังคา	CL	O	I_CLS
-เรือน	CL	O	E_CLS
+หลังคา	CL	B_MEA	I_CLS
+เรือน	CL	E_MEA	E_CLS
 
 แม่น้ำกรณ์	NN	B_RIV	B_CLS
 ทะลัก	VV	O	I_CLS
 ท่วม	VV	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ตำบล	CL	I_MEA	I_CLS
-เชียงราย	NN	B_PRO	E_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ตำบล	CL	B_MEA	I_CLS
+เชียงราย	NN	E_MEA	E_CLS
 
 ภาวะ	NN	O	B_CLS
 ฝน	NN	O	I_CLS
@@ -2435,9 +2435,9 @@ _	PU	O	I_CLS
 ยาว	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 น้ำ	NN	O	I_CLS
@@ -2453,7 +2453,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 7	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หมู่บ้าน	CL	O	I_CLS
+หมู่บ้าน	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ต.	NN	B_SUB	I_CLS
 ป่าอ้อดอนชัย	NN	E_SUB	I_CLS
@@ -2462,7 +2462,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หมู่บ้าน	CL	O	I_CLS
+หมู่บ้าน	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 _	PU	O	I_CLS
 ต.	NN	B_SUB	I_CLS
@@ -2472,7 +2472,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 500	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หลังคาเรือน	CL	O	E_CLS
+หลังคาเรือน	CL	B_MEA	E_CLS
 
 โดย	CC	O	B_CLS
 ระดับ	NN	O	I_CLS
@@ -2482,11 +2482,11 @@ _	PU	O	I_CLS
 สูง	VV	O	I_CLS
 ถึง	AJ	O	I_CLS
 _	PU	O	I_CLS
-40	NU	B_MEA	I_CLS
--	PU	I_MEA	I_CLS
-50	NU	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	E_CLS
+40	NU	B_NUM	I_CLS
+-	PU	I_NUM	I_CLS
+50	NU	E_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	E_CLS
 _	PU	O	O
 ทำให้	CC	O	B_CLS
 ชาวบ้าน	NN	O	I_CLS
@@ -2616,7 +2616,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 10,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ไป	AV	O	I_CLS
 อยู่	VV	O	I_CLS
 ใน	PS	O	I_CLS
@@ -2740,7 +2740,7 @@ _	PU	I_ROLE	I_CLS
 _	PU	O	I_CLS
 7	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-จังหวัด	CL	O	I_CLS
+จังหวัด	CL	B_MEA	I_CLS
 ภาค	NN	B_LOC	I_CLS
 ใต้	NN	E_LOC	I_CLS
 ตอน	NN	O	I_CLS

@@ -78,7 +78,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 7	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 ว่า	CC	O	B_CLS
 ขณะนี้	NN	O	I_CLS
 ตน	NN	O	I_CLS

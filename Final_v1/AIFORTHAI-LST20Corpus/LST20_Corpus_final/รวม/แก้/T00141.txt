@@ -106,9 +106,9 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-23	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+23	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 นักศึกษา	NN	B_ROLE	I_CLS
 ชั้น	NN	O	I_CLS
@@ -436,11 +436,11 @@ _	PU	O	I_CLS
 ภาค	NN	O	I_CLS
 ปกติ	VV	O	I_CLS
 เรียน	VV	O	I_CLS
-วัน	NN	B_DTM	I_CLS
-จันทร์	NN	I_DTM	I_CLS
-ถึง	PS	B_DTM	I_CLS
-วัน	NN	I_DTM	I_CLS
-ศุกร์	NN	E_DTM	E_CLS
+วัน	NN	B_DUR	I_CLS
+จันทร์	NN	I_DUR	I_CLS
+ถึง	PS	I_DUR	I_CLS
+วัน	NN	I_DUR	I_CLS
+ศุกร์	NN	E_EDU	E_CLS
 
 แต่	CC	O	B_CLS
 ใน	PS	O	I_CLS
@@ -488,10 +488,10 @@ _	PU	O	O
 จะ	AX	O	I_CLS
 ได้	AX	O	I_CLS
 เรียน	VV	O	I_CLS
-วัน	NN	B_DTM	I_CLS
-เสาร์	NN	I_DTM	I_CLS
--	PU	I_DTM	I_CLS
-อาทิตย์	NN	E_DTM	E_CLS
+วัน	NN	B_DUR	I_CLS
+เสาร์	NN	I_DUR	I_CLS
+-	PU	I_DUR	I_CLS
+อาทิตย์	NN	E_DUR	E_CLS
 
 โดย	CC	O	B_CLS
 วัน	NN	O	I_CLS
@@ -528,9 +528,9 @@ _	PU	O	I_CLS
 ทำ	VV	O	I_CLS
 อยู่	AX	O	I_CLS
 _	PU	O	I_CLS
-4	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เดือน	CL	E_MEA	I_CLS
+4	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เดือน	CL	B_MEA	I_CLS
 จึง	CC	O	I_CLS
 ลาออก	VV	O	I_CLS
 ด้วย	PS	O	I_CLS
@@ -542,8 +542,8 @@ _	PU	I_MEA	I_CLS
 ทำงาน	VV	O	I_CLS
 ใน	PS	O	I_CLS
 ช่วง	NN	O	I_CLS
-เสาร์	NN	B_DTM	I_CLS
-อาทิตย์	NN	E_DTM	I_CLS
+เสาร์	NN	B_DUR	I_CLS
+อาทิตย์	NN	E_DUR	I_CLS
 ด้วย	AV	O	E_CLS
 
 หลังจาก	CC	O	B_CLS
@@ -579,9 +579,9 @@ _	PU	I_MEA	I_CLS
 ไฟ	NN	O	I_CLS
 ราว	AJ	O	I_CLS
 _	PU	O	I_CLS
-3,500	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	NN	E_MEA	E_CLS
+3,500	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	NN	B_MEA	E_CLS
 และ	CC	O	B_CLS
 ค่า	NN	O	I_CLS
 เช่า	VV	O	I_CLS
@@ -668,10 +668,10 @@ _	PU	I_DTM	I_CLS
 วง	NN	O	I_CLS
 เงิน	NN	O	I_CLS
 _	PU	O	I_CLS
-21	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	NN	E_MEA	I_CLS
+21	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+บาท	NN	B_MEA	I_CLS
 มา	AV	O	I_CLS
 อยู่	VV	O	I_CLS
 ใน	PS	O	I_CLS
@@ -701,7 +701,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 2,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ผู้	FX	O	I_CLS
 ตาย	VV	O	I_CLS
 เป็น	VV	O	I_CLS
@@ -808,7 +808,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 4,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 2,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS

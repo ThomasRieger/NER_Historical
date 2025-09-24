@@ -219,7 +219,7 @@ _	PU	I_ORG	I_CLS
 จีน	NN	E_STY	I_CLS
 รายงาน	VV	O	I_CLS
 ใน	PS	O	I_CLS
-วัน	NN	B_DTM	I_CLS
+วัน	NN	O	I_CLS
 นี้	AJ	O	E_CLS
 ว่า	CC	O	B_CLS
 หลังจาก	CC	O	I_CLS
@@ -269,9 +269,9 @@ _	PU	O	I_CLS
 ยาว	VV	O	I_CLS
 รวม	VV	O	I_CLS
 _	PU	O	I_CLS
-1300	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-กิโลเมตร	CL	E_MEA	E_CLS
+1300	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+กิโลเมตร	CL	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 ติด	VV	O	I_CLS
 กับ	PS	O	I_CLS
@@ -399,9 +399,9 @@ _	PU	O	I_CLS
 จื้อหลิน	NN	E_STA	I_CLS
 เพียง	AJ	O	I_CLS
 _	PU	O	I_CLS
-100	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-กิโลเมตร	CL	E_MEA	E_CLS
+100	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+กิโลเมตร	CL	B_MEA	E_CLS
 
 ซึ่ง	CC	O	B_CLS
 หาก	CC	O	I_CLS

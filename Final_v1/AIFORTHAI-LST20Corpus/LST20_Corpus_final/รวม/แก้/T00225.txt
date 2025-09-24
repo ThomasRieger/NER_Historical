@@ -410,7 +410,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	I_CLS
+นาย	CL	B_MEA	I_CLS
 เห็นด้วย	VV	O	I_CLS
 กับ	PS	O	I_CLS
 จเร	NN	O	I_CLS
@@ -539,7 +539,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-นายพล	NN	O	E_CLS
+นายพล	NN	B_MEA	E_CLS
 
 พล.อ.ต.	NN	B_DES	B_CLS
 ประสิทธิ์	NN	B_PER	I_CLS
@@ -569,7 +569,7 @@ _	PU	O	I_CLS
 ไป	VV	O	I_CLS
 แล้ว	AX	O	I_CLS
 ใน	PS	O	I_CLS
-วัน	NN	B_DTM	I_CLS
+วัน	NN	O	I_CLS
 นี้	AJ	O	E_CLS
 ว่า	CC	O	B_CLS
 ข้อเท็จจริง	NN	O	I_CLS
@@ -797,9 +797,9 @@ _	PU	I_PER	I_CLS
 ต่อ	AV	O	I_CLS
 ว่า	CC	O	I_CLS
 ใน	PS	O	I_CLS
-ช่วง	NN	B_DUR	I_CLS
-_	PU	I_DUR	I_CLS
-4-5	NU	I_DUR	I_CLS
+ช่วง	NN	O	I_CLS
+_	PU	O	I_CLS
+4-5	NU	B_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 ปี	CL	E_DUR	I_CLS
 ที่	CC	O	I_CLS

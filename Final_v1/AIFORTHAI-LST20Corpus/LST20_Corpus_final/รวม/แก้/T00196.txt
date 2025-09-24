@@ -28,8 +28,8 @@ _	PU	I_PER	I_CLS
 โดย	CC	O	B_CLS
 มี	VV	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-นัก	FX	O	I_CLS
-แสดง	VV	O	I_CLS
+นัก	FX	B_MEA	I_CLS
+แสดง	VV	E_MEA	I_CLS
 สามี	NN	O	I_CLS
 ภรรยา	NN	O	I_CLS
 ชื่อ	NN	O	I_CLS
@@ -63,9 +63,9 @@ _	PU	I_PER	I_CLS
 อายุ	NN	O	I_CLS
 ได้	AX	O	I_CLS
 _	PU	O	I_CLS
-4	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เดือน	CL	E_MEA	I_CLS
+4	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เดือน	CL	B_MEA	I_CLS
 แล้ว	AX	O	E_CLS
 
 ภาพ	NN	O	B_CLS
@@ -172,7 +172,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 22	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หน้า	CL	O	I_CLS
+หน้า	CL	B_MEA	I_CLS
 ถ่าย	VV	O	I_CLS
 โดย	PS	O	I_CLS
 ช่าง	NN	O	I_CLS

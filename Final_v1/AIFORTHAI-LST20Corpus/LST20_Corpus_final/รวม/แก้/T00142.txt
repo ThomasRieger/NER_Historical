@@ -79,15 +79,15 @@ _	PU	O	I_CLS
 สากล	NN	O	I_CLS
 ชี้	VV	O	I_CLS
 _	PU	O	I_CLS
-3.	NU	B_MEA	I_CLS
+3.	NU	B_NUM	I_CLS
 ปม	NN	O	I_CLS
 ต้อง	AX	O	I_CLS
 พิสูจน์	VV	O	I_CLS
 "	PU	O	I_CLS
-ฆ่า	VV	B_EVO	I_CLS
-ตัดตอน	VV	I_EVO	I_CLS
+ฆ่า	VV	B_EVH	I_CLS
+ตัดตอน	VV	I_EVH	I_CLS
 -	PU	I_EVO	I_CLS
-ตากใบ	NN	E_EVO	I_CLS
+ตากใบ	NN	E_EVH	I_CLS
 -	PU	O	I_CLS
 แทรกแซง	VV	O	I_CLS
 สื่อ	NN	O	I_CLS
@@ -169,8 +169,8 @@ _	PU	O	I_CLS
 สิทธิ	NN	O	I_CLS
 ราว	AJ	O	I_CLS
 _	PU	O	I_CLS
-60	NU	B_MEA	I_CLS
-%	PU	E_MEA	E_CLS
+60	NU	B_NUM	I_CLS
+%	PU	B_MEA	E_CLS
 
 ส่วน	CC	O	B_CLS
 _	PU	O	I_CLS
@@ -199,7 +199,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 ได้	AX	O	I_CLS
 มอบ	VV	O	I_CLS
-สติกเกอร์	NN	B_MAT	I_CLS
+สติกเกอร์	NN	O	I_CLS
 เขียน	VV	O	I_CLS
 ข้อความ	NN	O	I_CLS
 ร่วม	VV	O	I_CLS
@@ -912,7 +912,7 @@ _	PU	O	O
 มี	VV	O	I_CLS
 อยู่	AX	O	I_CLS
 เรื่อง	CL	O	I_CLS
-เดียว	NU	B_NUM	I_CLS
+เดียว	NU	O	I_CLS
 คือ	VV	O	I_CLS
 ทำ	VV	O	I_CLS
 อย่างไร	AV	O	E_CLS
@@ -1209,7 +1209,7 @@ _	PU	I_PER	I_CLS
 สมัคร	NN	B_PER	I_CLS
 ได้	AX	O	I_CLS
 เซ็น	VV	O	I_CLS
-เอกสาร	NN	B_MAT	I_CLS
+เอกสาร	NN	O	I_CLS
 ใบ	NN	O	I_CLS
 สมัคร	VV	O	I_CLS
 เป็น	VV	O	I_CLS
@@ -1323,7 +1323,7 @@ _	PU	O	I_CLS
 การ	FX	O	I_CLS
 เปิด	VV	O	I_CLS
 ตัว	NN	O	I_CLS
-สัปดาห์	NN	B_DTM	I_CLS
+สัปดาห์	NN	O	I_CLS
 นี้	AJ	O	I_CLS
 คง	AX	O	I_CLS
 ไม่	NG	O	I_CLS
@@ -1738,9 +1738,9 @@ _	PU	O	O
 เดือน	NN	O	I_CLS
 ตุลา	NN	O	I_CLS
 ใน	PS	O	I_CLS
-สมัย	NN	O	I_CLS
-_	PU	O	I_CLS
-6	NU	B_EVH	I_CLS
+สมัย	NN	B_EVH	I_CLS
+_	PU	I_EVH	I_CLS
+6	NU	I_EVH	I_CLS
 _	PU	I_EVH	I_CLS
 ตุลา	NN	I_EVH	I_CLS
 _	PU	I_EVH	I_CLS
@@ -2034,9 +2034,9 @@ _	PU	I_PER	I_CLS
 มี	VV	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ขึ้น	AV	O	I_CLS
 ไป	VV	O	E_CLS
 ว่า	CC	O	B_CLS
@@ -2053,9 +2053,9 @@ _	PU	I_MEA	I_CLS
 
 โดยเฉพาะ	CC	O	B_CLS
 เรื่อง	NN	O	I_CLS
-รถ	NN	B_EVO	I_CLS
-ดับ	VV	I_EVO	I_CLS
-เพลิง	NN	E_EVO	I_CLS
+รถ	NN	O	I_CLS
+ดับ	VV	O	I_CLS
+เพลิง	NN	O	I_CLS
 ของ	PS	O	I_CLS
 _	PU	O	I_CLS
 กทม.	NN	B_PRO	I_CLS
@@ -2198,9 +2198,9 @@ _	PU	I_PER	I_CLS
 แก่	VV	O	I_CLS
 เลย	VV	O	I_CLS
 _	PU	O	I_CLS
-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 ทั้งนี้	CC	O	B_CLS
 หาก	CC	O	I_CLS
@@ -2364,11 +2364,11 @@ _	PU	O	I_CLS
 ใกล้	VV	O	I_CLS
 ๆ	PU	O	I_CLS
 _	PU	O	I_CLS
-ช่วง	NN	B_DUR	I_CLS
+ช่วง	NN	O	I_CLS
+_	PU	O	I_CLS
+2-3	NU	B_DUR	I_CLS
 _	PU	I_DUR	I_CLS
-2-3	NU	I_DUR	I_CLS
-_	PU	I_DUR	I_CLS
-ปี	CL	B_DUR	E_CLS
+ปี	CL	E_DUR	E_CLS
 ที่	CC	O	B_CLS
 ผ่าน	VV	O	I_CLS
 มา	AV	O	I_CLS
@@ -2450,10 +2450,10 @@ _	PU	O	I_CLS
 ทุจริต	VV	O	I_CLS
 เหมือน	VV	O	I_CLS
 การ	FX	O	I_CLS
-เลือกตั้ง	VV	B_EVO	I_CLS
-ปี	NN	B_EVO	I_CLS
-_	PU	I_EVO	I_CLS
-2548	NU	E_EVO	I_CLS
+เลือกตั้ง	VV	O	I_CLS
+ปี	NN	B_DTM	I_CLS
+_	PU	I_DTM	I_CLS
+2548	NU	E_DTM	I_CLS
 _	PU	O	I_CLS
 นาย	NN	B_TTL	I_CLS
 ชวน	NN	B_PER	I_CLS
@@ -2893,9 +2893,9 @@ _	PU	O	O
 ได้	AX	O	I_CLS
 เอาตัวรอด	VV	O	I_CLS
 _	PU	O	I_CLS
-4	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+4	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ปี	CL	E_EUR	I_CLS
 ขัดตาทัพ	VV	O	I_CLS
 ไป	AV	O	I_CLS
 ก่อน	AV	O	E_CLS
@@ -2912,7 +2912,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 111	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 แต่	CC	O	B_CLS
 จะ	AX	O	I_CLS
 ตาย	VV	O	I_CLS
@@ -2921,7 +2921,7 @@ _	PU	O	I_CLS
 300	NU	B_MEA	I_CLS
 _	PU	O	I_CLS
 กว่า	AJ	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ผู้	FX	O	I_CLS
 บริหาร	VV	O	I_CLS
 พรรค	NN	B_ORG	I_CLS
@@ -3287,8 +3287,8 @@ _	PU	O	I_CLS
 ได้	AX	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-75	NU	B_MEA	I_CLS
-%	PU	E_MEA	I_CLS
+75	NU	B_NUM	I_CLS
+%	PU	B_MEA	I_CLS
 _	PU	O	I_CLS
 สามารถ	AX	O	I_CLS
 นำ	VV	O	I_CLS
@@ -3493,8 +3493,8 @@ _	PU	O	I_CLS
 ได้	AX	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-75	NU	B_MEA	I_CLS
-%	PU	E_MEA	E_CLS
+75	NU	B_NUM	I_CLS
+%	PU	B_MEA	E_CLS
 
 ขณะ	CC	O	B_CLS
 ที่	CC	O	I_CLS
@@ -3543,12 +3543,12 @@ _	PU	O	O
 _	PU	O	I_CLS
 2,500	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 ช่วง	NN	O	I_CLS
 _	PU	O	I_CLS
-3.	NU	B_MEA	I_CLS
-เดือน	CL	E_MEA	I_CLS
+3.	NU	B_DUR	I_CLS
+เดือน	CL	E_DUR	I_CLS
 แรก	NU	O	I_CLS
 ของ	PS	O	I_CLS
 การ	FX	O	I_CLS
@@ -3784,9 +3784,9 @@ _	PU	O	O
 ทางการ	NN	O	I_CLS
 ไทย	NN	B_COU	E_CLS
 โดยเฉพาะ	CC	O	B_CLS
-คดี	NN	B_EVO	I_CLS
-ฆ่า	VV	I_EVO	I_CLS
-ตัดตอน	VV	E_EVO	I_CLS
+คดี	NN	B_EVH	I_CLS
+ฆ่า	VV	I_EVH	I_CLS
+ตัดตอน	VV	E_EVH	I_CLS
 นั้น	AJ	O	I_CLS
 กรม	NN	B_STY	I_CLS
 สอบสวน	VV	I_STY	I_CLS
@@ -3860,8 +3860,8 @@ _	PU	O	I_CLS
 
 โดยเฉพาะ	CC	O	B_CLS
 กรณี	NN	O	I_CLS
-ฆ่า	VV	B_EVO	I_CLS
-ตัดตอน	VV	E_EVO	I_CLS
+ฆ่า	VV	B_EVH	I_CLS
+ตัดตอน	VV	E_EVH	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 ,	PU	O	I_CLS
@@ -3930,8 +3930,8 @@ _	PU	O	I_CLS
 ทักษิณ	NN	B_PER	I_CLS
 ทำ	VV	O	I_CLS
 ข้อมูล	NN	O	I_CLS
-ฆ่า	VV	B_EVO	I_CLS
-ตัดตอน	VV	E_EVO	I_CLS
+ฆ่า	VV	B_EVH	I_CLS
+ตัดตอน	VV	E_EVH	I_CLS
 ใน	PS	O	I_CLS
 ต่าง	VV	O	I_CLS
 ประเทศ	NN	O	I_CLS
@@ -4023,8 +4023,8 @@ _	PU	O	I_CLS
 ที่	CC	O	B_CLS
 จะ	AX	O	I_CLS
 ดำเนินคดี	VV	O	I_CLS
-ฆ่า	AJ	B_EVO	I_CLS
-ตัดตอน	VV	E_EVO	I_CLS
+ฆ่า	AJ	B_EVH	I_CLS
+ตัดตอน	VV	E_EVH	I_CLS
 กรณี	NN	O	I_CLS
 การ	FX	O	I_CLS
 ทุจริต	VV	O	I_CLS

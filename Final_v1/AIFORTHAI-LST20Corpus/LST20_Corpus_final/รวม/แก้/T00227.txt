@@ -405,9 +405,9 @@ _	PU	I_PER	I_CLS
 
 ประมาณ	AJ	O	B_CLS
 _	PU	O	I_CLS
-20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เปอร์เซ็นต์	CL	E_MEA	I_CLS
+20	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เปอร์เซ็นต์	CL	B_MEA	I_CLS
 ของ	PS	O	I_CLS
 คดี	NN	O	I_CLS
 จะ	AX	O	I_CLS
@@ -421,13 +421,13 @@ _	PU	I_MEA	I_CLS
 ต่ำ	VV	O	I_CLS
 กว่า	AV	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
-70	NU	B_MEA	B_CLS
-_	PU	I_MEA	I_CLS
-เปอร์เซ็นต์	CL	E_MEA	I_CLS
+70	NU	B_NUM	B_CLS
+_	PU	O	I_CLS
+เปอร์เซ็นต์	CL	B_MEA	I_CLS
 เกิด	VV	O	I_CLS
 ใน	PS	O	I_CLS
 วัย	NN	O	I_CLS
@@ -448,24 +448,24 @@ _	PU	I_MEA	I_CLS
 ด้วย	PS	O	I_CLS
 กัน	PR	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-ต่อ	PS	I_NUM	I_CLS
-สอง	NU	E_NUM	I_CLS
+ต่อ	PS	O	I_CLS
+สอง	NU	B_NUM	I_CLS
 ใน	PS	O	I_CLS
 ที่	NN	O	I_CLS
 ลับ	VV	O	E_CLS
 
 อีก	NU	O	B_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เปอร์เซ็นต์	CL	E_MEA	I_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เปอร์เซ็นต์	CL	B_MEA	I_CLS
 ที่	CC	O	I_CLS
 อายุ	NN	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-18	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+18	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 แต่	CC	O	I_CLS
 ถูก	AX	O	I_CLS
 แฟน	NN	O	I_CLS
@@ -581,10 +581,10 @@ _	PU	I_PER	I_CLS
 ความ	FX	O	I_CLS
 ว่า	CC	O	I_CLS
 ครั้ง	CL	O	I_CLS
-เดียว	NU	B_NUM	I_CLS
+เดียว	NU	O	I_CLS
 หรือ	CC	O	I_CLS
 คน	CL	O	I_CLS
-เดียว	NU	B_NUM	I_CLS
+เดียว	NU	O	I_CLS
 จน	CC	O	I_CLS
 ทำให้	CC	O	I_CLS
 ผู้หญิง	NN	O	I_CLS
@@ -739,7 +739,7 @@ _	PU	O	I_CLS
 ไม่	NG	O	I_CLS
 ใช่	VV	O	I_CLS
 คน	CL	O	I_CLS
-เดียว	NU	B_NUM	E_CLS
+เดียว	NU	O	E_CLS
 ที่	CC	O	B_CLS
 เจอ	VV	O	I_CLS
 เหตุการณ์	NN	O	I_CLS

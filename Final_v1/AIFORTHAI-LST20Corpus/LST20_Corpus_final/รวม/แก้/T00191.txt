@@ -42,9 +42,9 @@ _	PU	O	I_CLS
 ไม่	NG	O	I_CLS
 เลิก	VV	O	I_CLS
 "	PU	O	I_CLS
-30	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+30	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	I_CLS
 -	PU	O	I_CLS
 กองทุน	NN	O	I_CLS
 หมู่บ้าน	NN	O	I_CLS
@@ -80,7 +80,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ได้	AX	O	I_CLS
 รวมตัว	VV	O	I_CLS
 กัน	PR	O	I_CLS
@@ -260,7 +260,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 แต่	CC	O	B_CLS
 ด้วย	PS	O	I_CLS
 มโนสำนึก	NN	O	I_CLS
@@ -459,7 +459,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 20	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 เช่น	PS	O	E_CLS
 
@@ -541,7 +541,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 100	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ยืน	VV	O	I_CLS
 กลุ่ม	CL	O	I_CLS
 คัดค้าน	VV	O	I_CLS
@@ -602,7 +602,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 จริง	VV	O	I_CLS
 ก็	CC	O	I_CLS
 จะ	AX	O	I_CLS
@@ -612,7 +612,7 @@ _	PU	O	I_CLS
 แน่นอน	VV	O	E_CLS
 
 น.ส.	NN	B_TTL	B_CLS
-แอน	NN	B_NIC	I_CLS
+แอน	NN	B_PER	I_CLS
 นักศึกษา	NN	B_ROLE	I_CLS
 คณะ	NN	I_ROLE	I_CLS
 ศิลปศาสตร์	NN	I_ROLE	I_CLS
@@ -676,7 +676,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 ทำให้	CC	O	B_CLS
 ไม่	NG	O	I_CLS
@@ -983,7 +983,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หลัง	CL	O	I_CLS
+หลัง	CL	B_MEA	I_CLS
 ออก	VV	O	I_CLS
 จาก	PS	O	I_CLS
 สถานที่	NN	O	I_CLS
@@ -1591,16 +1591,16 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 181	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แห่ง	CL	O	I_CLS
+แห่ง	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 _	PU	O	I_CLS
 22	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-อำเภอ	CL	O	I_CLS
+อำเภอ	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-กิ่งอำเภอ	CL	O	I_CLS
+กิ่งอำเภอ	CL	B_MEA	I_CLS
 ของ	PS	O	I_CLS
 _	PU	O	I_CLS
 จ.	NN	B_PRO	I_CLS
@@ -1690,9 +1690,9 @@ _	PU	O	I_CLS
 กระบะ	NN	E_VEH	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-คัน	CL	E_MEA	I_CLS
+20	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+คัน	CL	B_MEA	I_CLS
 มุ่งหน้า	VV	O	I_CLS
 เข้า	AV	O	I_CLS
 _	PU	O	I_CLS
@@ -1766,9 +1766,9 @@ _	PU	O	I_CLS
 
 นโยบาย	NN	O	B_CLS
 _	PU	O	I_CLS
-30	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+30	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	I_CLS
 รักษา	VV	O	I_CLS
 ทุก	AJ	O	I_CLS
 โรค	CL	O	E_CLS
@@ -1908,9 +1908,9 @@ _	PU	O	I_CLS
 ปชช.	NN	O	I_CLS
 โทร	VV	O	I_CLS
 _	PU	O	I_CLS
-24	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ชั่วโมง	CL	E_MEA	E_CLS
+24	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ชั่วโมง	CL	E_DUR	E_CLS
 
 ต่อมา	CC	O	B_CLS
 เวลา	NN	B_DTM	I_CLS
@@ -1953,9 +1953,9 @@ _	PU	O	I_CLS
 สาระ	NN	O	I_CLS
 สำคัญ	AJ	O	I_CLS
 _	PU	O	I_CLS
-3	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เรื่อง	CL	E_MEA	I_CLS
+3	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เรื่อง	CL	B_MEA	I_CLS
 ด้วย	AV	O	I_CLS
 กัน	PR	O	I_CLS
 คือ	VV	O	E_CLS
@@ -2003,9 +2003,9 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 ตลอด	AV	O	I_CLS
 _	PU	O	I_CLS
-24	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ชั่วโมง	CL	E_MEA	E_CLS
+24	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ชั่วโมง	CL	E_DUR	E_CLS
 
 ด้าน	PS	O	B_CLS
 _	PU	O	I_CLS
@@ -2129,7 +2129,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 17	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-จว.	CL	B	I_CLS
+จว.	CL	B_MEA	I_CLS
 เข้า	AV	O	I_CLS
 พบ	VV	O	E_CLS
 
@@ -2176,7 +2176,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 17	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-จังหวัด	CL	O	I_CLS
+จังหวัด	CL	B_MEA	I_CLS
 ภาค	NN	B_LOC	I_CLS
 เหนือ	NN	E_LOC	I_CLS
 เข้า	AV	O	I_CLS
@@ -2896,9 +2896,9 @@ _	PU	I_PER	I_CLS
 ท้องถิ่น	NN	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-3,000	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-คน	CL	E_MEA	E_CLS
+3,000	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+คน	CL	B_MEA	E_CLS
 
 นักศึกษา	NN	O	B_CLS
 ของ	PS	O	I_CLS
@@ -3164,7 +3164,7 @@ _	PU	O	I_CLS
 ใน	PS	O	I_CLS
 ช่วง	NN	O	I_CLS
 สุด	AV	O	I_CLS
-สัปดาห์	CL	B_DTM	I_CLS
+สัปดาห์	CL	O	I_CLS
 ที่	CC	O	I_CLS
 ผ่าน	VV	O	I_CLS
 มา	AV	O	I_CLS
@@ -3250,9 +3250,9 @@ _	PU	O	I_CLS
 ชุมนุม	VV	O	I_CLS
 ชาวบ้าน	NN	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
+1	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แสน	NU	O	I_CLS
+แสน	NU	B_MEA	I_CLS
 คน	CL	O	I_CLS
 ใน	PS	O	I_CLS
 วันที่	NN	B_DTM	I_CLS
@@ -3450,7 +3450,7 @@ _	PU	I_STY	I_CLS
 _	PU	O	I_CLS
 8-10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	I_CLS
+นาย	CL	B_MEA	I_CLS
 พร้อม	VV	O	I_CLS
 ด้วย	PS	O	I_CLS
 ตำรวจ	NN	B_STY	I_CLS
@@ -3467,9 +3467,9 @@ _	PU	O	I_CLS
 อยู่	AX	O	I_CLS
 ตลอด	AV	O	I_CLS
 _	PU	O	I_CLS
-24	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ชั่วโมง	CL	E_MEA	E_CLS
+24	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ชั่วโมง	CL	B_MEA	E_CLS
 
 ปฏิบัติการ	NN	O	B_CLS
 ครั้ง	CL	O	I_CLS
@@ -3485,12 +3485,12 @@ _	PU	O	I_CLS
 เวลา	NN	O	I_CLS
 กลาง	NN	O	I_CLS
 วัน	NN	O	I_CLS
-ผลัด	NN	B_MEA	I_CLS
-ละ	PS	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-10	NU	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-นาย	CL	E_MEA	E_CLS
+ผลัด	NN	O	I_CLS
+ละ	PS	O	I_CLS
+_	PU	O	I_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+นาย	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 เจ้าหน้าที่	NN	O	I_CLS
@@ -3506,12 +3506,12 @@ _	PU	O	I_CLS
 เวลา	NN	O	I_CLS
 กลาง	NN	O	I_CLS
 คืน	NN	O	I_CLS
-ผลัด	NN	B_MEA	I_CLS
-ละ	AJ	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-10	NU	E_MEA	I_CLS
+ผลัด	NN	O	I_CLS
+ละ	AJ	O	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+นาย	CL	B_MEA	E_CLS
 
 โดย	CC	O	B_CLS
 จะ	AX	O	I_CLS
@@ -3598,7 +3598,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	I_CLS
+นาย	CL	B_MEA	I_CLS
 ได้	AX	O	I_CLS
 ตรวจ	VV	O	I_CLS
 ขบวน	NN	O	I_CLS

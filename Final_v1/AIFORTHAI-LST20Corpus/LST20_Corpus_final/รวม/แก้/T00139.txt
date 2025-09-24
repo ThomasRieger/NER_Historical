@@ -263,10 +263,10 @@ _	PU	O	O
 ไหว	VV	O	E_CLS
 
 ส่วน	CC	O	B_CLS
-คดี	NN	B_EVO	I_CLS
-รถ	NN	I_EVO	I_CLS
-ดับ	VV	I_EVO	I_CLS
-เพลิง	NN	E_EVO	E_CLS
+คดี	NN	O	I_CLS
+รถ	NN	O	I_CLS
+ดับ	VV	O	I_CLS
+เพลิง	NN	O	E_CLS
 ที่	CC	O	B_CLS
 นาย	NN	B_TTL	I_CLS
 สมัคร	NN	B_PER	I_CLS

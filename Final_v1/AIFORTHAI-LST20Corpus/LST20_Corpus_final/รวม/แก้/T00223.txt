@@ -146,15 +146,15 @@ _	PU	I_ROLE	I_CLS
 ปิด	VV	O	I_CLS
 ทำการ	VV	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	E_CLS
+1	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	E_CLS
 _	PU	O	O
 และ	CC	O	B_CLS
 จะ	AX	O	I_CLS
 เปิด	VV	O	I_CLS
 ทำการ	VV	O	I_CLS
-เช้า	NN	B_DTM	I_CLS
+เช้า	NN	B_DUR	I_CLS
 วัน	NN	B_DTM	I_CLS
 จันทร์	NN	I_DTM	I_CLS
 ที่	PS	I_DTM	I_CLS
@@ -191,7 +191,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-จังหวัด	CL	O	I_CLS
+จังหวัด	CL	B_MEA	I_CLS
 ชายแดน	NN	O	I_CLS
 ภาค	NN	O	I_CLS
 ใต้	NN	O	I_CLS
@@ -203,7 +203,7 @@ _	PU	O	I_CLS
 ปกติ	VV	O	E_CLS
 
 ใน	PS	O	B_CLS
-วัน	NN	B_DTM	I_CLS
+วัน	NN	O	I_CLS
 นี้	AJ	O	I_CLS
 คุณหญิง	NN	B_TTL	I_CLS
 ชฎา	NN	B_PER	I_CLS
@@ -545,7 +545,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-จังหวัด	CL	O	I_CLS
+จังหวัด	CL	B_MEA	I_CLS
 ชายแดน	NN	O	I_CLS
 ภาค	NN	O	I_CLS
 ใต้	NN	O	I_CLS
@@ -567,7 +567,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-จังหวัด	CL	O	I_CLS
+จังหวัด	CL	B_MEA	I_CLS
 ชายแดน	NN	O	I_CLS
 ภาค	NN	O	I_CLS
 ใต้	NN	O	E_CLS

@@ -193,9 +193,9 @@ _	PU	O	I_CLS
 นามสกุล	NN	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-51	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+51	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ภูมิลำเนา	NN	O	I_CLS
 อยู่	VV	O	I_CLS
 _	PU	O	I_CLS
@@ -295,9 +295,9 @@ _	PU	O	I_CLS
 ยาว	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	I_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ไต่	VV	O	I_CLS
 ออก	AV	O	I_CLS

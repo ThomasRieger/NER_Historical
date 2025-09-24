@@ -145,7 +145,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 400	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 นักศึกษา	NN	O	B_CLS
 วิทยาลัย	NN	B_EDU	I_CLS
@@ -159,7 +159,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 80	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 นาย	NN	O	B_CLS
 ทหาร	NN	O	I_CLS
@@ -171,7 +171,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 111	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 โดย	CC	O	B_CLS
 มี	VV	O	I_CLS
@@ -288,7 +288,7 @@ _	PU	O	O
 ได้	AX	O	I_CLS
 มี	VV	O	I_CLS
 วิธี	NN	O	I_CLS
-เดียว	NU	B_NUM	I_CLS
+เดียว	NU	O	I_CLS
 คือ	VV	O	I_CLS
 ทำ	VV	O	I_CLS
 ตาม	AV	O	I_CLS
@@ -328,7 +328,7 @@ _	PU	O	O
 มา	VV	O	I_CLS
 หลาย	NU	O	I_CLS
 สิบ	NU	B_NUM	I_CLS
-ครั้ง	CL	O	I_CLS
+ครั้ง	CL	B_MEA	I_CLS
 ฟัง	VV	O	I_CLS
 เข้าใจ	VV	O	E_CLS
 แต่	CC	O	B_CLS
@@ -709,7 +709,7 @@ _	PU	O	I_CLS
 ต้อง	AX	O	I_CLS
 มี	VV	O	I_CLS
 มาตรฐาน	NN	O	I_CLS
-เดียว	NU	B_NUM	E_CLS
+เดียว	NU	O	E_CLS
 
 ไม่	NG	O	B_CLS
 ใช่	VV	O	I_CLS
@@ -1927,8 +1927,8 @@ _	PU	O	I_CLS
 
 หลัง	CC	O	B_CLS
 เหตุการณ์	NN	O	I_CLS
-พฤษภา	NN	B_EVO	I_CLS
-ทมิฬ	VV	E_EVO	E_CLS
+พฤษภา	NN	B_EVH	I_CLS
+ทมิฬ	VV	E_EVH	E_CLS
 ซึ่ง	CC	O	B_CLS
 ถือ	VV	O	I_CLS
 เป็น	VV	O	I_CLS
@@ -2283,7 +2283,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2-3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เป้าหมาย	CL	O	I_CLS
+เป้าหมาย	CL	B_MEA	I_CLS
 ถูก	AX	O	I_CLS
 ทำลาย	VV	O	I_CLS
 บิดเบือน	VV	O	E_CLS
@@ -2400,7 +2400,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 30-50	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 ซึ่ง	CC	O	B_CLS
 จะ	AX	O	I_CLS
@@ -2437,15 +2437,15 @@ _	PU	O	I_CLS
 การ	FX	O	I_CLS
 ทำงาน	VV	O	I_CLS
 _	PU	O	I_CLS
-15-18	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เดือน	CL	E_MEA	I_CLS
+15-18	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+เดือน	CL	E_DUR	I_CLS
 หรือ	CC	O	I_CLS
-ปี	NN	O	I_CLS
-เศษ	NU	O	I_CLS
-ถึง	PS	O	I_CLS
-ปี	NN	O	I_CLS
-ครึ่ง	NU	O	E_CLS
+ปี	NN	B_DUR	I_CLS
+เศษ	NU	I_DUR	I_CLS
+ถึง	PS	I_DUR	I_CLS
+ปี	NN	I_DUR	I_CLS
+ครึ่ง	NU	E_DUR	E_CLS
 
 นาย	NN	B_TTL	B_CLS
 อภิสิทธิ์	NN	B_PER	I_CLS
@@ -2558,14 +2558,14 @@ _	PU	O	O
 การเมือง	NN	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	CL	I_MEA	I_CLS
-ต่อ	PS	I_MEA	I_CLS
-ปี	NN	I_MEA	I_CLS
-ต่อ	PS	I_MEA	I_CLS
-บุคคล	NN	E_MEA	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+บาท	CL	B_MEA	I_CLS
+ต่อ	PS	O	I_CLS
+ปี	NN	O	I_CLS
+ต่อ	PS	O	I_CLS
+บุคคล	NN	O	E_CLS
 
 เพื่อ	CC	O	B_CLS
 ป้องกัน	VV	O	I_CLS
@@ -2686,11 +2686,11 @@ _	PU	O	I_CLS
 สภา	NN	B_ORG	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
+1	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 ใน	PS	O	I_CLS
 _	PU	O	I_CLS
-5	NU	B_MEA	I_CLS
+5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 แน่นอน	VV	O	E_CLS
 
@@ -2755,7 +2755,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 50	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ว่า	CC	O	I_CLS
 เป็น	VV	O	I_CLS
 การ	FX	O	I_CLS
@@ -2847,9 +2847,9 @@ _	PU	O	I_CLS
 รถ	NN	O	I_CLS
 ไฟฟ้า	NN	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	I_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	I_CLS
 สู้	VV	O	I_CLS
 ปชป.	NN	B_ORG	E_CLS
 
@@ -2958,9 +2958,9 @@ _	PU	I_DTM	I_CLS
 รถ	NN	B_VEH	I_CLS
 ไฟฟ้า	NN	E_VEH	I_CLS
 _	PU	O	I_CLS
-3	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	I_CLS
+3	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 เดือน	NN	B_DTM	I_CLS
 มกราคม	NN	I_DTM	I_CLS
@@ -2980,9 +2980,9 @@ _	PU	O	I_CLS
 เหลือ	VV	O	I_CLS
 อีก	AJ	O	I_CLS
 _	PU	O	I_CLS
-7	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	E_CLS
+7	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 จะ	AX	O	I_CLS
 ครบ	VV	O	I_CLS
@@ -3004,11 +3004,11 @@ _	PU	O	I_CLS
 เหลือ	VV	O	I_CLS
 เพียง	AV	O	I_CLS
 เที่ยว	NN	O	I_CLS
-ละ	PS	B_MEA	I_CLS
+ละ	PS	O	I_CLS
 _	PU	O	I_CLS
-15	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+15	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	I_CLS
 นั้น	AJ	O	I_CLS
 จะ	AX	O	I_CLS
 ต้อง	AX	O	I_CLS
@@ -3212,11 +3212,11 @@ _	PU	O	O
 ใช้	VV	O	I_CLS
 เงิน	NN	O	I_CLS
 _	PU	O	I_CLS
-7.5	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-หมื่น	NU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	CL	E_MEA	E_CLS
+7.5	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+หมื่น	NU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+บาท	CL	B_MEA	E_CLS
 เพื่อ	CC	O	B_CLS
 ซื้อ	VV	O	I_CLS
 กิจการ	NN	O	I_CLS
@@ -3269,11 +3269,11 @@ _	PU	O	I_CLS
 ว่า	CC	O	I_CLS
 เงิน	NN	O	I_CLS
 _	PU	O	I_CLS
-7.5	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-หมื่น	NU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+7.5	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+หมื่น	NU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+บาท	CL	B_MEA	I_CLS
 ที่	CC	O	I_CLS
 ไป	AV	O	I_CLS
 ซื้อ	VV	O	I_CLS
@@ -3347,15 +3347,15 @@ _	PU	O	O
 รถไฟ	NN	O	I_CLS
 ใต้	VV	O	I_CLS
 ดิน	NN	O	I_CLS
-สอง	NU	B_MEA	I_CLS
-ต่อ	CL	E_MEA	I_CLS
+สอง	NU	B_NUM	I_CLS
+ต่อ	CL	O	I_CLS
 เสีย	VV	O	I_CLS
 ค่า	NN	O	I_CLS
 แรก	NU	O	I_CLS
 เข้า	VV	O	I_CLS
 แค่	AJ	O	I_CLS
-ครั้ง	NN	B_MEA	I_CLS
-เดียว	NU	E_MEA	E_CLS
+ครั้ง	NN	O	I_CLS
+เดียว	NU	O	E_CLS
 
 ทำไม	PR	O	B_CLS
 ไม่	NG	O	I_CLS
@@ -3368,7 +3368,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ระบบ	CL	O	I_CLS
+ระบบ	CL	B_MEA	I_CLS
 ซึ่ง	CC	O	I_CLS
 ทำ	VV	O	I_CLS
 ได้	AX	O	I_CLS

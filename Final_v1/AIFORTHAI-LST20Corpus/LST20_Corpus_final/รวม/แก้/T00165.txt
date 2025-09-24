@@ -37,9 +37,9 @@ _	PU	I_DTM	I_CLS
 ที่	CC	O	E_CLS
 
 (	PU	O	B_CLS
-11	NU	B_NUM	I_CLS
-_	PU	O	I_CLS
-ต.ค.	NN	B_DTM	I_CLS
+11	NU	B_DTM	I_CLS
+_	PU	I_DTM	I_CLS
+ต.ค.	NN	E_DTM	I_CLS
 )	PU	O	I_CLS
 _	PU	O	I_CLS
 มี	VV	O	I_CLS
@@ -231,7 +231,7 @@ _	PU	I_PER	I_CLS
 ใน	PS	O	I_CLS
 ช่วง	NN	O	I_CLS
 ปลาย	NN	O	I_CLS
-สัปดาห์	CL	B_DTM	I_CLS
+สัปดาห์	CL	O	I_CLS
 นี้	AJ	O	E_CLS
 และ	CC	O	B_CLS
 ใน	PS	O	I_CLS
@@ -707,7 +707,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ป.	NN	O	E_CLS
+ป.	NN	B_MEA	E_CLS
 _	PU	O	O
 ซึ่ง	CC	O	B_CLS
 ก็	AX	O	I_CLS

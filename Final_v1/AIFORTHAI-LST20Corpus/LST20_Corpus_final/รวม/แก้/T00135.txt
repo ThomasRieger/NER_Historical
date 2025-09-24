@@ -1,4 +1,4 @@
-ยธ.	NN	B_STY	B_CLS
+,ยธ.	NN	B_STY	B_CLS
 เสนอ	VV	O	I_CLS
 ตั้ง	VV	O	I_CLS
 กก.	NN	O	I_CLS
@@ -11,7 +11,7 @@
 _	PU	O	I_CLS
 2500	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ศพ	CL	E_MEA	E_CLS
+ศพ	CL	B_MEA	E_CLS
 
 1	NU	B_DTM	B_CLS
 _	PU	I_DTM	I_CLS
@@ -44,7 +44,7 @@ _	PU	O	I_CLS
 ส่วน	CC	O	B_CLS
 คดี	NN	O	I_CLS
 น้อง	NN	B_TTL	I_CLS
-ฟลุค	NN	B_NIC	I_CLS
+ฟลุค	NN	B_PER	I_CLS
 คืบหน้า	VV	O	I_CLS
 ดีเอสไอ	NN	B_STY	I_CLS
 เตรียม	VV	O	I_CLS
@@ -227,7 +227,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ส่วนใหญ่	NN	O	I_CLS
 เป็น	VV	O	I_CLS
 นัก	FX	O	I_CLS
@@ -242,9 +242,9 @@ _	PU	O	I_CLS
 ไม่	NG	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เดือน	CL	E_MEA	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เดือน	CL	B_MEA	E_CLS
 
 จาก	CC	O	B_CLS
 นั้น	PR	O	I_CLS
@@ -336,7 +336,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 12	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คดี	CL	O	E_CLS
+คดี	CL	B_MEA	E_CLS
 และ	CC	O	B_CLS
 คดี	NN	O	I_CLS
 การ	FX	O	I_CLS
@@ -355,7 +355,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2,500	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ศพ	CL	O	E_CLS
+ศพ	CL	B_MEA	E_CLS
 
 ซึ่ง	CC	O	B_CLS
 เป็น	VV	O	I_CLS
@@ -401,13 +401,13 @@ _	PU	I_PER	I_CLS
 ศรีสอาด	NN	E_PER	I_CLS
 หรือ	CC	O	I_CLS
 น้อง	NN	B_TTL	I_CLS
-ฟลุค	NN	B_NIC	I_CLS
+ฟลุค	NN	B_PER	I_CLS
 _	PU	O	I_CLS
 วัย	NN	O	I_CLS
 _	PU	O	I_CLS
-9	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ขวบ	CL	E_MEA	E_CLS
+9	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ขวบ	CL	B_MEA	E_CLS
 
 และ	CC	O	B_CLS
 การ	FX	O	I_CLS
@@ -420,7 +420,7 @@ _	PU	I_PER	I_CLS
 แม่	NN	O	I_CLS
 ของ	PS	O	I_CLS
 น้อง	NN	B_TTL	I_CLS
-ฟลุค	NN	B_NIC	E_CLS
+ฟลุค	NN	B_PER	E_CLS
 
 หลัง	CC	O	B_CLS
 เกิด	VV	O	I_CLS
@@ -501,7 +501,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 มา	AV	O	I_CLS
 รับ	VV	O	I_CLS
 ทราบ	VV	O	I_CLS
@@ -526,7 +526,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 เป็น	VV	O	I_CLS
 ผู้	FX	O	I_CLS
 ยิง	VV	O	I_CLS
@@ -550,7 +550,7 @@ _	PU	O	I_CLS
 ปืน	NN	E_WEA	I_CLS
 ถูก	VV	O	I_CLS
 น้อง	NN	B_TTL	I_CLS
-ฟลุค	NN	B_NIC	I_CLS
+ฟลุค	NN	B_PER	I_CLS
 เสียชีวิต	VV	O	E_CLS
 
 รายงาน	NN	O	B_CLS

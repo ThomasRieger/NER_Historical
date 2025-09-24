@@ -51,9 +51,9 @@ _	PU	O	O
 "	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ต้อง	AX	O	I_CLS
 พ้น	VV	O	I_CLS
 ตำแหน่ง	NN	O	I_CLS
@@ -223,7 +223,7 @@ _	PU	I_PER	I_CLS
 ตัว	NN	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-นาย	CL	O	E_CLS
+นาย	CL	B_MEA	E_CLS
 ว่า	CC	O	B_CLS
 จะ	AX	O	I_CLS
 ปฏิบัติ	VV	O	I_CLS
@@ -247,7 +247,7 @@ _	PU	I_PER	I_CLS
 ของ	PS	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-นาย	CL	O	E_CLS
+นาย	CL	B_MEA	E_CLS
 
 แต่	CC	O	B_CLS
 เพราะ	CC	O	I_CLS
@@ -258,7 +258,7 @@ _	PU	I_PER	I_CLS
 มา	AV	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-นาย	CL	O	I_CLS
+นาย	CL	B_MEA	I_CLS
 ได้	AX	O	I_CLS
 เอื้อ	VV	O	I_CLS
 ประโยชน์	NN	O	I_CLS
@@ -286,7 +286,7 @@ _	PU	I_PER	I_CLS
 ที่	CC	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-นาย	CL	O	I_CLS
+นาย	CL	B_MEA	I_CLS
 จะ	AX	O	I_CLS
 ทำ	VV	O	I_CLS
 ต่อไป	AV	O	I_CLS
@@ -444,7 +444,7 @@ _	PU	O	I_CLS
 ของ	PS	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-ท่าน	CL	O	E_CLS
+ท่าน	CL	B_MEA	E_CLS
 และ	CC	O	B_CLS
 เสียง	NN	O	I_CLS
 สนับสนุน	VV	O	I_CLS
@@ -532,7 +532,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 (	PU	O	I_CLS
 ซึ่ง	CC	O	I_CLS
@@ -562,7 +562,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 นั้น	AJ	O	E_CLS
 หาก	CC	O	B_CLS
 จะ	AX	O	I_CLS
@@ -674,7 +674,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ไว้	AX	O	I_CLS
 และ	CC	O	I_CLS
 ประชาชน	NN	O	I_CLS
@@ -687,7 +687,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 นั้น	AJ	O	E_CLS
 ให้	CC	O	B_CLS
 เป็น	VV	O	I_CLS
@@ -706,7 +706,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 และ	CC	O	I_CLS
 งาน	NN	O	I_CLS
 ของ	PS	O	I_CLS
@@ -725,7 +725,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ดังกล่าว	AJ	O	E_CLS
 ให้	CC	O	B_CLS
 เป็น	VV	O	I_CLS
@@ -734,7 +734,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 เหลือ	VV	O	I_CLS
 ซึ่ง	CC	O	I_CLS
@@ -830,9 +830,9 @@ _	PU	O	I_CLS
 นั้น	AJ	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ส่วน	CC	O	I_CLS
 คุณ	NN	B_TTL	I_CLS
 _	PU	O	I_CLS
@@ -841,9 +841,9 @@ _	PU	O	I_CLS
 ใกล้	VV	O	I_CLS
 จะ	AX	O	I_CLS
 _	PU	O	I_CLS
-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 แล้ว	AX	O	E_CLS
 ซึ่ง	CC	O	B_CLS
 ตาม	PS	O	I_CLS
@@ -859,12 +859,12 @@ _	PU	O	I_CLS
 เมื่อ	PS	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-ท่าน	CL	O	I_CLS
+ท่าน	CL	B_MEA	I_CLS
 จึง	CC	O	I_CLS
 ไม่	NG	O	I_CLS
 อาจ	AX	O	I_CLS
@@ -1127,7 +1127,7 @@ _	PU	O	O
 กกต.	NN	B_STY	I_CLS
 ทั้ง	AJ	O	I_CLS
 _	PU	O	I_CLS
-5	NU	B_MEA	I_CLS
+5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 ท่าน	CL	B_MEA	I_CLS
 ที่	CC	O	I_CLS
@@ -1146,7 +1146,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 แล้ว	AX	O	I_CLS
 จะ	AX	O	I_CLS
 เอา	VV	O	I_CLS

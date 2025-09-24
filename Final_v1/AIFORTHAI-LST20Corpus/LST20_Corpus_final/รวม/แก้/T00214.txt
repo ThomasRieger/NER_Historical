@@ -125,7 +125,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เล่ม	CL	O	I_CLS
+เล่ม	CL	B_MEA	I_CLS
 สุดท้าย	NU	O	I_CLS
 ที่	PS	O	I_CLS
 ห้อง	NN	B_LOC	I_CLS
@@ -504,9 +504,9 @@ _	PU	O	I_CLS
 ให้	CC	O	I_CLS
 เด็ก	NN	O	I_CLS
 _	PU	O	I_CLS
-9	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ขวบ	CL	E_MEA	I_CLS
+9	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ขวบ	CL	B_MEA	I_CLS
 มี	VV	O	I_CLS
 โทรศัพท์	NN	O	I_CLS
 มือถือ	NN	O	I_CLS
@@ -859,7 +859,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เรื่อง	CL	O	I_CLS
+เรื่อง	CL	B_MEA	I_CLS
 อาทิ	CC	O	I_CLS
 _	PU	O	I_CLS
 แฮร์รี่	NN	OR	I_CLS
@@ -903,12 +903,12 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ภาษา	CL	O	I_CLS
+ภาษา	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 _	PU	O	I_CLS
 6	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ประเทศ	CL	O	I_CLS
+ประเทศ	CL	B_MEA	I_CLS
 ได้แก่	CC	O	I_CLS
 _	PU	O	I_CLS
 สหรัฐอเมริกา	NN	B_COU	I_CLS

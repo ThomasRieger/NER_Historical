@@ -221,14 +221,14 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 4.677	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คะแนน	CL	O	I_CLS
+คะแนน	CL	B_MEA	I_CLS
 จาก	PS	O	I_CLS
 คะแนน	NN	O	I_CLS
 เต็ม	VV	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คะแนน	CL	O	E_CLS
+คะแนน	CL	B_MEA	E_CLS
 
 โดย	CC	O	B_CLS
 ปี	NN	O	I_CLS
@@ -239,7 +239,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 4.5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คะแนน	CL	O	I_CLS
+คะแนน	CL	B_MEA	I_CLS
 เท่านั้น	AV	O	I_CLS
 และ	CC	O	I_CLS
 อีก	AJ	O	I_CLS
@@ -395,8 +395,8 @@ _	PU	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
 90	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เปอร์เซ็นต์	CL	E_MEA	E_CLS
+_	PU	O	I_CLS
+เปอร์เซ็นต์	CL	B_MEA	E_CLS
 ถ้า	CC	O	B_CLS
 จะ	AX	O	I_CLS
 ให้	VV	O	I_CLS
@@ -507,9 +507,9 @@ _	PU	O	I_CLS
 อีก	AJ	O	I_CLS
 เพียง	AJ	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เดือน	CL	E_MEA	I_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เดือน	CL	B_MEA	I_CLS
 เท่านั้น	AV	O	E_CLS
 ถ้า	CC	O	B_CLS
 ไป	AV	O	I_CLS
@@ -570,9 +570,9 @@ _	PU	I_MEA	I_CLS
 และ	CC	O	B_CLS
 อีก	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+วัน	CL	B_MEA	I_CLS
 จะ	AX	O	I_CLS
 นำ	VV	O	I_CLS
 หนังสือ	NN	O	I_CLS

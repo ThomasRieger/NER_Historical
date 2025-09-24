@@ -229,10 +229,10 @@ _	PU	O	I_CLS
 ใช้	VV	O	I_CLS
 มา	AV	O	I_CLS
 เป็น	VV	O	I_CLS
-ระยะ	NN	B_DUR	I_CLS
-เวลา	NN	I_DUR	I_CLS
-_	PU	I_DUR	I_CLS
-9	NU	I_DUR	I_CLS
+ระยะ	NN	O	I_CLS
+เวลา	NN	O	I_CLS
+_	PU	O	I_CLS
+9	NU	B_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 ปี	CL	E_DUR	E_CLS
 ที่	CC	O	B_CLS

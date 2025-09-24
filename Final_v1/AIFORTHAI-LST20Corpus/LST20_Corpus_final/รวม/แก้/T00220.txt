@@ -33,15 +33,15 @@
 ให้	AV	O	I_CLS
 ไป	VV	O	I_CLS
 _	PU	O	I_CLS
-200	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	E_CLS
+200	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	E_CLS
 
 พอ	CC	O	B_CLS
 มา	AV	O	I_CLS
 ขอ	VV	O	I_CLS
-ครั้ง	CL	B_MEA	I_CLS
-สอง	NU	E_MEA	I_CLS
+ครั้ง	CL	O	I_CLS
+สอง	NU	B_NUM	I_CLS
 จึง	CC	O	I_CLS
 ปฏิเสธ	VV	O	E_CLS
 
@@ -93,9 +93,9 @@ _	PU	I_PER	I_CLS
 พรมอ่อน	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-39	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+39	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 หนุ่ม	NN	O	I_CLS
 ใบ้	VV	O	E_CLS
 
@@ -113,9 +113,9 @@ _	PU	I_PER	I_CLS
 มุ่งมี	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-29	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+29	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 อยู่	VV	O	I_CLS
 บ้าน	NN	B_LOC	I_CLS
 เลขที่	NN	E_LOC	I_CLS
@@ -216,7 +216,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3-4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 ระหว่าง	PS	O	B_CLS
 นั้น	AJ	O	I_CLS
@@ -247,9 +247,9 @@ _	PU	O	I_CLS
 เงิน	NN	O	I_CLS
 ไป	VV	O	I_CLS
 _	PU	O	I_CLS
-200	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+200	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	I_CLS
 จาก	PS	O	I_CLS
 นั้น	AJ	O	I_CLS
 ได้	AX	O	I_CLS

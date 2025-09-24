@@ -766,7 +766,7 @@ _	PU	O	I_CLS
 มุม	CL	O	I_CLS
 หนึ่ง	NU	O	I_CLS
 มุม	CL	O	I_CLS
-เดียว	NU	B_NUM	E_CLS
+เดียว	NU	O	E_CLS
 
 ชอบ	VV	O	B_CLS
 กัน	PR	O	I_CLS
@@ -901,7 +901,7 @@ _	PU	I_PER	I_CLS
 
 2	NU	B_NUM	B_CLS
 _	PU	O	I_CLS
-แนวทาง	CL	O	I_CLS
+แนวทาง	CL	B_MEA	I_CLS
 คือ	VV	O	I_CLS
 มันนี	NN	O	I_CLS
 อีคอร์นอมี่	NN	O	I_CLS
@@ -1323,7 +1323,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ด้าน	CL	O	E_CLS
+ด้าน	CL	B_MEA	E_CLS
 
 ดังนั้น	CC	O	B_CLS
 จะ	AX	O	I_CLS
@@ -2035,19 +2035,19 @@ _	PU	I_DTM	I_CLS
 จำ	VV	O	I_CLS
 คุก	NN	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+10	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ปี	CL	E_DUR	I_CLS
 ปรับ	VV	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-หมื่น	NU	I_MEA	I_CLS
--	PU	I_MEA	I_CLS
-2	NU	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-แสน	NU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+2	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+หมื่น	NU	I_NUM	I_CLS
+-	PU	I_NUM	I_CLS
+2	NU	I_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+แสน	NU	E_NUM	I_CLS
+บาท	CL	B_MEA	I_CLS
 รวม	VV	O	I_CLS
 ถึง	PS	O	I_CLS
 เพิกถอน	VV	O	I_CLS
@@ -2055,9 +2055,9 @@ _	PU	I_MEA	I_CLS
 การ	FX	O	I_CLS
 เลือกตั้ง	VV	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+10	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ปี	CL	E_DUR	I_CLS
 ตาม	PS	O	I_CLS
 มาตรา	NN	O	I_CLS
 _	PU	O	I_CLS
@@ -2188,10 +2188,10 @@ _	PU	O	I_CLS
 ไกลกังวล	NN	E_LOC	I_CLS
 เพียง	AV	O	I_CLS
 _	PU	O	I_CLS
-20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-กว่า	AV	I_MEA	I_CLS
-กิโลเมตร	CL	E_MEA	I_CLS
+20	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+กว่า	AV	E_NUM	I_CLS
+กิโลเมตร	CL	B_MEA	I_CLS
 เท่านั้น	AV	O	I_CLS
 จึง	CC	O	I_CLS
 ถือ	VV	O	I_CLS
@@ -2551,8 +2551,8 @@ _	PU	I_PER	I_CLS
 กล่าว	VV	O	E_CLS
 ว่า	CC	O	B_CLS
 ทั้ง	AJ	O	I_CLS
-สอง	NU	B_MEA	I_CLS
-คน	CL	E_MEA	I_CLS
+สอง	NU	B_NUM	I_CLS
+คน	CL	B_MEA	I_CLS
 ได้	AX	O	I_CLS
 พูด	VV	O	I_CLS
 ถึง	VV	O	I_CLS
@@ -2674,9 +2674,9 @@ _	PU	I_PER	I_CLS
 ต่อ	PS	O	I_CLS
 ประเทศ	NN	O	I_CLS
 ใน	PS	O	I_CLS
-ช่วง	NN	B_DUR	I_CLS
-_	PU	I_DUR	I_CLS
-4-5	NU	I_DUR	I_CLS
+ช่วง	NN	O	I_CLS
+_	PU	O	I_CLS
+4-5	NU	B_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 ปี	NN	E_DUR	E_CLS
 ที่	CC	O	B_CLS
@@ -2872,9 +2872,9 @@ _	PU	O	I_CLS
 รถ	NN	B_VEH	I_CLS
 ไฟฟ้า	NN	E_VEH	I_CLS
 _	PU	O	I_CLS
-7	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	I_CLS
+7	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	I_CLS
 ปรากฏ	VV	O	E_CLS
 ว่า	CC	O	B_CLS
 พรรค	NN	B_ORG	I_CLS
@@ -2888,9 +2888,9 @@ _	PU	I_MEA	I_CLS
 รถ	NN	B_VEH	I_CLS
 ไฟฟ้า	NN	E_VEH	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	E_CLS
 
 ใน	PS	O	B_CLS
 ส่วน	NN	O	I_CLS
@@ -2919,9 +2919,9 @@ _	PU	O	O
 รถ	NN	B_VEH	I_CLS
 ไฟฟ้า	NN	E_VEH	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	E_CLS
 ต่อมา	CC	O	B_CLS
 ก็	AX	O	I_CLS
 ประกาศ	VV	O	I_CLS
@@ -2929,16 +2929,16 @@ _	PU	I_MEA	I_CLS
 ลง	AV	O	I_CLS
 เหลือ	VV	O	I_CLS
 _	PU	O	I_CLS
-7	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	I_CLS
+7	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	I_CLS
 ก็	AX	O	I_CLS
 เหลือ	VV	O	I_CLS
 เพียง	AV	O	I_CLS
 _	PU	O	I_CLS
-3	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	I_CLS
+3	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	I_CLS
 แล้ว	AX	O	I_CLS
 ก็	AX	O	I_CLS
 กลับ	VV	O	I_CLS
@@ -2946,9 +2946,9 @@ _	PU	I_MEA	I_CLS
 ประกาศ	VV	O	I_CLS
 เป็น	PS	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สาย	CL	E_MEA	I_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+สาย	CL	B_MEA	I_CLS
 อีก	AV	O	E_CLS
 
 ส่วน	NN	O	B_CLS
@@ -3039,9 +3039,9 @@ _	PU	O	I_CLS
 เรื่อง	NN	O	I_CLS
 โครงการ	NN	O	I_CLS
 _	PU	O	I_CLS
-30	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+30	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	I_CLS
 รักษา	VV	O	I_CLS
 ทุก	AJ	O	I_CLS
 โรค	CL	O	I_CLS

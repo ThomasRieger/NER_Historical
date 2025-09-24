@@ -32,10 +32,10 @@
 ค่ำ	NN	O	I_CLS
 ไป	VV	O	I_CLS
 จนถึง	PS	O	I_CLS
-ปลาย	NN	O	I_CLS
-เดือน	NN	B_DTM	I_CLS
-ตุลาคม	NN	I_DTM	I_CLS
-นี้	AJ	E_DTM	E_CLS
+ปลาย	NN	B_DUR	I_CLS
+เดือน	NN	I_DUR	I_CLS
+ตุลาคม	NN	E_DUR	I_CLS
+นี้	AJ	O	E_CLS
 
 (	PU	O	B_CLS
 11	NU	B_DTM	I_CLS
@@ -111,7 +111,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-จังหวัด	NN	O	I_CLS
+จังหวัด	NN	B_MEA	I_CLS
 ดังกล่าว	AJ	O	I_CLS
 มี	VV	O	I_CLS
 ฝน	NN	O	I_CLS
@@ -237,8 +237,8 @@ _	PU	O	I_CLS
 ไป	AV	O	I_CLS
 จน	CC	O	I_CLS
 ถึง	PS	O	I_CLS
-ปลาย	NN	O	I_CLS
-เดือน	NN	B_DTM	I_CLS
-ตุลาคม	NN	I_DTM	I_CLS
+ปลาย	NN	B_DUR	I_CLS
+เดือน	NN	I_DUR	I_CLS
+ตุลาคม	NN	E_DUR	I_CLS
 นี้	AJ	E_DTM	E_CLS
 

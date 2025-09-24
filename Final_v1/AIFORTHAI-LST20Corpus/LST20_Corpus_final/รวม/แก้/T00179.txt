@@ -300,7 +300,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ทาง	NN	O	I_CLS
+ทาง	NN	B_MEA	I_CLS
 คือ	VV	O	E_CLS
 
 ทาง	PS	O	B_CLS
@@ -331,9 +331,9 @@ _	PU	O	I_CLS
 มี	VV	O	I_CLS
 มูลค่า	NN	O	I_CLS
 _	PU	O	I_CLS
-7,414,131	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+7,414,131	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	I_CLS
 จาก	PS	O	E_CLS
 
 บริษัท	NN	B_ORG	B_CLS
@@ -366,10 +366,10 @@ _	PU	O	I_CLS
 ป้าย	NN	O	I_CLS
 จาก	PS	O	I_CLS
 _	PU	O	I_CLS
-4.3	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+4.3	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+บาท	CL	B_MEA	I_CLS
 จาก	PS	O	I_CLS
 คิงพาวเวอร์	NN	B_ORG	E_CLS
 
@@ -685,12 +685,12 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 326	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	I_CLS
+นาย	CL	B_MEA	I_CLS
 ตลอด	PS	O	I_CLS
 _	PU	O	I_CLS
-24	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ชั่วโมง	CL	E_MEA	E_CLS
+24	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ชั่วโมง	CL	E_DUR	E_CLS
 _	PU	O	O
 เพื่อ	CC	O	B_CLS
 อำนวย	VV	O	I_CLS
@@ -717,7 +717,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 450	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คัน	CL	O	E_CLS
+คัน	CL	B_MEA	E_CLS
 
 พ.ต.อ.	NN	B_DES	B_CLS
 ชิษณุพงศ์	NN	B_PER	I_CLS
@@ -734,7 +734,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 7	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เส้นทาง	CL	O	I_CLS
+เส้นทาง	CL	B_MEA	I_CLS
 คือ	VV	O	E_CLS
 
 1.	NU	O	B_CLS
@@ -874,7 +874,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เส้นทาง	NN	O	I_CLS
+เส้นทาง	NN	B_MEA	I_CLS
 คือ	VV	O	E_CLS
 
 1.	NU	O	B_CLS
@@ -926,7 +926,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ชุด	CL	O	E_CLS
+ชุด	CL	B_MEA	E_CLS
 และ	CC	O	B_CLS
 ชุด	NN	O	I_CLS
 ตรวจ	VV	O	I_CLS
@@ -1038,7 +1038,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 7	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เส้นทาง	CL	O	I_CLS
+เส้นทาง	CL	B_MEA	I_CLS
 ตาม	PS	O	I_CLS
 วัน	NN	O	I_CLS
 และ	CC	O	I_CLS

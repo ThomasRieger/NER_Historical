@@ -33,9 +33,9 @@ _	PU	I_DTM	I_CLS
 หวงห้าม	VV	E_MAT	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-80	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-แผ่น	CL	E_MEA	E_CLS
+80	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+แผ่น	CL	B_MEA	E_CLS
 
 เตรียม	VV	O	B_CLS
 นำ	VV	O	I_CLS
@@ -112,8 +112,8 @@ _	PU	O	I_CLS
 ทำการ	VV	O	I_CLS
 ตรวจสอบ	VV	O	I_CLS
 ไม้	NN	B_MAT	I_CLS
-แปรรูป	VV	E_MAT	I_CLS
-หวงห้าม	VV	O	E_CLS
+แปรรูป	VV	I_MAT	I_CLS
+หวงห้าม	VV	E_MAT	E_CLS
 
 เตรียม	VV	O	B_CLS
 นำ	VV	O	I_CLS
@@ -146,7 +146,7 @@ _	PU	O	I_CLS
 ลักลอบ	VV	O	I_CLS
 แปรรูป	VV	O	I_CLS
 ไม้	NN	B_MAT	I_CLS
-หวงห้าม	VV	E_MAT	I_CLS
+หวงห้าม	VV	O	I_CLS
 ใน	PS	O	I_CLS
 บริเวณ	NN	O	I_CLS
 ดังกล่าว	AJ	O	E_CLS
@@ -171,11 +171,11 @@ _	PU	O	I_CLS
 ที่	CC	O	B_CLS
 แปรรูป	VV	O	I_CLS
 แล้ว	AX	O	I_CLS
-จำนวน	NN	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-81	NU	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-แผ่น	CL	E_MEA	I_CLS
+จำนวน	NN	O	I_CLS
+_	PU	O	I_CLS
+81	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+แผ่น	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 เจ้าหน้าที่	NN	O	I_CLS
 จึง	CC	O	I_CLS
@@ -293,9 +293,9 @@ _	PU	O	I_CLS
 เกิน	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-0.20	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ลูกบาศก์	CL	I_MEA	I_CLS
+0.20	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ลูกบาศก์	CL	B_MEA	I_CLS
 เมตร	CL	E_MEA	E_CLS
 โดย	CC	O	B_CLS
 ไม่	NG	O	I_CLS

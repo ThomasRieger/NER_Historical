@@ -3,7 +3,7 @@
 _	PU	O	I_CLS
 30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 เหิมเกริม	VV	O	I_CLS
 ยำ	VV	O	I_CLS
 ต่าง	AJ	O	I_CLS
@@ -20,7 +20,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 เหิมเกริม	VV	O	I_CLS
 รุม	VV	O	I_CLS
 ยำ	VV	O	I_CLS
@@ -133,7 +133,7 @@ _	PU	I_ROLE	I_CLS
 _	PU	O	I_CLS
 30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ยก	VV	O	I_CLS
 พวก	NN	O	I_CLS
 ตี	VV	O	I_CLS
@@ -177,7 +177,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 20	NU	B_MEA	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	E_CLS
+นาย	CL	B_MEA	E_CLS
 
 เมื่อ	PS	O	B_CLS
 ไป	AV	O	I_CLS
@@ -204,9 +204,9 @@ _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-18	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+18	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ขณะ	PS	O	I_CLS
 นอน	VV	O	I_CLS
 หมด	VV	O	I_CLS
@@ -272,9 +272,9 @@ _	PU	O	I_CLS
 ชาวไทย	NN	B_NAT	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-25	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+25	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 ซึ่ง	CC	O	B_CLS
 เป็น	VV	O	I_CLS
 เพื่อน	NN	O	I_CLS
@@ -309,7 +309,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 เดินทาง	VV	O	I_CLS
 มา	AV	O	I_CLS
 เที่ยว	VV	O	I_CLS
@@ -345,7 +345,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 วิ่ง	VV	O	I_CLS
 เข้า	AV	O	I_CLS
 มา	AV	O	I_CLS

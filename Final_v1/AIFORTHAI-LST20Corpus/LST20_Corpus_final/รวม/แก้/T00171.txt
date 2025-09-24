@@ -83,9 +83,9 @@ _	PU	I_PER	I_CLS
 ได้	AX	O	E_CLS
 เพราะ	CC	O	B_CLS
 ใน	PS	O	I_CLS
-ช่วง	NN	B_DUR	I_CLS
-_	PU	I_DUR	I_CLS
-1-2	NU	I_DUR	I_CLS
+ช่วง	NN	O	I_CLS
+_	PU	O	I_CLS
+1-2	NU	B_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 วัน	CL	E_DUR	I_CLS
 นี้	AJ	O	I_CLS
@@ -112,9 +112,9 @@ _	PU	I_DUR	I_CLS
 ช่วยเหลือ	VV	O	I_CLS
 ประชาชน	NN	O	I_CLS
 _	PU	O	I_CLS
-33	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ชุมชน	CL	E_MEA	E_CLS
+33	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ชุมชน	CL	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 พักอาศัย	VV	O	I_CLS
 อยู่	VV	O	I_CLS
@@ -181,9 +181,9 @@ _	PU	I_MEA	I_CLS
 ฉุกเฉิน	VV	O	I_CLS
 ไว้	AX	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ส่วน	CL	E_MEA	E_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ส่วน	CL	B_MEA	E_CLS
 เพื่อ	CC	O	B_CLS
 ช่วยเหลือ	VV	O	I_CLS
 ประชาชน	NN	O	E_CLS
@@ -232,9 +232,9 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 ตลอด	PS	O	I_CLS
 _	PU	O	I_CLS
-24	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ชั่วโมง	CL	E_MEA	I_CLS
+24	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ชั่วโมง	CL	E_DUR	I_CLS
 ที่	PS	O	I_CLS
 หมายเลข	NN	O	I_CLS
 โทรศัพท์	NN	O	I_CLS
@@ -347,9 +347,9 @@ _	PU	O	I_CLS
 ใน	PS	O	I_CLS
 ระยะ	NN	O	I_CLS
 _	PU	O	I_CLS
-1-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+1-2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 นี้	AJ	O	E_CLS
 
 สำหรับ	CC	O	B_CLS

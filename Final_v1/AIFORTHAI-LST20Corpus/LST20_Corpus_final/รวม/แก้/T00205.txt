@@ -9,7 +9,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 5	NU	B_MEA	I_CLS
 _	PU	O	I_CLS
-มูลนิธิ	NN	O	I_CLS
+มูลนิธิ	NN	B_MEA	I_CLS
 การ	FX	O	E_CLS
 
 เนบราสกา	NN	B_LOC	B_CLS
@@ -27,7 +27,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 700,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หุ้น	CL	O	I_CLS
+หุ้น	CL	B_MEA	I_CLS
 ของ	PS	O	I_CLS
 เบิร์กไชร์	NN	B_PER	I_CLS
 _	PU	I_PER	I_CLS
@@ -41,7 +41,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แห่ง	CL	O	I_CLS
+แห่ง	CL	B_MEA	I_CLS
 ตาม	PS	O	I_CLS
 เป้า	NN	O	E_CLS
 ที่	CC	O	B_CLS
@@ -84,7 +84,7 @@ _	PU	I_ORG	I_CLS
 _	PU	O	I_CLS
 602,500	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หุ้น	CL	O	I_CLS
+หุ้น	CL	B_MEA	I_CLS
 ให้	VV	O	I_CLS
 กับ	PS	O	I_CLS
 มูลนิธิ	NN	O	I_CLS
@@ -93,7 +93,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แห่ง	CL	O	I_CLS
+แห่ง	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 คิด	VV	O	I_CLS
 เป็น	VV	O	I_CLS
@@ -103,10 +103,10 @@ _	PU	O	I_CLS
 มาก	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-1,940	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-ดอลลาร์	CL	E_MEA	I_CLS
+1,940	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+ดอลลาร์	CL	B_MEA	I_CLS
 ตาม	PS	O	I_CLS
 ราคา	NN	O	I_CLS
 ปิด	VV	O	I_CLS
@@ -131,7 +131,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 500,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หุ้น	CL	O	I_CLS
+หุ้น	CL	B_MEA	I_CLS
 จะ	AX	O	I_CLS
 ตก	VV	O	I_CLS
 ไป	AV	O	I_CLS
@@ -188,10 +188,10 @@ _	PU	O	I_CLS
 อยู่	AX	O	I_CLS
 ทั้งหมด	AJ	O	I_CLS
 _	PU	O	I_CLS
-43,800	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-ดอลลาร์	CL	E_MEA	I_CLS
+43,800	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+ดอลลาร์	CL	B_MEA	I_CLS
 ให้	CC	O	I_CLS
 กับ	PS	O	I_CLS
 การ	FX	O	I_CLS
@@ -231,14 +231,14 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-หุ้น	CL	O	I_CLS
+หุ้น	CL	B_MEA	I_CLS
 มูลค่า	NN	O	I_CLS
 ราว	AJ	O	I_CLS
 _	PU	O	I_CLS
-16	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-ดอลลาร์	CL	E_MEA	I_CLS
+16	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+ดอลลาร์	CL	B_MEA	I_CLS
 ให้	VV	O	I_CLS
 กับ	PS	O	I_CLS
 มูลนิธิ	NN	O	I_CLS
@@ -264,7 +264,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-มูลนิธิ	NN	O	E_CLS
+มูลนิธิ	NN	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 นาย	NN	B_TTL	I_CLS
 บัฟเฟตต์	NN	B_PER	I_CLS

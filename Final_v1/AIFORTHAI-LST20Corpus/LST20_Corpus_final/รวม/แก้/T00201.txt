@@ -24,9 +24,9 @@ _	PU	I_NUM	I_CLS
 ทั่ว	PS	O	I_CLS
 กรุงเทพฯ	NN	B_PRO	I_CLS
 _	PU	O	I_CLS
-77	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-จุด	CL	E_MEA	I_CLS
+77	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+จุด	CL	B_MEA	I_CLS
 พร้อม	CC	O	I_CLS
 ติด	VV	O	I_CLS
 กล้อง	NN	O	I_CLS
@@ -115,9 +115,9 @@ _	PU	O	I_CLS
 นาน	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_NUM	I_CLS
-_	PU	O	I_CLS
-ชั่วโมง	CL	E_MEA	E_CLS
+2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ชั่วโมง	CL	E_DUR	E_CLS
 
 ภายหลัง	PS	O	B_CLS
 การ	FX	O	I_CLS
@@ -130,7 +130,7 @@ _	PU	O	I_CLS
 การ	FX	O	I_CLS
 ประชุม	VV	O	I_CLS
 ใน	PS	O	I_CLS
-วัน	NN	B_DTM	I_CLS
+วัน	NN	O	I_CLS
 นี้	AJ	O	I_CLS
 เป็น	VV	O	I_CLS
 การ	FX	O	I_CLS
@@ -157,11 +157,11 @@ _	PU	O	I_CLS
 แล้ว	AX	O	I_CLS
 จำนวน	NN	O	I_CLS
 _	PU	O	I_CLS
-60	NU	B_MEA	I_CLS
+60	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 กว่า	AJ	O	I_CLS
-ทาง	NN	O	I_CLS
-แยก	VV	O	E_CLS
+ทาง	NN	B_MEA	I_CLS
+แยก	VV	E_MEA	E_CLS
 
 โดย	CC	O	B_CLS
 ได้	AX	O	I_CLS
@@ -179,10 +179,10 @@ _	PU	O	I_CLS
 เพิ่ม	VV	O	I_CLS
 อีก	AJ	O	I_CLS
 _	PU	O	I_CLS
-77	NU	B_MEA	I_CLS
+77	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ทาง	NN	O	I_CLS
-แยก	VV	O	E_CLS
+ทาง	NN	B_MEA	I_CLS
+แยก	VV	E_MEA	E_CLS
 เพื่อ	CC	O	B_CLS
 ให้	CC	O	I_CLS
 ศูนย์	NN	B_STY	I_CLS
@@ -230,10 +230,10 @@ _	PU	O	O
 นี้	AJ	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-300	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	CL	E_MEA	E_CLS
+300	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+บาท	CL	B_MEA	E_CLS
 
 ขณะนี้	NN	O	B_CLS
 ติด	VV	O	I_CLS
@@ -243,7 +243,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 7	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ทาง	CL	O	E_CLS
+ทาง	CL	B_MEA	E_CLS
 
 พ.ต.อ.	NN	B_DES	B_CLS
 ภาณุมาศ	NN	B_PER	I_CLS
@@ -282,14 +282,14 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 30	NU	B_MEA	I_CLS
 _	PU	O	I_CLS
-ทาง	NN	O	I_CLS
-แยก	VV	O	I_CLS
+ทาง	NN	B_MEA	I_CLS
+แยก	VV	E_MEA	I_CLS
 งบประมาณ	NN	O	I_CLS
 _	PU	O	I_CLS
-170	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	CL	E_MEA	E_CLS
+170	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+บาท	CL	B_MEA	E_CLS
 
 ขณะนี้	NN	O	B_CLS
 ทำการ	VV	O	I_CLS
@@ -299,10 +299,10 @@ _	PU	I_MEA	I_CLS
 แล้ว	AX	O	I_CLS
 จำนวน	NN	O	I_CLS
 _	PU	O	I_CLS
-5	NU	B_MEA	I_CLS
+5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ทาง	NN	O	I_CLS
-แยก	VV	O	E_CLS
+ทาง	NN	B_MEA	I_CLS
+แยก	VV	E_MEA	E_CLS
 
 ซึ่ง	CC	O	B_CLS
 กล้อง	NN	O	I_CLS

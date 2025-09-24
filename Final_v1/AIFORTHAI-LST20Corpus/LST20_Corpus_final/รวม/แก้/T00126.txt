@@ -166,9 +166,9 @@ _	PU	I_PER	I_CLS
 กัน	AV	O	I_CLS
 มี	VV	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ลักษณะ	CL	E_MEA	I_CLS
+2	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ลักษณะ	CL	B_MEA	I_CLS
 คือ	VV	O	E_CLS
 หาก	CC	O	B_CLS
 เป็น	VV	O	I_CLS

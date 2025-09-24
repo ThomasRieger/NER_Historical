@@ -41,9 +41,9 @@
 ไม่	NG	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	E_CLS
+10	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	E_CLS
 
 ด้าน	PS	O	B_CLS
 ทนาย	NN	O	I_CLS
@@ -155,9 +155,9 @@ _	PU	O	I_CLS
 ไม่	NG	O	I_CLS
 เกิน	AV	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+10	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 นี้	AJ	O	I_CLS
 ตามที่	CC	O	I_CLS
 พล.ต.ท.	NN	B_DES	I_CLS
@@ -204,9 +204,9 @@ _	PU	O	I_CLS
 จังหวัด	NN	O	I_CLS
 ทั้งหมด	NU	O	I_CLS
 _	PU	O	I_CLS
-4	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-จุด	CL	E_MEA	I_CLS
+4	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+จุด	CL	B_MEA	I_CLS
 ด้วย	PS	O	I_CLS
 กัน	PR	O	E_CLS
 
@@ -317,7 +317,7 @@ _	PU	O	I_CLS
 ดูแล	VV	O	I_CLS
 คดี	NN	O	I_CLS
 _	PU	O	I_CLS
-3	NU	B_MEA	E_CLS
+3	NU	B_NUM	E_CLS
 
 ดังนั้น	CC	O	B_CLS
 การ	FX	O	I_CLS
@@ -624,9 +624,9 @@ _	PU	O	I_CLS
 ทำลาย	VV	O	I_CLS
 ถึง	PS	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-กิโลเมตร	CL	E_MEA	I_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+กิโลเมตร	CL	B_MEA	I_CLS
 นั้น	AJ	O	I_CLS
 ไม่	NG	O	I_CLS
 เป็น	VV	O	I_CLS
@@ -636,20 +636,20 @@ _	PU	I_MEA	I_CLS
 โดย	CC	O	B_CLS
 นำ	VV	O	I_CLS
 กรณี	NN	O	I_CLS
-เหตุการณ์	NN	B_EVO	I_CLS
-ระเบิด	VV	I_EVO	I_CLS
-ที่	CC	I_EVO	I_CLS
-กอง	CL	I_EVO	I_CLS
-สรรพาวุธ	NN	I_EVO	I_CLS
-ทหาร	NN	I_EVO	I_CLS
-บก	NN	I_EVO	I_CLS
-ย่าน	NN	I_EVO	I_CLS
-สะพาน	NN	I_EVO	I_CLS
-แดง	NN	I_EVO	I_CLS
-เมื่อ	PS	I_EVO	I_CLS
-ปี	NN	I_EVO	I_CLS
-_	PU	I_EVO	I_CLS
-2523	NU	E_EVO	I_CLS
+เหตุการณ์	NN	B_EVH	I_CLS
+ระเบิด	VV	I_EVH	I_CLS
+ที่	CC	I_EVH	I_CLS
+กอง	CL	I_EVH	I_CLS
+สรรพาวุธ	NN	I_EVH	I_CLS
+ทหาร	NN	I_EVH	I_CLS
+บก	NN	I_EVH	I_CLS
+ย่าน	NN	I_EVH	I_CLS
+สะพาน	NN	I_EVH	I_CLS
+แดง	NN	I_EVH	I_CLS
+เมื่อ	PS	I_EVH	I_CLS
+ปี	NN	I_EVH	I_CLS
+_	PU	I_EVH	I_CLS
+2523	NU	E_EVH	I_CLS
 _	PU	O	I_CLS
 มา	AV	O	I_CLS
 เปรียบเทียบ	VV	O	E_CLS
@@ -675,7 +675,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 1.4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-เท่า	NN	O	E_CLS
+เท่า	NN	B_MEA	E_CLS
 ซึ่ง	CC	O	B_CLS
 ใน	PS	O	I_CLS
 คลัง	NN	O	I_CLS
@@ -686,7 +686,7 @@ _	PU	O	I_CLS
 มาก	VV	O	I_CLS
 กว่า	NU	O	I_CLS
 _	PU	O	I_CLS
-1.5	NU	B_MEA	I_CLS
+1.5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 ตัน	CL	B_MEA	E_CLS
 
@@ -714,9 +714,9 @@ _	PU	O	I_CLS
 ไม่	NG	O	I_CLS
 ถึง	PS	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-กิโลเมตร	CL	E_MEA	I_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+กิโลเมตร	CL	B_MEA	I_CLS
 และ	CC	O	I_CLS
 ผู้คน	NN	O	I_CLS
 ที่	CC	O	I_CLS
@@ -730,9 +730,9 @@ _	PU	I_MEA	I_CLS
 ระยะ	NN	O	I_CLS
 ห่าง	VV	O	I_CLS
 เพียง	AV	O	I_CLS
-ร้อย	NU	B_MEA	I_CLS
-กว่า	AV	I_MEA	I_CLS
-เมตร	CL	E_MEA	I_CLS
+ร้อย	NU	B_NUM	I_CLS
+กว่า	AV	E_NUM	I_CLS
+เมตร	CL	B_MEA	I_CLS
 นั้น	AJ	O	I_CLS
 ก็	AX	O	I_CLS
 ไม่	NG	O	I_CLS
@@ -745,9 +745,9 @@ _	PU	I_MEA	I_CLS
 รัศมี	NN	O	I_CLS
 ทำลายล้าง	VV	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-กิโลเมตร	CL	E_MEA	I_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+กิโลเมตร	CL	B_MEA	I_CLS
 จริง	VV	O	I_CLS
 ก็	CC	O	I_CLS
 แสดง	VV	O	I_CLS
@@ -767,9 +767,9 @@ _	PU	I_MEA	I_CLS
 ถึง	PS	O	I_CLS
 กว่า	NU	O	I_CLS
 _	PU	O	I_CLS
-3	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ตาราง	CL	I_MEA	I_CLS
+3	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ตาราง	CL	B_MEA	I_CLS
 กิโลเมตร	CL	E_MEA	E_CLS
 
 ผู้	FX	O	B_CLS

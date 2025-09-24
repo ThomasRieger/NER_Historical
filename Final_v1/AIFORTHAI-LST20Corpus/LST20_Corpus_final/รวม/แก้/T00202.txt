@@ -66,7 +66,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 16	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 ทั้งนี้	CC	O	B_CLS
 ตั้งแต่	PS	O	I_CLS
@@ -105,7 +105,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ชื่อ	NN	O	I_CLS
 _	PU	O	I_CLS
@@ -211,7 +211,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ชื่อ	NN	O	I_CLS
 _	PU	O	I_CLS
@@ -309,7 +309,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ชื่อ	NN	O	I_CLS
 _	PU	O	I_CLS
@@ -382,7 +382,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ชื่อ	NN	O	I_CLS
 _	PU	O	I_CLS

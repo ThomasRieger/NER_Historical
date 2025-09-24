@@ -298,7 +298,7 @@ _	PU	O	I_CLS
 ซ้อน	VV	O	I_CLS
 กัน	AV	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-ชั้น	CL	B_MEA	I_CLS
+ชั้น	CL	E_MEA	I_CLS
 _	PU	O	I_CLS
 เป็น	VV	O	I_CLS
 เครื่อง	NN	O	I_CLS

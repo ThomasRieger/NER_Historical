@@ -5,9 +5,9 @@
 วาง	VV	O	I_CLS
 ระเบิด	NN	B_WEA	I_CLS
 _	PU	O	I_CLS
-5	NU	B_MEA	I_CLS
+5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-โรงเรียน	NN	O	I_CLS
+โรงเรียน	NN	B_MEA	I_CLS
 ย่าน	NN	O	E_CLS
 
 1	NU	B_DTM	B_CLS
@@ -27,9 +27,9 @@ _	PU	I_DTM	I_CLS
 วาง	VV	O	I_CLS
 ระเบิด	NN	B_WEA	I_CLS
 _	PU	O	I_CLS
-5	NU	B_MEA	I_CLS
+5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-โรงเรียน	NN	O	I_CLS
+โรงเรียน	NN	B_MEA	I_CLS
 ย่าน	NN	O	I_CLS
 เขต	NN	B_DIS	I_CLS
 บางมด	NN	I_DIS	I_CLS
@@ -140,14 +140,14 @@ _	PU	O	I_CLS
 มี	VV	O	I_CLS
 ทั้งหมด	AJ	O	I_CLS
 _	PU	O	I_CLS
-3.	NU	B_MEA	I_CLS
+3.	NU	B_NUM	I_CLS
 อาคาร	CL	E_MEA	I_CLS
 นักเรียน	NN	O	I_CLS
 ทั้งหมด	AJ	O	I_CLS
 _	PU	O	I_CLS
 1,500	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 
 อย่างไรก็ตาม	CC	O	B_CLS
 ภายใน	PS	O	I_CLS
@@ -254,7 +254,7 @@ _	PU	O	I_CLS
 อาคาร	NN	O	I_CLS
 เรียน	VV	O	I_CLS
 ที	CL	O	I_CLS
-ละ	AJ	B_MEA	I_CLS
+ละ	AJ	O	I_CLS
 หลัง	CL	O	I_CLS
 พร้อม	CC	O	I_CLS
 มีการ	FX	O	I_CLS
@@ -437,7 +437,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-โรงเรียน	CL	O	I_CLS
+โรงเรียน	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 โรงเรียน	NN	B_EDU	I_CLS
 วัด	NN	I_EDU	I_CLS

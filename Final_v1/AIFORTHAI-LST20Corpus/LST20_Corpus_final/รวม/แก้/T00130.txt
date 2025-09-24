@@ -122,9 +122,9 @@ _	PU	I_PER	I_CLS
 แผลกระโทก	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-34	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+34	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 แพทย์	NN	O	I_CLS
 นำ	VV	O	I_CLS
@@ -176,9 +176,9 @@ _	PU	I_PER	I_CLS
 สิงห์ธุสิน	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-35	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+35	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 และ	CC	O	B_CLS
 มี	VV	O	I_CLS
 ลูกสาว	NN	O	I_CLS
@@ -191,9 +191,9 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_NUM	I_CLS
 _	PU	O	I_CLS
 เรียน	VV	O	I_CLS
 อยู่	AX	O	I_CLS
@@ -216,9 +216,9 @@ _	PU	O	I_CLS
 นี้	AJ	O	I_CLS
 ได้	AX	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+1	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ปี	CL	E_DUR	E_CLS
 
 ขณะเดียวกัน	CC	O	B_CLS
 นาง	NN	B_TTL	I_CLS
@@ -384,7 +384,7 @@ _	PU	I_MEA	I_CLS
 เหล้า	NN	B_PRT	E_CLS
 แล้ว	CC	O	B_CLS
 ใช้	VV	O	I_CLS
-มีด	NN	B_PRT	I_CLS
+มีด	NN	B_WEA	I_CLS
 คัตเตอร์	NN	E_PRT	I_CLS
 ตัด	VV	O	I_CLS
 อวัยวะ	NN	O	I_CLS

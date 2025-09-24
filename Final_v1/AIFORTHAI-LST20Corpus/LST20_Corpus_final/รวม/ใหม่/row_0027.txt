@@ -176,9 +176,9 @@ _	PU	O	I_CLS
 พระชนมายุ	NN	O	I_CLS
 ได้	AX	O	I_CLS
 _	PU	O	I_CLS
-44	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-พรรษา	CL	E_MEA	I_CLS
+44	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+พรรษา	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ชาว	FX	O	I_CLS
 จังหวัด	NN	B_PRO	I_CLS

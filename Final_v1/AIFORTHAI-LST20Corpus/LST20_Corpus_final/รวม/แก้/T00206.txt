@@ -304,9 +304,9 @@ _	PU	O	I_CLS
 ประพฤติ	VV	O	I_CLS
 นาน	PS	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 แต่	CC	O	B_CLS
 เรือนจำ	NN	O	I_CLS
@@ -593,9 +593,9 @@ _	PU	O	I_CLS
 คุม	VV	O	I_CLS
 ประพฤติ	VV	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 จะ	AX	O	I_CLS
 ต้อง	AX	O	I_CLS
 ปฏิบัติ	VV	O	I_CLS
@@ -604,11 +604,11 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 8	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ข้อ	CL	O	I_CLS
+ข้อ	CL	B_MEA	I_CLS
 ดัง	PS	O	I_CLS
 นี้	AJ	O	E_CLS
 
-1.	NU	O	B_CLS
+1.	NU	B_NUM	B_CLS
 จะ	AX	O	I_CLS
 ต้อง	AX	O	I_CLS
 พักอาศัย	VV	O	I_CLS
@@ -621,7 +621,7 @@ _	PU	O	I_CLS
 กับ	PS	O	I_CLS
 เรือนจำ	NN	O	E_CLS
 
-2.	NU	O	B_CLS
+2.	NU	B_NUM	B_CLS
 ห้าม	VV	O	I_CLS
 ออก	AV	O	I_CLS
 นอก	PS	O	I_CLS
@@ -634,7 +634,7 @@ _	PU	O	I_CLS
 ได้รับ	VV	O	I_CLS
 อนุญาต	VV	O	E_CLS
 
-3.	NU	O	B_CLS
+3.	NU	B_NUM	B_CLS
 ห้าม	VV	O	I_CLS
 ประพฤติ	VV	O	I_CLS
 ตน	PR	O	I_CLS
@@ -653,7 +653,7 @@ _	PU	O	I_CLS
 ขึ้น	VV	O	I_CLS
 อีก	AV	O	E_CLS
 
-4.	NU	O	B_CLS
+4.	NU	B_NUM	B_CLS
 ประกอบอาชีพ	VV	O	I_CLS
 โดย	FX	O	I_CLS
 สุจริต	VV	O	E_CLS
@@ -687,7 +687,7 @@ _	PU	O	I_CLS
 
 และ	CC	O	B_CLS
 _	PU	O	I_CLS
-8.	NU	O	I_CLS
+8.	NU	B_NUM	I_CLS
 ให้	CC	O	I_CLS
 ไป	AV	O	I_CLS
 รายงาน	VV	O	I_CLS
@@ -990,7 +990,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 11	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คดี	CL	O	I_CLS
+คดี	CL	B_MEA	I_CLS
 มีการ	FX	O	I_CLS
 กระทำ	VV	O	I_CLS
 ความ	FX	O	I_CLS
@@ -998,7 +998,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ข้อหา	NN	O	I_CLS
+ข้อหา	NN	B_MEA	I_CLS
 คือ	VV	O	E_CLS
 
 1.	NU	O	B_CLS
@@ -1046,7 +1046,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 2	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 นาย	NN	B_TTL	I_CLS
 จรัญ	NN	B_PER	I_CLS
 และ	CC	O	I_CLS

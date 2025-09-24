@@ -592,8 +592,8 @@ _	PU	I_DTM	I_CLS
 ไป	AV	O	I_CLS
 ประชุม	VV	O	I_CLS
 ที่	PS	O	I_CLS
-เกาหลี	NN	B_LOC	I_CLS
-สัปดาห์	CL	B_DTM	I_CLS
+เกาหลี	NN	B_COU	I_CLS
+สัปดาห์	CL	O	I_CLS
 นี้	AJ	O	E_CLS
 แต่	CC	O	B_CLS
 ผม	PR	O	I_CLS
@@ -738,7 +738,7 @@ _	PU	O	I_CLS
 เป็น	VV	O	I_CLS
 อดีต	NN	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
+1	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 ใน	PS	O	I_CLS
 _	PU	O	I_CLS
