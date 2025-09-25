@@ -114,13 +114,17 @@ model = AutoModelForTokenClassification.from_pretrained(
 # pip install --upgrade transformers in case of tranformer error
 training_args = TrainingArguments(
     output_dir="./NER_TrainingArgs", 
-    logging_strategy="steps", logging_steps=50,
-    per_device_train_batch_size=4,
-    num_train_epochs=25,
-    learning_rate=3e-5,
+    num_train_epochs=3,
+    learning_rate=5e-5,
+    per_device_train_batch_size=8,
+    gradient_accumulation_steps=2,
     fp16=torch.cuda.is_available(),
-    save_steps=1000, save_total_limit=1,
-    report_to="none", eval_strategy="no"
+    logging_strategy="steps",
+    logging_steps=50,
+    save_strategy="steps",
+    save_steps=500,
+    save_total_limit=1,
+    eval_strategy="no",
 )
 
 # trainer
