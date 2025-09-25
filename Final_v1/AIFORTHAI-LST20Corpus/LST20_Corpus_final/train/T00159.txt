@@ -109,7 +109,7 @@ _	PU	O	I_CLS
 บ้าน	NN	O	I_CLS
 หลาย	AJ	O	I_CLS
 สิบ	NU	B_NUM	I_CLS
-หลัง	CL	O	I_CLS
+หลัง	CL	B_MEA	I_CLS
 ก่อสร้าง	VV	O	I_CLS
 ล้ำ	VV	O	I_CLS
 เข้า	AV	O	I_CLS
@@ -141,7 +141,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 100	NU	B_MEA	I_CLS
 _	PU	O	I_CLS
-ครอบครัว	CL	O	E_CLS
+ครอบครัว	CL	B_MEA	E_CLS
 
 โดย	CC	O	B_CLS
 ชาวบ้าน	NN	O	I_CLS
@@ -157,14 +157,14 @@ _	PU	O	I_CLS
 เกือบ	AJ	O	I_CLS
 เดือน	NN	O	I_CLS
 บาง	AJ	O	I_CLS
-วัน	CL	B_MEA	I_CLS
+วัน	CL	O	I_CLS
 น้ำ	NN	O	I_CLS
 สูง	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 และ	CC	O	B_CLS
 เริ่ม	VV	O	I_CLS
 ส่ง	VV	O	I_CLS
@@ -261,9 +261,9 @@ _	PU	I_PER	I_CLS
 เจ้าพระยา	NN	E_RIV	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-40	NU	B_MEA	I_CLS
+40	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ครอบครัว	CL	O	E_CLS
+ครอบครัว	CL	B_MEA	E_CLS
 จากที่	CC	O	B_CLS
 มี	VV	O	I_CLS
 อยู่	VV	O	I_CLS
@@ -292,9 +292,9 @@ _	PU	O	I_CLS
 ความ	FX	O	I_CLS
 ยาว	VV	O	I_CLS
 _	PU	O	I_CLS
-100	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+100	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 เพราะ	CC	O	B_CLS
 ที่	CC	O	I_CLS
 ผ่าน	VV	O	I_CLS
@@ -342,9 +342,9 @@ _	PU	O	I_CLS
 ที่	PS	O	I_CLS
 ระดับ	NN	O	I_CLS
 _	PU	O	I_CLS
-3,657	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ลบ.ม.	PU	I_MEA	I_CLS
+3,657	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ลบ.ม.	PU	B_MEA	I_CLS
 วินาที	CL	E_MEA	E_CLS
 และ	CC	O	B_CLS
 ระดับ	NN	O	I_CLS
@@ -352,9 +352,9 @@ _	PU	I_MEA	I_CLS
 สูง	VV	O	I_CLS
 สุด	AV	O	I_CLS
 _	PU	O	I_CLS
-2.12	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	I_CLS
+2.12	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	I_CLS
 จาก	PS	O	I_CLS
 ระดับ	PS	O	I_CLS
 น้ำ	NN	O	I_CLS
@@ -387,17 +387,17 @@ _	PU	O	I_CLS
 ใน	PS	O	I_CLS
 ระดับ	NN	O	I_CLS
 _	PU	O	I_CLS
-3	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+3	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 และ	CC	O	B_CLS
 วาง	VV	O	I_CLS
 กระสอบ	NN	B_MAT	I_CLS
 ทราย	NN	E_MAT	I_CLS
 _	PU	O	I_CLS
-2.7	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+2.7	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 
 ส่วน	CC	O	B_CLS
 ที่	CC	O	I_CLS
@@ -571,9 +571,9 @@ _	PU	O	I_CLS
 กว้าง	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เมตร	CL	E_MEA	E_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+เมตร	CL	B_MEA	E_CLS
 
 ซึ่ง	CC	O	B_CLS
 ทาง	NN	O	I_CLS
@@ -645,9 +645,9 @@ _	PU	O	I_CLS
 บ้านเรือน	NN	O	I_CLS
 ประชาชน	NN	O	I_CLS
 กว่า	AJ	O	I_CLS
-หนึ่ง	NU	B_MEA	I_CLS
-พัน	NU	I_MEA	I_CLS
-หลังคา	CL	E_MEA	I_CLS
+หนึ่ง	NU	B_NUM	I_CLS
+พัน	NU	E_NUM	I_CLS
+หลังคา	CL	B_MEA	I_CLS
 เรือน	CL	O	E_CLS
 และ	CC	O	B_CLS
 ท่วม	VV	O	I_CLS
@@ -655,7 +655,7 @@ _	PU	O	I_CLS
 เกษตรกรรม	NN	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-5,000	NU	B_MEA	I_CLS
+5,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 ไร่	CL	B_MEA	E_CLS
 _	PU	O	O
@@ -707,7 +707,7 @@ _	PU	O	I_CLS
 ดังกล่าว	AJ	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-1,000	NU	B_MEA	I_CLS
+1,000	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 หลังคา	CL	B_MEA	I_CLS
 เรือน	CL	O	E_CLS
@@ -734,7 +734,7 @@ _	PU	O	I_CLS
 เงิน	NN	O	I_CLS
 จำนวน	NN	O	I_CLS
 _	PU	O	I_CLS
-100,000	NU	B_MEA	E_CLS
+100,000	NU	B_NUM	E_CLS
 _	PU	O	O
 เพื่อ	CC	O	B_CLS
 ช่วย	VV	O	I_CLS
@@ -860,9 +860,9 @@ _	PU	O	I_CLS
 ขัง	VV	O	I_CLS
 ตั้งแต่	PS	O	I_CLS
 _	PU	O	I_CLS
-50-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	E_CLS
+50-70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	E_CLS
 
 ห้าง	NN	B_LOC	B_CLS
 สรรพสินค้า	NN	I_LOC	I_CLS
@@ -898,9 +898,9 @@ _	PU	O	O
 สูง	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-30	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	I_CLS
+30	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ถนน	NN	B_ROA	I_CLS
 ปาริชาติ	NN	E_ROA	I_CLS
@@ -911,9 +911,9 @@ _	PU	O	I_CLS
 สูง	VV	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-60	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	I_CLS
+60	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ถนน	NN	B_ROA	I_CLS
 สวรรค์วิถี	NN	E_ROA	I_CLS
@@ -923,9 +923,9 @@ _	PU	O	I_CLS
 ขัง	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-30-40	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	I_CLS
+30-40	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ถนน	NN	B_ROA	I_CLS
 โกสีย์	NN	E_ROA	I_CLS
@@ -935,9 +935,9 @@ _	PU	O	I_CLS
 ขัง	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-20-30	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	I_CLS
+20-30	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ถนน	NN	B_ROA	I_CLS
 มาตุลี	NN	E_ROA	I_CLS
@@ -947,9 +947,9 @@ _	PU	O	I_CLS
 ขัง	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-20-40	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	E_CLS
+20-40	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	E_CLS
 
 นอกจาก	PS	O	B_CLS
 นี้	AJ	O	I_CLS
@@ -977,9 +977,9 @@ _	PU	I_MEA	I_CLS
 ขัง	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-50-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	E_CLS
+50-70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	E_CLS
 _	PU	O	O
 และ	CC	O	B_CLS
 ใน	PS	O	I_CLS
@@ -995,9 +995,9 @@ _	PU	O	O
 ขัง	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-60-70	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ซม.	CL	E_MEA	E_CLS
+60-70	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ซม.	CL	B_MEA	E_CLS
 
 จาก	PS	O	B_CLS
 สภาพ	NN	O	I_CLS
@@ -1223,9 +1223,9 @@ _	PU	I_PER	I_CLS
 ปั้นเหน่งเพชร	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-33	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+33	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 อยู่	VV	O	I_CLS
 บ้าน	NN	B_LOC	I_CLS
 เลขที่	NN	I_LOC	I_CLS
@@ -1250,8 +1250,8 @@ _	PU	O	I_CLS
 ด้วย	PS	O	I_CLS
 การ	FX	O	I_CLS
 นำ	VV	O	I_CLS
-เรือ	NN	B_PRT	I_CLS
-ไม้	NN	E_PRT	I_CLS
+เรือ	NN	B_VEH	I_CLS
+ไม้	NN	E_VEH	I_CLS
 มา	AV	O	I_CLS
 ขาย	VV	O	E_CLS
 
@@ -1259,8 +1259,8 @@ _	PU	O	I_CLS
 ไป	AV	O	I_CLS
 รับ	VV	O	I_CLS
 ซื้อ	VV	O	I_CLS
-เรือ	NN	B_PRT	I_CLS
-ไม้	NN	E_PRT	E_CLS
+เรือ	NN	B_VEH	I_CLS
+ไม้	NN	E_VEH	E_CLS
 ทั้ง	CC	O	B_CLS
 เก่า	VV	O	E_CLS
 และ	CC	O	B_CLS
@@ -1275,12 +1275,12 @@ _	PU	O	I_CLS
 สุพรรณบุรี	NN	E_PRO	I_CLS
 ใน	PS	O	I_CLS
 ราคา	NN	O	I_CLS
-ลำ	CL	B_MEA	I_CLS
-ละ	AJ	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-5,000-6,000	NU	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+ลำ	CL	O	I_CLS
+ละ	AJ	O	I_CLS
+_	PU	O	I_CLS
+5,000-6,000	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	I_CLS
 ขนาด	NN	O	I_CLS
 และ	CC	O	I_CLS
 สภาพ	NN	O	I_CLS
@@ -1296,9 +1296,9 @@ _	PU	I_MEA	I_CLS
 ได้	AX	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-สัปดาห์	CL	E_MEA	I_CLS
+2	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+สัปดาห์	CL	E_DUR	I_CLS
 แล้ว	AX	O	E_CLS
 
 จาก	PS	O	B_CLS
@@ -1310,13 +1310,13 @@ _	PU	I_MEA	I_CLS
 กำไร	NN	O	I_CLS
 เป็น	VV	O	I_CLS
 รายได้	NN	O	I_CLS
-ลำ	CL	B_MEA	I_CLS
-ละ	AJ	I_MEA	I_CLS
-ประมาณ	AJ	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-1,000-2,000	NU	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-บาท	CL	E_MEA	E_CLS
+ลำ	CL	O	I_CLS
+ละ	AJ	O	I_CLS
+ประมาณ	AJ	O	I_CLS
+_	PU	O	I_CLS
+1,000-2,000	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+บาท	CL	B_MEA	E_CLS
 โดย	CC	O	B_CLS
 ขาย	VV	O	I_CLS
 ใน	PS	O	I_CLS
@@ -1412,7 +1412,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 1	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 ที่	PS	O	I_CLS
 หมู่	NN	O	I_CLS
 _	PU	O	I_CLS
@@ -1482,9 +1482,9 @@ _	PU	I_PER	I_CLS
 นิ่มเคียง	NN	E_PER	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-34	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+34	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 อยู่	VV	O	I_CLS
 บ้าน	NN	B_LOC	I_CLS
 เลขที่	NN	I_LOC	I_CLS
@@ -1493,7 +1493,7 @@ _	PU	I_LOC	I_CLS
 _	PU	O	I_CLS
 หมู่	NN	O	I_CLS
 _	PU	O	I_CLS
-3.	NU	B_MEA	I_CLS
+3.	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
 ต.	NN	B_SUB	I_CLS
 บึงเสนาท	NN	E_SUB	I_CLS

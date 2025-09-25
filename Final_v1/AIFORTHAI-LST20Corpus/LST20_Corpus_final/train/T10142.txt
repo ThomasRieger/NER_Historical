@@ -91,9 +91,9 @@ _ PU O I_CLS
 กำหนด NN O I_CLS
 บวช VV O I_CLS
 _ PU O I_CLS
-17 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA I_CLS
+17 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+วัน CL E_DUR I_CLS
 _ PU O I_CLS
 ลาสิกขาบท VV O I_CLS
 _ PU O I_CLS

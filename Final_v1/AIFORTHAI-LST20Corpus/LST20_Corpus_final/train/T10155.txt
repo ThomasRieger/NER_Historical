@@ -81,7 +81,7 @@ _ PU O I_CLS
 เลบานอน NN E_NAT I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-30 NU B_MEA I_CLS
+30 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -89,17 +89,17 @@ _ PU O I_CLS
 เงิน NN O I_CLS
 ว่าจ้าง VV O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+2 NU B_NUM I_CLS
+_ PU 0 I_CLS
+ล้าน NU B_MEA I_CLS
 ดอลลาร์ CL E_MEA I_CLS
 _ PU O I_CLS
 หรือ PS O I_CLS
 ราว AJ O I_CLS
 _ PU O I_CLS
-70 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+70 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA E_CLS
 
 เศรษฐี NN O B_CLS
@@ -160,11 +160,11 @@ _ PU O I_CLS
 ทามิม NN B_PER I_CLS
 _ PU O I_CLS
 อยู่ AX O I_CLS
-นาน VV O I_CLS
-_ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU O I_CLS
-ปี CL B_MEA E_CLS
+นาน VV B_DUR I_CLS
+_ PU I_DUR I_CLS
+3 NU I_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR E_CLS
 ก่อน CC O B_CLS
 แยก VV O I_CLS
 ทาง NN O I_CLS
@@ -216,7 +216,7 @@ _ PU O I_CLS
 
 ไม่ NG O B_CLS
 กี่ NU O I_CLS
-เดือน CL B_MEA I_CLS
+เดือน CL O I_CLS
 ต่อมา AV O I_CLS
 มี VV O I_CLS
 ผู้ FX O I_CLS

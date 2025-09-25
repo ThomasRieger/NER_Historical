@@ -163,9 +163,9 @@ _	PU	O	I_CLS
 )	PU	O	I_CLS
 _	PU	O	I_CLS
 เรื่องราว	NN	O	I_CLS
-สมัย	NN	O	I_CLS
-ก่อน	PS	O	I_CLS
-ประวัติศาสตร์	NN	O	I_CLS
+สมัย	NN	B_ERA	I_CLS
+ก่อน	PS	I_ERA	I_CLS
+ประวัติศาสตร์	NN	E_ERA	I_CLS
 ของ	PS	O	I_CLS
 ชุมพร	NN	O	I_CLS
 _	PU	O	I_CLS

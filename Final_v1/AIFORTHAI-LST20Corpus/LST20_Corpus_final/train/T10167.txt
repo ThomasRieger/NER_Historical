@@ -323,8 +323,8 @@ _ PU O I_CLS
 ได้ AX O I_CLS
 ใช้ VV O I_CLS
 กระเป๋า NN O I_CLS
-สตางค์ NN B_MEA I_CLS
-เดียว NU E_MEA I_CLS
+สตางค์ NN O I_CLS
+เดียว NU O I_CLS
 กัน PR O I_CLS
 _ PU O I_CLS
 ก็ CC O I_CLS

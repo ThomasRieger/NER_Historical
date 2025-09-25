@@ -37,9 +37,9 @@ _	PU	O	I_CLS
 เป็น	VV	O	I_CLS
 ชาย	NN	O	I_CLS
 _	PU	O	I_CLS
-59	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+59	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ชาว	FX	O	I_CLS
 หนองบัวลำภู	NN	B_PRO	I_CLS
 มี	VV	O	I_CLS
@@ -181,7 +181,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 1	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ราย	CL	O	I_CLS
+ราย	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 เป็น	VV	O	I_CLS
 ราย	CL	O	I_CLS
@@ -229,9 +229,9 @@ _	PU	O	I_CLS
 นี้	AJ	O	I_CLS
 อายุ	NN	O	I_CLS
 _	PU	O	I_CLS
-59	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+59	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 อยู่	VV	O	I_CLS
 หมู่	NN	B_LOC	I_CLS
 ที่	PS	I_LOC	I_CLS
@@ -325,7 +325,7 @@ H5N1	NN	B_DSE	I_CLS
 _	PU	O	I_CLS
 50	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ไม่	NG	O	I_CLS
 พบ	VV	O	E_CLS
 ว่า	CC	O	B_CLS
@@ -434,7 +434,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 40	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ตัว	CL	O	E_CLS
+ตัว	CL	B_MEA	E_CLS
 
 ก่อน	PS	O	B_CLS
 ที่	CC	O	I_CLS
@@ -546,7 +546,7 @@ Acinetobacter	NN	O	I_CLS
 _	PU	O	I_CLS
 40-50	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ตัว	CL	O	E_CLS
+ตัว	CL	B_MEA	E_CLS
 
 แพทย์	NN	O	B_CLS
 ที่	CC	O	I_CLS
@@ -569,9 +569,9 @@ _	PU	O	I_CLS
 รพ.	NN	B	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-14	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+14	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 ภรรยา	NN	O	I_CLS
 ของ	PS	O	I_CLS
 ผู้	FX	O	I_CLS
@@ -916,9 +916,9 @@ _	PU	I_DUR	I_CLS
 ไม่	NG	O	I_CLS
 เกิน	AJ	O	I_CLS
 _	PU	O	I_CLS
-10	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+10	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 จะ	AX	O	I_CLS
 เสียชีวิต	VV	O	E_CLS
 ดังนั้น	CC	O	B_CLS
@@ -953,7 +953,7 @@ _	PU	O	O
 _	PU	O	I_CLS
 9	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ครั้ง	CL	O	I_CLS
+ครั้ง	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 มาก	VV	O	I_CLS
 ที่สุด	AV	O	I_CLS
@@ -1036,7 +1036,7 @@ _	PU	I_DUR	I_CLS
 _	PU	O	I_CLS
 12	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-แห่ง	CL	O	I_CLS
+แห่ง	CL	B_MEA	I_CLS
 _	PU	O	I_CLS
 ทั่ว	PS	O	I_CLS
 ประเทศ	NN	O	I_CLS
@@ -1056,12 +1056,12 @@ _	PU	O	I_CLS
 อย่าง	FX	O	I_CLS
 ต่อเนื่อง	VV	O	I_CLS
 ตรวจ	VV	O	I_CLS
-วัน	CL	B_MEA	I_CLS
-ละ	AJ	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-10	NU	I_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ตัวอย่าง	CL	E_MEA	I_CLS
+วัน	CL	O	I_CLS
+ละ	AJ	O	I_CLS
+_	PU	O	I_CLS
+10	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ตัวอย่าง	CL	B_MEA	I_CLS
 ไม่	NG	O	I_CLS
 มี	VV	O	I_CLS
 ตัวอย่าง	NN	O	I_CLS
@@ -1251,8 +1251,8 @@ _	PU	I_DUR	I_CLS
 หวัด	NN	I_DSE	I_CLS
 นก	NN	E_DSE	I_CLS
 ใน	PS	O	I_CLS
-สอง	NU	B_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+สอง	NU	B_DUR	I_CLS
+ปี	CL	E_DUR	E_CLS
 ที่	CC	O	B_CLS
 ผ่าน	VV	O	I_CLS
 มา	AV	O	I_CLS

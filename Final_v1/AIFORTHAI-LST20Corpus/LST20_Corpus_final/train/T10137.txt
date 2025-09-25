@@ -207,7 +207,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-63 NU B_MEA I_CLS
+63 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -219,7 +219,7 @@ _ PU O I_CLS
 นาน VV O I_CLS
 ถึง PS O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
+5 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA E_CLS
 _ PU O O
@@ -286,7 +286,7 @@ _ PU O I_CLS
 สถาน NN O I_CLS
 ทูต NN O I_CLS
 _ PU O I_CLS
-30 NU B_MEA I_CLS
+30 NU B_NUM I_CLS
 _ PU O I_CLS
 ประเทศ CL B_MEA I_CLS
 ใน PS O I_CLS
@@ -351,7 +351,7 @@ _ PU O O
 ของ PS O I_CLS
 ทั้ง AJ O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
+3 NU B_NUM I_CLS
 _ PU O I_CLS
 ประเทศ CL B_MEA E_CLS
 ว่า CC O B_CLS

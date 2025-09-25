@@ -27,9 +27,9 @@
 ข้อ	NN	O	I_CLS
 คิดเห็น	VV	O	I_CLS
 _	PU	O	I_CLS
-4	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ประเด็น	CL	E_MEA	I_CLS
+4	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ประเด็น	CL	B_MEA	I_CLS
 ให้	CC	O	E_CLS
 _	PU	O	O
 คปค.	NN	B_ORG	B_CLS
@@ -161,13 +161,13 @@ _	PU	O	I_CLS
 ของ	PS	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สาม	NU	B_NUM	I_CLS
-เครือข่าย	CL	O	E_CLS
+เครือข่าย	CL	B_MEA	E_CLS
 ว่า	CC	O	B_CLS
 ตลอด	VV	O	I_CLS
-ระยะ	NN	B_DUR	I_CLS
-เวลา	NN	I_DUR	I_CLS
-_	PU	I_DUR	I_CLS
-8	NU	I_DUR	I_CLS
+ระยะ	NN	O	I_CLS
+เวลา	NN	O	I_CLS
+_	PU	O	I_CLS
+8	NU	B_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 เดือน	CL	E_DUR	E_CLS
 ที่	CC	O	B_CLS
@@ -398,7 +398,7 @@ _	PU	O	I_CLS
 บน	PS	O	I_CLS
 ทาง	NN	O	I_CLS
 สาม	NU	B_NUM	I_CLS
-แพร่ง	NN	O	E_CLS
+แพร่ง	NN	B_MEA	E_CLS
 
 แพร่ง	NN	O	B_CLS
 แรก	NU	O	I_CLS
@@ -468,7 +468,7 @@ _	PU	O	I_CLS
 
 ทาง	NN	O	B_CLS
 สอง	NU	B_NUM	I_CLS
-แพร่ง	NN	O	I_CLS
+แพร่ง	NN	B_MEA	I_CLS
 แรก	NU	O	I_CLS
 เป็น	VV	O	I_CLS
 เส้นทาง	NN	O	I_CLS
@@ -542,7 +542,7 @@ _	PU	O	I_CLS
 
 ทั้ง	AJ	O	B_CLS
 สาม	NU	B_NUM	I_CLS
-เครือข่าย	CL	O	I_CLS
+เครือข่าย	CL	B_MEA	I_CLS
 ขอ	VV	O	I_CLS
 เป็น	VV	O	I_CLS
 กำลังใจ	NN	O	I_CLS
@@ -580,7 +580,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 4	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ประเด็น	CL	O	I_CLS
+ประเด็น	CL	B_MEA	I_CLS
 คือ	VV	O	E_CLS
 
 1.	NU	O	B_CLS
@@ -664,9 +664,9 @@ _	PU	O	I_CLS
 ไม่	NG	O	I_CLS
 เกิน	VV	O	I_CLS
 _	PU	O	I_CLS
-6	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เดือน	CL	E_MEA	E_CLS
+6	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+เดือน	CL	E_DTM	E_CLS
 
 2.	NU	O	B_CLS
 _	PU	O	I_CLS
@@ -906,7 +906,7 @@ _	PU	I_PER	I_CLS
 มา	AV	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ได้	AX	O	I_CLS
 ใช้	VV	O	I_CLS
 วิชาชีพ	NN	O	E_CLS
@@ -944,7 +944,7 @@ _	PU	O	O
 ว่า	CC	O	I_CLS
 ทั้ง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 จะ	AX	O	I_CLS
 ได้	AX	O	I_CLS
 ตัดสินใจ	VV	O	I_CLS
@@ -1396,7 +1396,7 @@ _	PU	O	I_CLS
 หน้าที่	NN	O	I_CLS
 เพียง	AJ	O	I_CLS
 สอง	NU	B_NUM	I_CLS
-ขั้นตอน	CL	O	I_CLS
+ขั้นตอน	CL	B_MEA	I_CLS
 คือ	VV	O	I_CLS
 จะ	AX	O	I_CLS
 มี	VV	O	I_CLS
@@ -1408,7 +1408,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 20-30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 ที่	CC	O	B_CLS
 จะ	AX	O	I_CLS
 ทำการ	VV	O	I_CLS
@@ -1554,8 +1554,8 @@ _	PU	O	O
 วัน	NN	O	I_CLS
 ยึด	VV	O	I_CLS
 อำนาจ	NN	O	I_CLS
-เจ็ด	NU	B_MEA	I_CLS
-วัน	NU	I_MEA	I_CLS
+เจ็ด	NU	B_DUR	I_CLS
+วัน	NU	E_DUR	I_CLS
 รสช.	NN	B_ORG	E_CLS
 _	PU	O	O
 ก็	CC	O	B_CLS
@@ -1567,8 +1567,8 @@ _	PU	O	O
 
 หลังจาก	CC	O	B_CLS
 นั้น	AJ	O	I_CLS
-หนึ่ง	NU	B_MEA	I_CLS
-วัน	CL	E_MEA	I_CLS
+หนึ่ง	NU	B_DUR	I_CLS
+วัน	CL	E_DUR	I_CLS
 ก็	CC	O	I_CLS
 ตั้ง	VV	O	I_CLS
 นายก	NN	O	I_CLS
@@ -1609,9 +1609,9 @@ _	PU	I_PER	I_CLS
 ใช้	VV	O	I_CLS
 เวลา	NN	O	I_CLS
 _	PU	O	I_CLS
-4	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-เดือน	CL	E_MEA	I_CLS
+4	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+เดือน	CL	E_DUR	I_CLS
 เศษ	AJ	O	E_CLS
 และ	CC	O	B_CLS
 มีการ	FX	O	I_CLS
@@ -1619,7 +1619,7 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 30	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-ครั้ง	CL	O	E_CLS
+ครั้ง	CL	B_MEA	E_CLS
 
 เรา	PR	O	B_CLS
 ก็	CC	O	I_CLS

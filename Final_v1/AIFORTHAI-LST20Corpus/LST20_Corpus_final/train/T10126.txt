@@ -137,8 +137,8 @@ _ PU O I_CLS
 รอง NN B_DES I_CLS
 แชมป์ NN O I_CLS
 โลก NN O I_CLS
-อันดับ NN B_MEA I_CLS
-_ PU I_MEA I_CLS
+อันดับ NN O I_CLS
+_ PU O I_CLS
 12 NU E_NUM I_CLS
 _ PU O I_CLS
 ชาว FX B_NAT I_CLS
@@ -400,8 +400,8 @@ _ PU O I_CLS
 น็อก VV O I_CLS
 เพียง AJ O I_CLS
 แค่ AJ O I_CLS
-ครั้ง CL B_MEA I_CLS
-เดียว NU E_MEA I_CLS
+ครั้ง CL O I_CLS
+เดียว NU O I_CLS
 เท่านั้น AV O E_CLS
 _ PU O O
 ซึ่ง CC O B_CLS

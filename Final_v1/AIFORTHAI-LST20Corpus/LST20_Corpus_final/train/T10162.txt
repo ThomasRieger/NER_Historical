@@ -312,7 +312,7 @@ _ PU O I_CLS
 เกาหลีใต้ NN B_COU I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-62 NU B_MEA I_CLS
+62 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -489,9 +489,9 @@ _ PU O I_CLS
 สินบน NN O I_CLS
 มูลค่า NN O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+6 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 เหรียญ CL I_MEA I_CLS
 สหรัฐ NN E_MEA I_CLS
 ของ PS O I_CLS

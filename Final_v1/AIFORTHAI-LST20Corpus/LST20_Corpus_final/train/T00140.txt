@@ -123,7 +123,7 @@ _	PU	I_PER	I_CLS
 ทำ	VV	O	I_CLS
 เป็น	VV	O	I_CLS
 พ็อคเก็ต	NN	B_PRT	I_CLS
-บุ๊ค	NN	I_PRT	I_CLS
+บุ๊ค	NN	E_PRT	I_CLS
 ชื่อ	NN	O	I_CLS
 ทักษิณ	NN	B_PER	I_CLS
 :	PU	O	I_CLS
@@ -557,7 +557,7 @@ _	PU	O	I_CLS
 การ	FX	O	I_CLS
 พูดคุย	VV	O	I_CLS
 ใน	PS	O	I_CLS
-วัน	NN	B_DTM	I_CLS
+วัน	NN	O	I_CLS
 นั้น	AJ	O	E_CLS
 ว่า	CC	O	B_CLS
 เป็น	VV	O	I_CLS
@@ -1046,7 +1046,7 @@ _	PU	O	O
 เรียน	VV	O	I_CLS
 กัน	AV	O	I_CLS
 คน	CL	O	I_CLS
-ละ	AJ	B_MEA	I_CLS
+ละ	AJ	O	I_CLS
 ห้อง	NN	O	I_CLS
 ผม	PR	O	I_CLS
 เป็น	VV	O	I_CLS
@@ -1387,8 +1387,8 @@ _	PU	O	I_CLS
 ออก	VV	O	I_CLS
 จาก	PS	O	I_CLS
 การเมือง	NN	O	I_CLS
-อย่าง	CL	B_MEA	I_CLS
-เดียว	NU	E_MEA	E_CLS
+อย่าง	CL	O	I_CLS
+เดียว	NU	O	E_CLS
 โดย	CC	O	B_CLS
 ไม่	NG	O	I_CLS
 คำนึง	VV	O	E_CLS
@@ -1751,10 +1751,10 @@ _	PU	O	I_CLS
 มูลค่า	NN	O	I_CLS
 ราว	AJ	O	I_CLS
 _	PU	O	I_CLS
-280	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	NN	E_MEA	E_CLS
+280	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+ล้าน	NU	I_NUM	I_CLS
+บาท	NN	B_MEA	E_CLS
 
 นอกจาก	PS	O	B_CLS
 นั้น	AJ	O	I_CLS
@@ -1958,10 +1958,10 @@ _	PU	O	I_CLS
 ทำงาน	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-2	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-แสน	NU	I_MEA	I_CLS
-บาท	CL	E_MEA	I_CLS
+2	NU	B_NUM	I_CLS
+_	PU	I_NUM	I_CLS
+แสน	NU	I_NUM	I_CLS
+บาท	CL	B_MEA	I_CLS
 เดินทาง	VV	O	I_CLS
 ไป	AV	O	I_CLS
 วาง	VV	O	I_CLS

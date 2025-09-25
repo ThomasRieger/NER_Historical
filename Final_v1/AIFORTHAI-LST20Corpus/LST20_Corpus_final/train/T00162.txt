@@ -104,9 +104,9 @@ _	PU	O	I_CLS
 ทำงาน	VV	O	I_CLS
 ทุก	AJ	O	I_CLS
 วัน	CL	O	I_CLS
-อีก	AJ	B_DUR	I_CLS
-_	PU	I_DUR	I_CLS
-10	NU	I_DUR	I_CLS
+อีก	AJ	O	I_CLS
+_	PU	O	I_CLS
+10	NU	B_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 ปี	CL	E_DUR	I_CLS
 ก็	CC	O	I_CLS
@@ -256,7 +256,7 @@ _	PU	I_PER	I_CLS
 _	PU	O	I_CLS
 5	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 เดินทาง	VV	O	I_CLS
 เข้า	AV	O	I_CLS
 ให้ปากคำ	VV	O	E_CLS
@@ -510,7 +510,7 @@ _	PU	I_DTM	I_CLS
 ใน	PS	O	I_CLS
 ราชกิจจานุเบกษา	NN	O	I_CLS
 ภายใน	PS	O	I_CLS
-สัปดาห์	CL	B_DTM	I_CLS
+สัปดาห์	CL	O	I_CLS
 นี้	AJ	O	E_CLS
 
 เพื่อ	CC	O	B_CLS
@@ -652,7 +652,7 @@ _	PU	I_DTM	I_CLS
 _	PU	O	I_CLS
 40	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	E_CLS
+นาย	CL	B_MEA	E_CLS
 แต่	CC	O	B_CLS
 วัน	NN	O	I_CLS
 นี้	AJ	O	I_CLS
@@ -661,7 +661,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 80	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-นาย	CL	O	E_CLS
+นาย	CL	B_MEA	E_CLS
 
 พร้อม	CC	O	B_CLS
 กับ	CC	O	I_CLS

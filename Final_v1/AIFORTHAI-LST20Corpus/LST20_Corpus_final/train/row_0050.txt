@@ -211,9 +211,9 @@ _	PU	O	I_CLS
 ภัย	NN	E_EDU	I_CLS
 _	PU	O	I_CLS
 ใน	PS	O	I_CLS
-สงคราม	NN	B_ERA	I_CLS
-โลก	NN	I_ERA	I_CLS
-ครั้ง	CL	I_ERA	I_CLS
-ที่	PS	I_ERA	I_CLS
-_	PU	I_ERA	I_CLS
-2	NU	E_ERA	E_CLS
+สงคราม	NN	B_EVH	I_CLS
+โลก	NN	I_EVH	I_CLS
+ครั้ง	CL	I_EVH	I_CLS
+ที่	PS	I_EVH	I_CLS
+_	PU	I_EVH	I_CLS
+2	NU	E_EVH	E_CLS

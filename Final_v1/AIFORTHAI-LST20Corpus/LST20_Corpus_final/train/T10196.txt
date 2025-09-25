@@ -11,9 +11,9 @@ _ PU O I_CLS
 - PU O I_CLS
 ขาย VV O I_CLS
 _ PU O I_CLS
-1.8 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-หมื่น NU I_MEA I_CLS
+1.8 NU B_NUM I_CLS
+_ PU O I_CLS
+หมื่น NU B_MEA I_CLS
 ล. NU E_MEA E_CLS
 
 ปตท. NN B_ORG B_CLS
@@ -38,14 +38,14 @@ _ PU O I_CLS
 เพิ่ม VV O I_CLS
 ขึ้น AV O I_CLS
 _ PU O I_CLS
-293 NU B_MEA I_CLS
+293 NU B_NUM I_CLS
 _ PU O I_CLS
 หลักทรัพย์ CL B_MEA I_CLS
 _ PU O I_CLS
 ลด VV O I_CLS
 ลง AV O I_CLS
 _ PU O I_CLS
-58 NU B_MEA I_CLS
+58 NU B_NUM I_CLS
 _ PU O I_CLS
 หลักทรัพย์ CL B_MEA I_CLS
 ... PU O E_CLS
@@ -88,9 +88,9 @@ _ PU O O
 ซื้อขาย VV O I_CLS
 ทั้งสิ้น NU O I_CLS
 _ PU O I_CLS
-18,017.14 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+18,017.14 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA I_CLS
 _ PU O I_CLS
 หลักทรัพย์ NN O E_CLS
@@ -102,14 +102,14 @@ _ PU O I_CLS
 เพิ่ม VV O I_CLS
 ขึ้น AV O I_CLS
 _ PU O I_CLS
-293 NU B_MEA I_CLS
+293 NU B_NUM I_CLS
 _ PU O I_CLS
 หลักทรัพย์ CL B_MEA I_CLS
 _ PU O I_CLS
 ลด VV O I_CLS
 ลง AV O I_CLS
 _ PU O I_CLS
-58 NU B_MEA I_CLS
+58 NU B_NUM I_CLS
 _ PU O I_CLS
 หลักทรัพย์ CL B_MEA E_CLS
 _ PU O O
@@ -117,13 +117,13 @@ _ PU O O
 ไม่ NG O I_CLS
 เปลี่ยนแปลง VV O I_CLS
 _ PU O I_CLS
-89 NU B_MEA I_CLS
+89 NU B_NUM I_CLS
 _ PU O I_CLS
 หลักทรัพย์ CL B_MEA E_CLS
 
 สำหรับ PS O B_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
+5 NU B_NUM I_CLS
 _ PU O I_CLS
 อันดับ CL B_MEA I_CLS
 หลักทรัพย์ CL E_MEA I_CLS

@@ -106,9 +106,9 @@ _ PU I_DTM I_CLS
 _ PU O I_CLS
 หรือ PS O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA I_CLS
+1 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+วัน CL E_DUR I_CLS
 หลัง CC O I_CLS
 ผ่านพ้น VV O I_CLS
 กำหนด VV O I_CLS
@@ -224,9 +224,9 @@ _ PU O I_CLS
 ทุน NN O I_CLS
 มูลค่า NN O I_CLS
 _ PU O I_CLS
-7,000 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+7,000 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 ดอลลาร์ CL E_MEA E_CLS
 _ PU O O
 สำหรับ CC O B_CLS
@@ -252,7 +252,7 @@ _ PU O I_CLS
 แบ่ง VV O I_CLS
 เป็น VV O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ส่วน CL B_MEA I_CLS
 _ PU O I_CLS
@@ -340,7 +340,7 @@ _ PU O I_CLS
 อัดฉีด VV O I_CLS
 เงิน NN O I_CLS
 _ PU O I_CLS
-7,500 NU B_MEA I_CLS
+7,500 NU B_NUM I_CLS
 _ PU O I_CLS
 ล้าน NU B_MEA I_CLS
 ดอลลาร์ CL E_MEA I_CLS

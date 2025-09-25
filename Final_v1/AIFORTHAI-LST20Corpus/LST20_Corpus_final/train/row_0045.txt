@@ -78,9 +78,9 @@ _	PU	O	I_CLS
 ทองร่อน	NN	B_MAT	I_CLS
 หนัก	VV	O	I_CLS
 _	PU	O	I_CLS
-3	NU	B_MAT	I_CLS
-_	PU	I_MAT	I_CLS
-ตำลึง	CL	E_MAT	I_CLS
+3	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ตำลึง	CL	B_MAT	I_CLS
 _	PU	O	I_CLS
 ถวาย	VV	O	I_CLS
 พระเจ้าอยู่หัวบรมโกศ	NN	B_PER	I_CLS

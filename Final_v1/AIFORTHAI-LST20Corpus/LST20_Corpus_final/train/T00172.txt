@@ -54,7 +54,7 @@ _	PU	O	I_CLS
 มา	AV	O	I_CLS
 ปฏิเสธ	VV	O	I_CLS
 ใน	PS	O	I_CLS
-วัน	NN	B_DTM	I_CLS
+วัน	NN	O	I_CLS
 นี้	AJ	O	I_CLS
 ต่อ	PS	O	I_CLS
 รายงาน	VV	O	I_CLS
@@ -147,9 +147,9 @@ _	PU	O	I_CLS
 ว่า	CC	O	B_CLS
 ใน	PS	O	I_CLS
 ช่วง	NN	O	I_CLS
-เช้า	NN	B_DTM	I_CLS
-วัน	NN	I_DTM	I_CLS
-นี้	AJ	E_DTM	I_CLS
+เช้า	NN	O	I_CLS
+วัน	NN	O	I_CLS
+นี้	AJ	O	I_CLS
 ตรวจ	VV	O	I_CLS
 ไม่	NG	O	I_CLS
 พบ	VV	O	E_CLS

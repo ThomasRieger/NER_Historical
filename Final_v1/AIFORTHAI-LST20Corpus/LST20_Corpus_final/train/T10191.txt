@@ -68,7 +68,7 @@ _ PU O O
 ได้ AX O I_CLS
 ใน PS O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
+6 NU B_NUM I_CLS
 _ PU O I_CLS
 กิจการ CL B_MEA E_CLS
 
@@ -148,7 +148,7 @@ _ PU O O
 ได้ AX O I_CLS
 ใน PS O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
+6 NU B_NUM I_CLS
 _ PU O I_CLS
 กิจการ CL B_MEA I_CLS
 _ PU O I_CLS

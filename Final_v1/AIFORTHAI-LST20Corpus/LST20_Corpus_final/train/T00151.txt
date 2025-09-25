@@ -229,9 +229,9 @@ _	PU	O	I_CLS
 ใน	PS	O	I_CLS
 วัย	NN	O	I_CLS
 _	PU	O	I_CLS
-23	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	E_CLS
+23	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	E_CLS
 
 โดย	CC	O	B_CLS
 มี	VV	O	I_CLS
@@ -355,7 +355,7 @@ _	PU	O	O
 ศึกษา	VV	O	I_CLS
 _	PU	O	I_CLS
 ม.	NN	O	I_CLS
-6	NU	B_MEA	E_CLS
+6	NU	B_NUM	E_CLS
 _	PU	O	O
 และ	CC	O	B_CLS
 ผม	PR	O	I_CLS
@@ -461,7 +461,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 34	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-วิชา	CL	O	I_CLS
+วิชา	CL	B_MEA	I_CLS
 และ	CC	O	I_CLS
 เกรด	NN	O	I_CLS
 พี	NN	O	I_CLS
@@ -479,7 +479,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 15	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-วิชา	CL	O	E_CLS
+วิชา	CL	B_MEA	E_CLS
 
 รปภ.	NN	B	B_CLS
 ดีกรี	NN	O	I_CLS
@@ -741,7 +741,7 @@ _	PU	O	I_CLS
 น้อง	NN	O	I_CLS
 สาว	NN	O	I_CLS
 คน	CL	O	I_CLS
-เดียว	NU	B_NUM	E_CLS
+เดียว	NU	O	E_CLS
 
 อาจารย์	NN	O	B_CLS
 ท่าน	CL	O	I_CLS
@@ -815,9 +815,9 @@ _	PU	O	I_CLS
 รปภ.	NN	B	B_CLS
 วัย	NN	O	I_CLS
 _	PU	O	I_CLS
-23	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+23	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 ยืนยัน	VV	O	E_CLS
 ว่า	CC	O	B_CLS
 ส่วน	NN	O	I_CLS
@@ -1114,7 +1114,7 @@ _	PU	O	I_CLS
 3-4	NU	B_NUM	I_CLS
 _	PU	I_NUM	I_CLS
 แสน	NU	E_NUM	I_CLS
-คน	CL	O	E_CLS
+คน	CL	B_MEA	E_CLS
 เนื่องจาก	CC	O	B_CLS
 ตลาด	NN	O	I_CLS
 มี	VV	O	I_CLS
@@ -1331,11 +1331,11 @@ _	PU	O	I_CLS
 ถึง	VV	O	I_CLS
 ประมาณ	AJ	O	I_CLS
 _	PU	O	I_CLS
-2.6	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-หมื่น	NU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
-บาท	NN	E_MEA	E_CLS
+2.6	NU	B_NUM	I_CLS
+_	PU	I_N	I_CLS
+หมื่น	NU	I_NUM	I_CLS
+ล้าน	NU	E_NUM	I_CLS
+บาท	NN	B_MEA	E_CLS
 
 เพิ่ม	VV	O	B_CLS
 ขึ้น	AV	O	I_CLS
@@ -1345,16 +1345,16 @@ _	PU	I_MEA	I_CLS
 ผ่าน	VV	O	I_CLS
 มา	AV	O	I_CLS
 _	PU	O	I_CLS
-15	NU	B_MEA	I_CLS
-%	PU	E_MEA	I_CLS
+15	NU	B_NUM	I_CLS
+%	PU	B_MEA	I_CLS
 _	PU	O	I_CLS
 และ	CC	O	I_CLS
 ใน	PS	O	I_CLS
 ช่วง	NN	O	I_CLS
 _	PU	O	I_CLS
-5	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+5	NU	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+ปี	CL	E_EDU	I_CLS
 ที่	CC	O	I_CLS
 ผ่าน	VV	O	I_CLS
 มา	AV	O	I_CLS
@@ -1367,11 +1367,11 @@ _	PU	I_MEA	I_CLS
 เพิ่ม	VV	O	I_CLS
 ขึ้น	AV	O	I_CLS
 เฉลี่ย	VV	O	I_CLS
-ปี	CL	B_MEA	I_CLS
-ละ	AJ	E_MEA	I_CLS
+ปี	CL	O	I_CLS
+ละ	AJ	O	I_CLS
 _	PU	O	I_CLS
-12.8	NU	B_MEA	I_CLS
-%	PU	E_MEA	E_CLS
+12.8	NU	B_NUM	I_CLS
+%	PU	B_MEA	E_CLS
 
 ศูนย์	NN	B_ORG	B_CLS
 วิจัย	VV	I_ORG	I_CLS

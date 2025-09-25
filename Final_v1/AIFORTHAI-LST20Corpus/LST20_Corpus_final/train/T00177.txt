@@ -1606,9 +1606,9 @@ _	PU	O	O
 ท่าหลวง	NN	E_DIS	I_CLS
 ว่า	CC	O	I_CLS
 ใน	PS	O	I_CLS
-ช่วง	NN	B_DUR	I_CLS
-_	PU	I_DUR	I_CLS
-1-2	NU	I_DUR	I_CLS
+ช่วง	NN	O	I_CLS
+_	PU	O	I_CLS
+1-2	NU	B_DUR	I_CLS
 _	PU	I_DUR	I_CLS
 วัน	CL	E_DUR	I_CLS
 นี้	AJ	O	I_CLS

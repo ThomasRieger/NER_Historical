@@ -141,7 +141,7 @@ _	PU	O	O
 ใน	PS	O	I_CLS
 เดนมาร์ก	NN	B_COU	I_CLS
 เมื่อ	PS	O	I_CLS
-สัปดาห์	NN	B_DTM	I_CLS
+สัปดาห์	NN	O	I_CLS
 ที่	CC	O	I_CLS
 แล้ว	AX	O	I_CLS
 ซึ่ง	CC	O	I_CLS
@@ -161,9 +161,9 @@ _	PU	O	I_CLS
 อายุ	NN	O	I_CLS
 ระหว่าง	PS	O	I_CLS
 _	PU	O	I_CLS
-20-30	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ปี	CL	E_MEA	I_CLS
+20-30	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ปี	CL	B_MEA	I_CLS
 แข่งขัน	VV	O	I_CLS
 วาด	VV	O	I_CLS
 ภาพ	NN	O	I_CLS
