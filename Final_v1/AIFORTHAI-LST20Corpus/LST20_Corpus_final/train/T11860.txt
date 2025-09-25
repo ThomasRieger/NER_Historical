@@ -74,7 +74,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 ของ PS O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ชินวัตร NN E_PER I_CLS
@@ -115,9 +115,9 @@ _ PU O I_CLS
 ไทย NN E_ORG I_CLS
 ทั้ง AJ O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-คน CL E_MEA I_CLS
+2 NU B_NUM I_CLS
+_ PU O I_CLS
+คน CL B_MEA I_CLS
 _ PU O I_CLS
 คือ VV O I_CLS
 _ PU O I_CLS
@@ -329,7 +329,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 2 NU B_NUM I_CLS
 _ PU O I_CLS
-มาตรฐาน NN O E_CLS
+มาตรฐาน NN B_MEA E_CLS
 _ PU O O
 ที่ CC O B_CLS
 ระดม VV O I_CLS
@@ -369,7 +369,7 @@ _ PU O I_CLS
 คิด VV O I_CLS
 ถึง PS O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B-B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 _ PU O I_CLS
 นอกจาก PS O I_CLS
@@ -465,7 +465,7 @@ _ PU O O
 มี VV O I_CLS
 แต่ CC O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ๆ PU O E_CLS
 
@@ -506,7 +506,7 @@ _ PU O O
 ยัง AX O I_CLS
 รัก VV O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 อย่าง FX O I_CLS
 ไม่ NG O I_CLS
@@ -567,7 +567,7 @@ _ PU O O
 _ PU O I_CLS
 ของ PS O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ตัว NN O I_CLS
 เรียก VV O I_CLS
@@ -588,7 +588,7 @@ _ PU O I_CLS
 " PU O B_CLS
 การที่ CC O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 บน PS O I_CLS
 เวที NN O I_CLS
@@ -631,7 +631,7 @@ _ PU O I_CLS
 หัวใจ NN O I_CLS
 ต่อ PS O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 เชื่อ VV O I_CLS
 ว่า CC O I_CLS
@@ -641,7 +641,7 @@ _ PU O I_CLS
 กระแส NN O I_CLS
 ของ PS O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ไม่ NG O I_CLS
 มี VV O I_CLS
@@ -660,7 +660,7 @@ _ PU O O
 ผูกพัน VV O I_CLS
 ระหว่าง PS O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ชาว FX O I_CLS
 อีสาน NN B_LOC I_CLS
@@ -670,7 +670,7 @@ _ PU O I_CLS
 
 นอกจาก CC O B_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 โฟนอิน VV O I_CLS
 พูดคุย VV O I_CLS
@@ -689,7 +689,7 @@ _ PU O I_CLS
 การ FX O I_CLS
 หาเสียง VV O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ยก VV O I_CLS
 หู NN O I_CLS
@@ -702,7 +702,7 @@ _ PU O I_CLS
 ด้วย AV O E_CLS
 
 " PU O B_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 โทรศัพท์ VV O I_CLS
 มา AV O I_CLS
@@ -746,7 +746,7 @@ _ PU O O
 สมัคร VV O I_CLS
 เอง AV O E_CLS
 
-พ.ต.ท. NN B_TTL B_CLS
+พ.ต.ท. NN B_DES B_CLS
 ทักษิณ NN B_PER I_CLS
 โทรศัพท์ VV O I_CLS
 มา AV O I_CLS
@@ -827,7 +827,7 @@ _ PU O O
 จริง VV O I_CLS
 ๆ PU O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 เปรียบ VV O I_CLS
 เสมือน VV O I_CLS
@@ -907,9 +907,9 @@ _ PU O I_CLS
 พัฒนา VV O I_CLS
 เกือบ AJ O I_CLS
 _ PU O I_CLS
-50,000 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-คะแนน CL E_MEA E_CLS
+50,000 NU B_NUM I_CLS
+_ PU O I_CLS
+คะแนน CL B_MEA E_CLS
 _ PU O O
 โดย CC O B_CLS
 ส่วนใหญ่ NN O I_CLS
@@ -1092,7 +1092,7 @@ _ PU O O
 โฟนอิน VV O I_CLS
 ของ PS O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ซึ่ง CC O I_CLS
 ที่ PS O I_CLS
@@ -1102,7 +1102,7 @@ _ PU O I_CLS
 
 นอกจาก CC O B_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 โฟน VV O I_CLS
 อิน PS O I_CLS
@@ -1240,7 +1240,7 @@ _ PU O I_CLS
 นิยม VV O I_CLS
 ชมชอบ VV O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ชาว FX O I_CLS
 อีสาน NN B_LOC E_CLS
@@ -1256,11 +1256,11 @@ _ PU O O
 นโยบาย NN O I_CLS
 ของ PS O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER E_CLS
 
 " PU O B_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 โทรศัพท์ VV O I_CLS
 มา AV O I_CLS
@@ -1304,7 +1304,7 @@ _ PU O O
 ได้รับ VV O I_CLS
 ชัยชนะ NN O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ยัง CC O I_CLS
 ต่อ VV O I_CLS
@@ -1336,7 +1336,7 @@ _ PU O I_CLS
 ยัง AX O I_CLS
 รัก VV O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 อยู่ AX O I_CLS
 _ PU O I_CLS

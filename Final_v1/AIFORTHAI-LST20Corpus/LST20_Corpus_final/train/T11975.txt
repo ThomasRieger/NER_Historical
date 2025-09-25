@@ -8,7 +8,7 @@
 อิทธิพล NN O I_CLS
 ข่มขู่ VV O E_CLS
 
-พล.ต.ท. NN B_TTL B_CLS
+พล.ต.ท. NN B_DES B_CLS
 _ PU O I_CLS
 สมยศ NN B_PER I_CLS
 _ PU I_PER I_CLS
@@ -92,7 +92,7 @@ _ PU O I_CLS
 สำคัญ VV O I_CLS
 ของ PS O I_CLS
 _ PU O I_CLS
-พล.ต.อ. NN B_TTL I_CLS
+พล.ต.อ. NN B_DES I_CLS
 _ PU O I_CLS
 พัชรวาท NN B_PER I_CLS
 _ PU I_PER I_CLS

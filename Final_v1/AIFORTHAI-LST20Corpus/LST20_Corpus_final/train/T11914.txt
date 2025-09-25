@@ -86,7 +86,7 @@ _ PU I_DTM I_CLS
 _ PU I_DTM I_CLS
 ก.ค. NN E_DTM I_CLS
 _ PU O I_CLS
-ร.ต.อ. NN B_TTL I_CLS
+ร.ต.อ. NN B_DES I_CLS
 มาโนช NN B_PER I_CLS
 _ PU I_PER I_CLS
 เยี่ยมเจริญ NN E_PER I_CLS
@@ -187,11 +187,11 @@ _ PU O O
 ใน PS O I_CLS
 พื้นที่ NN O I_CLS
 _ PU O I_CLS
-70 NU B_MEA I_CLS
-- PU I_MEA I_CLS
-80 NU I_MEA I_CLS
+70 NU B_NUM I_CLS
+- PU I_NUM I_CLS
+80 NU E_NUM I_CLS
 _ PU I_MEA I_CLS
-เปอร์เซ็นต์ CL E_MEA E_CLS
+เปอร์เซ็นต์ CL B_MEA E_CLS
 
 ทั้งนี้ CC O B_CLS
 ภาพ NN O I_CLS
@@ -203,11 +203,11 @@ _ PU I_MEA I_CLS
 เป็น VV O I_CLS
 ชาย NN O I_CLS
 _ PU O I_CLS
-อายุ NN B_MEA I_CLS
-_ PU I_MEA I_CLS
-20-22 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-ปี CL E_MEA I_CLS
+อายุ NN O I_CLS
+_ PU O I_CLS
+20-22 NU B_NUM I_CLS
+_ PU O I_CLS
+ปี CL B_MEA I_CLS
 _ PU O I_CLS
 ผม NN O I_CLS
 รองทรง AJ O E_CLS
@@ -225,8 +225,8 @@ _ PU O I_CLS
 คัน CL O I_CLS
 แรก NU O I_CLS
 จาก PS O I_CLS
-สอง NU B_MEA I_CLS
-คัน CL E_MEA E_CLS
+สอง NU B_NUM I_CLS
+คัน CL B_MEA E_CLS
 ที่ CC O B_CLS
 วิ่ง VV O I_CLS
 สวน VV O I_CLS
@@ -267,7 +267,7 @@ _ PU O O
 จับ VV O I_CLS
 แล้ว AX O I_CLS
 _ PU O I_CLS
-พ.ต.อ. NN B_TTL I_CLS
+พ.ต.อ. NN B_DES I_CLS
 สมบัติ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ชูชัยยะ NN E_PER I_CLS
@@ -356,7 +356,7 @@ _ PU I_DTM I_CLS
 ทุก AJ O I_CLS
 วัน CL O I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 ชินทัต NN B_PER I_CLS
 _ PU I_PER I_CLS
 มีศุข NN E_PER I_CLS
@@ -407,7 +407,7 @@ _ PU O I_CLS
 ตน PR O I_CLS
 กับ PS O I_CLS
 _ PU O I_CLS
-พ.ต.อ. NN B_TTL I_CLS
+พ.ต.อ. NN B_DES I_CLS
 กรเอก NN B_PER I_CLS
 _ PU I_PER I_CLS
 เพชรไชยเวช NN E_PER I_CLS
@@ -457,7 +457,7 @@ _ PU O O
 ตำรวจ NN O I_CLS
 แต่อย่างใด AV O E_CLS
 
-พ.ต.อ. NN B_TTL B_CLS
+พ.ต.อ. NN B_DES B_CLS
 สมบัติ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ชูชัยยะ NN E_PER I_CLS
@@ -559,9 +559,9 @@ _ PU O O
 เหตุ NN O I_CLS
 เพียง AJ O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA I_CLS
+1 NU B_NUM I_CLS
+_ PU O I_CLS
+วัน CL B_MEA I_CLS
 ก็ CC O I_CLS
 มี VV O I_CLS
 เจ้าของ NN O I_CLS

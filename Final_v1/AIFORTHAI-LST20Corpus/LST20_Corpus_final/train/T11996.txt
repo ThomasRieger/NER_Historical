@@ -6,7 +6,7 @@
 " PU O I_CLS
 _ PU O I_CLS
 " PU O I_CLS
-นุ่น NN B_NIC I_CLS
+นุ่น NN B_PER I_CLS
 " PU O I_CLS
 ไม่ NG O I_CLS
 เปลี่ยน VV O I_CLS
@@ -190,7 +190,7 @@ _ PU O O
 ตรง NN O I_CLS
 นี้ AJ O I_CLS
 _ PU O I_CLS
-นุ่น NN B_NIC I_CLS
+นุ่น NN B_PER I_CLS
 ไม่ NG O I_CLS
 มี VV O I_CLS
 ความเห็น NN O I_CLS
@@ -212,7 +212,7 @@ _ PU O O
 ถ้า CC O I_CLS
 ถาม VV O E_CLS
 ว่า CC O B_CLS
-นุ่น NN B_NIC I_CLS
+นุ่น NN B_PER I_CLS
 จะ AX O I_CLS
 เปลี่ยน VV O I_CLS
 ไป AV O I_CLS
@@ -234,7 +234,7 @@ _ PU O I_CLS
 ให้ CC O I_CLS
 _ PU O I_CLS
 และ CC O I_CLS
-นุ่น NN B_NIC I_CLS
+นุ่น NN B_PER I_CLS
 ว่า CC O I_CLS
 ชื่อ NN O I_CLS
 คน NN O I_CLS
@@ -257,7 +257,7 @@ _ PU O I_CLS
 ตรง NN O I_CLS
 นั้น AJ O E_CLS
 
-นุ่น NN B_NIC B_CLS
+นุ่น NN B_PER B_CLS
 มอง VV O I_CLS
 เป็น VV O I_CLS
 เรื่อง NN O I_CLS
@@ -335,6 +335,6 @@ _ PU O I_CLS
 ได้ AX O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-นุ่น NN B_NIC I_CLS
+นุ่น NN B_PER I_CLS
 กล่าว VV O E_CLS
 

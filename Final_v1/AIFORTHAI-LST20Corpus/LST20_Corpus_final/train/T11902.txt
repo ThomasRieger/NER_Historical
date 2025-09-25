@@ -36,7 +36,7 @@ _ PU O I_CLS
 ฎีกา NN O I_CLS
 ให้ VV O I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ชินวัตร NN E_PER I_CLS
@@ -59,10 +59,10 @@ _ PU O O
 ได้ VV O I_CLS
 ครบ VV O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
-ชื่อ CL E_MEA E_CLS
+1 NU B_NUM I_CLS
+_ PU I_NUM I_CLS
+ล้าน NU E_NUM I_CLS
+ชื่อ CL B_MEA E_CLS
 
 ภายใน PS B_DUR B_CLS
 กลาง NN I_DUR I_CLS

@@ -26,9 +26,9 @@ _ PU O I_CLS
 สาว NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-18 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ปี CL E_MEA I_CLS
+18 NU B_NUM I_CLS
+_ PU O I_CLS
+ปี CL B_MEA I_CLS
 _ PU O I_CLS
 ที่ CC O I_CLS
 ออก AV O I_CLS
@@ -52,8 +52,8 @@ _ PU O O
 มา AV O I_CLS
 นาน VV O I_CLS
 นับ VV O I_CLS
-สิบ NU B_MEA I_CLS
-ปี CL E_MEA I_CLS
+สิบ NU O I_CLS
+ปี CL O I_CLS
 _ PU O I_CLS
 ... PU O E_CLS
 
@@ -96,7 +96,7 @@ _ PU O I_CLS
 สาว NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-18 NU B_MEA I_CLS
+18 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -159,7 +159,7 @@ _ PU I_PER I_CLS
 _ PU O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-18 NU B_MEA I_CLS
+18 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -198,7 +198,7 @@ _ PU O O
 อิตาลี NN B_COU I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-72 NU B_MEA I_CLS
+72 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -279,8 +279,8 @@ _ PU O O
 มา AV O I_CLS
 นาน VV O I_CLS
 หลาย AJ O I_CLS
-สิบ NU B_MEA I_CLS
-ปี CL E_MEA I_CLS
+สิบ NU O I_CLS
+ปี CL O I_CLS
 แล้ว AX O E_CLS
 _ PU O O
 และ CC O B_CLS
@@ -337,11 +337,11 @@ _ PU O O
 ของ PS O I_CLS
 _ PU O I_CLS
 เขา PR O I_CLS
-นาน VV O I_CLS
-_ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU O I_CLS
-สัปดาห์ CL B_MEA I_CLS
+นาน VV B_DUR I_CLS
+_ PU I_DUR I_CLS
+1 NU I_DUR I_CLS
+_ PU I_DUR I_CLS
+สัปดาห์ CL E_DUR I_CLS
 _ PU O I_CLS
 ใน PS O I_CLS
 ช่วง NN O I_CLS

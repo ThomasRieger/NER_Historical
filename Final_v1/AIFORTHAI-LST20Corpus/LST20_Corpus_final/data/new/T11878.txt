@@ -1,4 +1,4 @@
-สายป่าน NN B_NIC B_CLS
+สายป่าน NN B_PER B_CLS
 รับ VV O I_CLS
 งอน VV O I_CLS
 มาริโอ้ NN B_PER I_CLS
@@ -9,7 +9,7 @@
 อีเว้นท์ NN O E_CLS
 
 " PU O B_CLS
-สายป่าน NN B_NIC I_CLS
+สายป่าน NN B_PER I_CLS
 " PU O I_CLS
 _ PU O I_CLS
 รับ VV O I_CLS
@@ -33,7 +33,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-โกโก้ NN B_NIC I_CLS
+โกโก้ NN B_PER I_CLS
 _ PU O I_CLS
 " PU O E_CLS
 
@@ -103,8 +103,8 @@ _ PU O I_CLS
 จาก PS O I_CLS
 อก NN O I_CLS
 _ PU O I_CLS
-พี่ NN B_TTL I_CLS
-โกโก้ NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+โกโก้ NN E_PER I_CLS
 _ PU O I_CLS
 อย่าง FX O I_CLS
 แน่ VV O E_CLS
@@ -256,8 +256,8 @@ _ PU O I_CLS
 เป็น VV O B_CLS
 เพราะ CC O I_CLS
 _ PU O I_CLS
-พี่ NN B_TTL I_CLS
-โกโก้ NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+โกโก้ NN E_PER I_CLS
 _ PU O I_CLS
 ด้วย AV O I_CLS
 มั๊ย PA O E_CLS
@@ -448,8 +448,8 @@ _ PU O O
 โกรธ VV O B_CLS
 แทน VV O I_CLS
 _ PU O I_CLS
-พี่ NN B_TTL I_CLS
-โกโก้ NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+โกโก้ NN E_PER I_CLS
 _ PU O I_CLS
 หรือเปล่า AV O E_CLS
 
@@ -459,8 +459,8 @@ _ PU O I_CLS
 โกรธ VV O I_CLS
 แทน VV O I_CLS
 _ PU O I_CLS
-พี่ NN B_TTL I_CLS
-โกโก้ NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+โกโก้ NN E_PER I_CLS
 _ PU O I_CLS
 หนู PR O I_CLS
 คิด VV O E_CLS
@@ -470,8 +470,8 @@ _ PU O I_CLS
 เรื่อง NN O I_CLS
 ของ PS O I_CLS
 เรา PR O I_CLS
-สอง NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สอง NU B_NUM I_CLS
+คน CL B_MEA I_CLS
 _ PU O I_CLS
 อย่าง NN O I_CLS
 ใคร PR O I_CLS
@@ -549,8 +549,8 @@ _ PU O I_CLS
 เป็น VV O I_CLS
 เพราะ CC O I_CLS
 เรื่อง NN O I_CLS
-พี่ NN B_TTL I_CLS
-โกโก้ NN B_NIC E_CLS
+พี่ NN B_PER I_CLS
+โกโก้ NN E_PER E_CLS
 
 " PU O B_CLS
 หนู PR O I_CLS

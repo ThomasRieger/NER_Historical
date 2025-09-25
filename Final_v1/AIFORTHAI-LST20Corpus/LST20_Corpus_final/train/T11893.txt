@@ -24,7 +24,7 @@ _ PU O I_CLS
 ทักษิณ NN B_PER I_CLS
 " PU O E_CLS
 
-พ.ต.ท. NN B_TTL B_CLS
+พ.ต.ท. NN B_DES B_CLS
 สมชาย NN B_PER I_CLS
 _ PU I_PER I_CLS
 เพศประเสริฐ NN E_PER I_CLS
@@ -96,7 +96,7 @@ _ PU I_DUR I_CLS
 _ PU O I_CLS
 มี VV O I_CLS
 _ PU O I_CLS
-พล.ท. NN B_TTL I_CLS
+พล.ท. NN B_DES I_CLS
 สมหมาย NN B_PER I_CLS
 _ PU I_PER I_CLS
 วงศ์มาก NN E_PER I_CLS
@@ -156,7 +156,7 @@ _ PU O I_CLS
 เพื่อ PS I_ORG I_CLS
 ไทย NN E_ORG E_CLS
 และ CC O B_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ชินวัตร NN E_PER I_CLS
@@ -187,7 +187,7 @@ _ PU O O
 เพื่อ PS I_ORG I_CLS
 ไทย NN E_ORG E_CLS
 
-พ.ต.ท. NN B_TTL B_CLS
+พ.ต.ท. NN B_DES B_CLS
 สมชาย NN B_PER I_CLS
 _ PU O I_CLS
 กล่าว VV O I_CLS
@@ -218,7 +218,7 @@ _ PU O O
 เพื่อ PS I_ORG I_CLS
 ไทย NN E_ORG I_CLS
 และ CC O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 ซึ่ง CC O I_CLS
 ตน PR O I_CLS
@@ -270,5 +270,5 @@ _ PU O I_CLS
 ระหว่าง CC O B_CLS
 บรรยาย VV O I_CLS
 หลาย AJ O I_CLS
-นาย CL B_TTL E_CLS
+นาย CL O E_CLS
 

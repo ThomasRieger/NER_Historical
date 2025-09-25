@@ -115,11 +115,11 @@ _ PU O I_CLS
 ลักษณะ NN O I_CLS
 หมิ่นประมาท VV O E_CLS
 
-สมาชิก NN B_MEA B_CLS
-_ PU I_MEA I_CLS
-192 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-ประเทศ CL E_MEA I_CLS
+สมาชิก NN O B_CLS
+_ PU O I_CLS
+192 NU B_NUM I_CLS
+_ PU O I_CLS
+ประเทศ CL B_MEA I_CLS
 ของ PS O I_CLS
 ที่ NN B_ORG I_CLS
 ประชุม VV I_ORG I_CLS
@@ -155,9 +155,9 @@ _ PU O I_CLS
 ต่อไป AV O I_CLS
 อีก AJ O I_CLS
 _ PU O I_CLS
-4 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ปี CL E_MEA E_CLS
+4 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR E_CLS
 _ PU O O
 โดย CC O B_CLS
 จะ AX O I_CLS

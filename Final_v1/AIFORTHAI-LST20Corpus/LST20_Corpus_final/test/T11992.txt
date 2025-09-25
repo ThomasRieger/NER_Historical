@@ -1,4 +1,4 @@
-ยุ้ย NN B_NIC B_CLS
+ยุ้ย NN B_PER B_CLS
 ชิน VV O I_CLS
 ถูก AX O I_CLS
 ทัก VV O I_CLS
@@ -98,7 +98,7 @@ _ PU O I_CLS
 _ PU O O
 หน้า NN O B_CLS
 คล้าย VV O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 มาก VV O E_CLS
 
 เจ้าตัว NN O B_CLS
@@ -136,7 +136,7 @@ _ PU O O
 คน CL O I_CLS
 ก็ AX O I_CLS
 บอก VV O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 เหมือนกัน AV O I_CLS
 ว่า CC O E_CLS
 _ PU O O
@@ -144,7 +144,7 @@ _ PU O O
 เหมือน VV O E_CLS
 _ PU O O
 แต่ CC O B_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 ยัง AX O I_CLS
 ไม่ NG O I_CLS
 เคย AX O I_CLS
@@ -242,7 +242,7 @@ _ PU O I_CLS
 เค้า NN O I_CLS
 " PU O I_CLS
 ตัว NN O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 เปิดใจ VV O I_CLS
 รับ VV O I_CLS
 ใคร PR O I_CLS
@@ -294,7 +294,7 @@ _ PU O O
 จะ AX O I_CLS
 ดูแล VV O I_CLS
 ใคร PR O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 ก็ AX O I_CLS
 ยัง AX O I_CLS
 คิด VV O I_CLS
@@ -327,7 +327,7 @@ _ PU O I_CLS
 ก็ AX O I_CLS
 ยัง AX O I_CLS
 เป็นห่วง VV O I_CLS
-ยุ้ย NN B_NIC E_CLS
+ยุ้ย NN B_PER E_CLS
 _ PU O O
 ไม่ว่า CC O B_CLS
 จะ AX O I_CLS
@@ -348,7 +348,7 @@ _ PU O O
 ว่า CC O E_CLS
 _ PU O O
 เวลา NN O B_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 ทำงาน VV O I_CLS
 หนัก VV O I_CLS
 _ PU O I_CLS
@@ -380,7 +380,7 @@ _ PU O O
 มาก VV O I_CLS
 กว่า AV O I_CLS
 _ PU O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 ก็ AX O I_CLS
 ดีใจ VV O I_CLS
 นะ PA O I_CLS
@@ -419,7 +419,7 @@ _ PU O I_CLS
 " PU O B_CLS
 ไม่ NG O I_CLS
 _ PU O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 บอก VV O I_CLS
 ได้ AX O I_CLS
 เลย AV O I_CLS
@@ -431,7 +431,7 @@ _ PU O O
 วอกแวก VV O I_CLS
 อะไร PR O I_CLS
 กับ PS O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 _ PU O I_CLS
 เรา PR O I_CLS
 บริสุทธิ์ใจ VV O I_CLS
@@ -451,7 +451,7 @@ _ PU O I_CLS
 โต VV O I_CLS
 แล้ว AX O I_CLS
 _ PU O I_CLS
-ยุ้ย NN B_NIC E_CLS
+ยุ้ย NN B_PER E_CLS
 ว่า CC O B_CLS
 เค้า PR O I_CLS
 ได้ AX O I_CLS
@@ -467,7 +467,7 @@ _ PU O I_CLS
 ตอน NN O I_CLS
 นี้ AJ O I_CLS
 _ PU O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 _ PU O I_CLS
 ก็ AX O I_CLS
 มี VV O I_CLS
@@ -476,7 +476,7 @@ _ PU O I_CLS
 ใน PS O I_CLS
 แบบ NN O I_CLS
 ของ PS O I_CLS
-ยุ้ย NN B_NIC I_CLS
+ยุ้ย NN B_PER I_CLS
 ค่ะ PA O I_CLS
 _ PU O I_CLS
 รู้สึก VV O E_CLS

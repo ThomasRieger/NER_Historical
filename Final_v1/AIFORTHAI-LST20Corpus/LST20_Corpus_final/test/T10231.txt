@@ -14,9 +14,9 @@ _ PU O I_CLS
 ธอส. NN B_ORG I_CLS
 โกง VV O I_CLS
 _ PU O I_CLS
-400 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU E_MEA E_CLS
+400 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA E_CLS
 
 ตำรวจ NN B_STY B_CLS
 กอง NN I_STY I_CLS
@@ -120,7 +120,7 @@ _ PU I_PER I_CLS
 _ PU O I_CLS
 อายุ NN O I_CLS
 _ PU O I_CLS
-33 NU B_MEA I_CLS
+33 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -153,9 +153,9 @@ _ PU O I_CLS
 เงิน NN O I_CLS
 กว่า NU O I_CLS
 _ PU O I_CLS
-400 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+400 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA E_CLS
 
 และ CC O B_CLS
@@ -166,7 +166,7 @@ _ PU I_PER I_CLS
 _ PU O I_CLS
 อายุ NN O I_CLS
 _ PU O I_CLS
-26 NU B_MEA I_CLS
+26 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 _ PU O I_CLS
@@ -202,7 +202,7 @@ _ PU O I_CLS
 ให้ AX O I_CLS
 ผู้ต้องหา NN O I_CLS
 ทั้ง NU O I_CLS
-สอง NU B_NUM I_CLS
+สอง NU O I_CLS
 ประกัน VV O I_CLS
 ตัว NN O I_CLS
 ใน PS O I_CLS
@@ -268,7 +268,7 @@ _ PU O I_CLS
 ต่อ PS O I_CLS
 ผู้ต้องหา NN O I_CLS
 ทั้ง NU O I_CLS
-สอง NU B_NUM I_CLS
+สอง NU O I_CLS
 แล้ว AX O I_CLS
 นั้น AJ O I_CLS
 _ PU O I_CLS
@@ -356,9 +356,9 @@ _ PU O O
 ไป VV O I_CLS
 จำนวน NN O I_CLS
 _ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+5 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA I_CLS
 _ PU O I_CLS
 รวม VV O I_CLS

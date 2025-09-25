@@ -44,9 +44,9 @@ _ PU O I_CLS
 ล่าง PS O I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-เมตร CL E_MEA I_CLS
+2 NU B_NUM I_CLS
+_ PU O I_CLS
+เมตร CL B_MEA I_CLS
 _ PU O I_CLS
 หัน VV O I_CLS
 หน้า NN O I_CLS
@@ -87,9 +87,9 @@ _ PU O I_CLS
 ล่าง PS O I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-เมตร CL E_MEA I_CLS
+3 NU B_NUM I_CLS
+_ PU O I_CLS
+เมตร CL B_MEA I_CLS
 _ PU O I_CLS
 มี VV O I_CLS
 การ FX O I_CLS

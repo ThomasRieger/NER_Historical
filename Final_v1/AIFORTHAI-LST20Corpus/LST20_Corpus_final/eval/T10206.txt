@@ -212,9 +212,9 @@ _ PU O I_CLS
 ต่อไป AV O I_CLS
 อีก NU O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
-_ PU O I_CLS
-เดือน CL B_MEA I_CLS
+6 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+เดือน CL E_DUR I_CLS
 _ PU O I_CLS
 ไม่ NG O I_CLS
 ได้ AX O I_CLS

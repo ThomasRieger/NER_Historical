@@ -5,12 +5,12 @@ _ PU O I_CLS
 _ PU I_LOC I_CLS
 7 NU E_LOC I_CLS
 _ PU O I_CLS
-เผา VV B_MEA I_CLS
-บ้าน NN I_MEA I_CLS
-_ PU I_MEA I_CLS
-20 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-หลัง CL E_MEA E_CLS
+เผา VV O I_CLS
+บ้าน NN O I_CLS
+_ PU O I_CLS
+20 NU B_NUM I_CLS
+_ PU O I_CLS
+หลัง CL B_MEA E_CLS
 
 เกิด VV O B_CLS
 เหตุ NN O I_CLS
@@ -62,9 +62,9 @@ _ PU O I_CLS
 เพลิง NN E_VEH I_CLS
 ร่วม VV O I_CLS
 _ PU O I_CLS
-20 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-คัน CL E_MEA I_CLS
+20 NU B_NUM I_CLS
+_ PU O I_CLS
+คัน CL B_MEA I_CLS
 _ PU O I_CLS
 เข้า AV O I_CLS
 ไป AV O I_CLS
@@ -98,9 +98,9 @@ _ PU O O
 เหตุ NN O I_CLS
 ราว AJ O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ชั่วโมง CL E_MEA E_CLS
+1 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ชั่วโมง CL E_DUR E_CLS
 _ PU O O
 ก็ CC O B_CLS
 ควบคุม VV O I_CLS
@@ -121,7 +121,7 @@ _ PU O O
 อย่าง FX O I_CLS
 น้อย VV O I_CLS
 _ PU O I_CLS
-20 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-หลัง CL E_MEA E_CLS
+20 NU B_NUM I_CLS
+_ PU O I_CLS
+หลัง CL B_MEA E_CLS
 

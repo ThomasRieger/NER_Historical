@@ -1,5 +1,5 @@
 " PU O B_CLS
-แป้ง NN B_NIC I_CLS
+แป้ง NN B_PER I_CLS
 " PU O I_CLS
 โชว์ VV O I_CLS
 เซ็กซี่ VV O I_CLS
@@ -76,13 +76,13 @@ _ PU O O
 ว่า CC O E_CLS
 
 " PU O B_CLS
-แป้ง NN B_NIC I_CLS
+แป้ง NN B_PER I_CLS
 ไม่ NG O I_CLS
 ใช่ VV O I_CLS
 คน NN O I_CLS
 เจ้าชู้ VV O I_CLS
 _ PU O I_CLS
-แป้ง NN B_NIC I_CLS
+แป้ง NN B_PER I_CLS
 ไม่ NG O I_CLS
 ใช่ VV O I_CLS
 คาสซาโนวี่ NN O I_CLS
@@ -92,7 +92,7 @@ _ PU O I_CLS
 ขนาด NN O I_CLS
 นั้น AJ O I_CLS
 _ PU O I_CLS
-แป้ง NN B_NIC I_CLS
+แป้ง NN B_PER I_CLS
 คบ VV O I_CLS
 ที CL O I_CLS
 ละ AJ O I_CLS
@@ -115,7 +115,7 @@ _ PU O O
 พอ VV O E_CLS
 _ PU O O
 แต่ CC O B_CLS
-แป้ง NN B_NIC I_CLS
+แป้ง NN B_PER I_CLS
 ยัง AX O I_CLS
 ไม่ NG O I_CLS
 มี VV O I_CLS
@@ -134,7 +134,7 @@ _ PU O O
 ถ้า CC O I_CLS
 วัน CL O I_CLS
 นึง NU O I_CLS
-แป้ง NN B_NIC I_CLS
+แป้ง NN B_PER I_CLS
 รัก VV O I_CLS
 ใคร PR O I_CLS
 ซัก AJ O I_CLS
@@ -150,7 +150,7 @@ _ PU O I_CLS
 คน CL O I_CLS
 เดียว NU B_NUM I_CLS
 _ PU O I_CLS
-แป้ง NN B_NIC I_CLS
+แป้ง NN B_PER I_CLS
 ไม่ NG O I_CLS
 เคย AX O I_CLS
 จีบ VV O I_CLS
@@ -212,6 +212,6 @@ _ PU O I_CLS
 ชอบ VV O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-แป้ง NN B_NIC I_CLS
+แป้ง NN B_PER I_CLS
 กล่าว VV O E_CLS
 

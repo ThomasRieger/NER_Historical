@@ -19,12 +19,12 @@ _ PU O I_CLS
 _ PU O I_CLS
 ไป AV O I_CLS
 ดู VV O I_CLS
-กอล์ฟ NN B_EVO I_CLS
-_ PU I_EVO I_CLS
-มาเก๊า NN I_EVO I_CLS
-โอเพ่น NN I_EVO I_CLS
-_ PU I_EVO I_CLS
-2009 NU E_EVO E_CLS
+กอล์ฟ NN O I_CLS
+_ PU O I_CLS
+มาเก๊า NN O I_CLS
+โอเพ่น NN O I_CLS
+_ PU O I_CLS
+2009 NU B_DTM E_CLS
 
 การ FX O B_CLS
 ท่องเที่ยว VV O E_CLS
@@ -65,11 +65,11 @@ _ PU O O
 แข่งขัน VV O I_CLS
 ว่า CC O I_CLS
 _ PU O I_CLS
-มาเก๊า NN B_EVO I_CLS
-มาสเตอร์ NN I_EVO I_CLS
-ทัวร์นาเม้นท์ NN I_EVO I_CLS
-_ PU I_EVO I_CLS
-2009 NU E_EVO E_CLS
+มาเก๊า NN B_PRO I_CLS
+มาสเตอร์ NN o     I_CLS
+ทัวร์นาเม้นท์ NN O I_CLS
+_ PU O I_CLS
+2009 NU B_DTM E_CLS
 
 โดย CC O B_CLS
 มี VV O I_CLS
@@ -82,10 +82,10 @@ _ PU I_EVO I_CLS
 กอล์ฟ NN O I_CLS
 รายการ NN O I_CLS
 _ PU O I_CLS
-มาเก๊า NN B_EVO I_CLS
-โอเพ่น NN I_EVO I_CLS
-_ PU I_EVO I_CLS
-2009 NU E_EVO I_CLS
+มาเก๊า NN B_PRO I_CLS
+โอเพ่น NN O I_CLS
+_ PU O I_CLS
+2009 NU B_DTM I_CLS
 _ PU O I_CLS
 ใน PS O I_CLS
 วันที่ NN B_DTM I_CLS
@@ -147,10 +147,10 @@ _ PU O O
 โดย CC O B_CLS
 จัด VV O I_CLS
 การ FX O I_CLS
-แข่งขัน VV B_MEA I_CLS
-ทั้งหมด AJ I_MEA I_CLS
-_ PU I_MEA I_CLS
-3 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-ครั้ง CL E_MEA E_CLS
+แข่งขัน VV O I_CLS
+ทั้งหมด AJ O I_CLS
+_ PU O I_CLS
+3 NU B_NUM I_CLS
+_ PU O I_CLS
+ครั้ง CL B_MEA E_CLS
 

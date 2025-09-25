@@ -140,9 +140,9 @@ _	PU	O	O
 ทุน	NN	O	I_CLS
 กว่า	AJ	O	I_CLS
 _	PU	O	I_CLS
-5	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-หมื่น	NU	I_MEA	I_CLS
+5	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+หมื่น	NU	B_MEA	I_CLS
 ล้าน	NU	I_MEA	I_CLS
 เหรียญ	NN	I_MEA	I_CLS
 สหรัฐ	NN	E_MEA	I_CLS
@@ -150,9 +150,9 @@ _	PU	O	I_CLS
 (	PU	O	I_CLS
 ราว	AJ	O	I_CLS
 _	PU	O	I_CLS
-1.7	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
+1.7	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ล้าน	NU	B_MEA	I_CLS
 ล้าน	NU	I_MEA	I_CLS
 บาท	NN	E_MEA	I_CLS
 )	PU	O	E_CLS
@@ -169,9 +169,9 @@ _	PU	I_MEA	I_CLS
 _	PU	O	I_CLS
 จำนวน	NN	O	I_CLS
 _	PU	O	I_CLS
-3.3	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-หมื่น	NU	I_MEA	I_CLS
+3.3	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+หมื่น	NU	B_MEA	I_CLS
 ล้าน	NU	I_MEA	I_CLS
 เหรียญ	NN	I_MEA	I_CLS
 สหรัฐ	NN	E_MEA	I_CLS
@@ -179,9 +179,9 @@ _	PU	O	I_CLS
 (	PU	O	I_CLS
 ราว	AJ	O	I_CLS
 _	PU	O	I_CLS
-1.1	NU	B_MEA	I_CLS
-_	PU	I_MEA	I_CLS
-ล้าน	NU	I_MEA	I_CLS
+1.1	NU	B_NUM	I_CLS
+_	PU	O	I_CLS
+ล้าน	NU	B_MEA	I_CLS
 ล้าน	NU	I_MEA	I_CLS
 บาท	NN	E_MEA	I_CLS
 )	PU	O	I_CLS
@@ -334,14 +334,14 @@ _	PU	I_DTM	I_CLS
 มิ.ย.	NN	E_DTM	I_CLS
 _	PU	O	I_CLS
 หรือ	CC	O	I_CLS
-เมื่อ	PS	O	I_CLS
-_	PU	O	I_CLS
-1	NU	B_MEA	I_CLS
-_	PU	O	I_CLS
-เดือน	CL	B_MEA	I_CLS
-ที่	CC	O	I_CLS
-ผ่าน	VV	O	I_CLS
-มา	AV	O	E_CLS
+เมื่อ	PS	B_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+1	NU	I_DUR	I_CLS
+_	PU	I_DUR	I_CLS
+เดือน	CL	I_DUR	I_CLS
+ที่	CC	I_DUR	I_CLS
+ผ่าน	VV	I_DUR	I_CLS
+มา	AV	E_DUR	E_CLS
 
 ด้าน	NN	O	B_CLS
 หนังสือพิมพ์	NN	B_ORG	I_CLS
@@ -424,6 +424,6 @@ _	PU	O	O
 เจรจา	VV	O	I_CLS
 กับ	PS	O	I_CLS
 ทั้ง	AJ	O	I_CLS
-สอง	NU	B_MEA	I_CLS
-ฝ่าย	CL	E_MEA	E_CLS
+สอง	NU	B_NUM	I_CLS
+ฝ่าย	CL	B_MEA	E_CLS
 

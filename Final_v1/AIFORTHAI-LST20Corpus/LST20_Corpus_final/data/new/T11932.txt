@@ -1,5 +1,5 @@
 ' PU O B_CLS
-อู๋ NN B_NIC I_CLS
+อู๋ NN B_PER I_CLS
 ' PU O I_CLS
 _ PU O I_CLS
 ยัง AX O I_CLS
@@ -8,7 +8,7 @@ _ PU O I_CLS
 ลาย NN O I_CLS
 _ PU O I_CLS
 ' PU O I_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 ' PU O I_CLS
 อ่อนใจ VV O I_CLS
 โปรฯ NN O I_CLS
@@ -127,7 +127,7 @@ _ PU O O
 คือ VV O I_CLS
 อะไร PR O I_CLS
 _ PU O I_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 _ PU O I_CLS
 เผย VV O E_CLS
 
@@ -225,7 +225,7 @@ _ PU O I_CLS
 บอก VV O E_CLS
 _ PU O O
 ว่า CC O B_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 ยัง AX O I_CLS
 ไม่ NG O I_CLS
 อยาก VV O I_CLS
@@ -259,7 +259,7 @@ _ PU O O
 อย่าง NN O I_CLS
 นี้ AJ O I_CLS
 _ PU O I_CLS
-พี่อู๋ NN B_NIC I_CLS
+พี่อู๋ NN B_PER I_CLS
 เขา PR O I_CLS
 ก็ CC O I_CLS
 มี VV O I_CLS
@@ -381,7 +381,7 @@ _ PU O O
 ถึง PS O B_CLS
 กระนั้น CC O I_CLS
 _ PU O I_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 _ PU O I_CLS
 ก็ CC O I_CLS
 ไม่ NG O I_CLS
@@ -407,7 +407,7 @@ _ PU O O
 เรื่อง NN O I_CLS
 นี้ AJ O I_CLS
 _ PU O I_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 _ PU O I_CLS
 แจง VV O E_CLS
 ว่า CC O B_CLS
@@ -424,16 +424,16 @@ _ PU O I_CLS
 เจอ VV O I_CLS
 เมื่อ PS O I_CLS
 _ PU O I_CLS
-3-4 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ปี CL E_MEA E_CLS
+3-4 NU B_NUM I_CLS
+_ PU O I_CLS
+ปี CL B_MEA E_CLS
 ที่ CC O B_CLS
 แล้ว VV O I_CLS
 _ PU O I_CLS
 และ CC O I_CLS
 ตอน NN O I_CLS
 นี้ AJ O I_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 ก็ CC O I_CLS
 มี VV O I_CLS
 คน NN O I_CLS
@@ -495,20 +495,20 @@ _ PU O I_CLS
 คง AX O I_CLS
 ต้อง AX O I_CLS
 เคลียร์ VV O I_CLS
-พี่ NN B_TTL I_CLS
-อู๋ NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+อู๋ NN E_PER I_CLS
 ก่อน AV O I_CLS
 อยู่แล้ว AX O E_CLS
 _ PU O O
 เพราะ CC O B_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 ไม่ NG O I_CLS
 ชอบ VV O I_CLS
 คบ VV O I_CLS
 ซ้อน AV O I_CLS
 _ PU O I_CLS
-พี่ NN B_TTL I_CLS
-อู๋ NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+อู๋ NN E_PER I_CLS
 เขา PR O I_CLS
 ก็ CC O I_CLS
 รู้ VV O I_CLS
@@ -530,8 +530,8 @@ _ PU O O
 เคย AX O I_CLS
 เล่า VV O E_CLS
 ให้ CC O B_CLS
-พี่ NN B_TTL I_CLS
-อู๋ NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+อู๋ NN E_PER I_CLS
 ฟัง VV O E_CLS
 _ PU O O
 ว่า CC O B_CLS
@@ -613,7 +613,7 @@ _ PU O I_CLS
 ให้ VV O E_CLS
 _ PU O O
 แต่ CC O B_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 ไม่ NG O I_CLS
 เอา VV O E_CLS
 _ PU O O
@@ -625,7 +625,7 @@ _ PU O O
 คน NN O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-แพร NN B_NIC I_CLS
+แพร NN B_PER I_CLS
 กล่าว VV O I_CLS
 สรุป VV O E_CLS
 

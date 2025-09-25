@@ -36,7 +36,7 @@ _ PU I_DTM I_CLS
 จังหวัด NN I_LOC I_CLS
 นนทบุรี NN E_LOC I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 คำรณวิทย์ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ธูปกระจ่าง NN E_PER I_CLS
@@ -48,7 +48,7 @@ _ PU I_ROLE I_CLS
 _ PU I_ROLE I_CLS
 1 NU E_ROLE I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 ทรงวุฒิ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ถวัลย์กิจดำรง NN E_PER I_CLS
@@ -56,7 +56,7 @@ _ PU O I_CLS
 ผบก. NN B_ROLE I_CLS
 ภ.นนทบุรี NN E_ROLE I_CLS
 _ PU O I_CLS
-พ.ต.อ. NN B_TTL I_CLS
+พ.ต.อ. NN B_DES I_CLS
 พงษ์สิทธิ์ NN B_PER I_CLS
 _ PU I_PER I_CLS
 แสงเพชร NN E_PER I_CLS
@@ -68,7 +68,7 @@ _ PU I_ROLE I_CLS
 _ PU I_ROLE I_CLS
 นนทบุรี NN E_ROLE I_CLS
 _ PU O I_CLS
-พ.ต.อ. NN B_TTL I_CLS
+พ.ต.อ. NN B_DES I_CLS
 อัคราเดช NN B_PER I_CLS
 _ PU I_PER I_CLS
 พิมลศรี NN E_PER I_CLS
@@ -78,7 +78,7 @@ _ PU O I_CLS
 _ PU I_ROLE I_CLS
 กองปราบปราบ NN E_ROLE I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ฐิติพงศ์ NN B_PER I_CLS
 _ PU I_PER I_CLS
 สุริยะฉาย NN E_PER I_CLS
@@ -112,7 +112,7 @@ _ PU O I_CLS
 ไฟ NN O I_CLS
 เผา VV O I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 ชูเกียรติ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ภัยลี้ NN E_PER I_CLS
@@ -134,15 +134,15 @@ _ PU O I_CLS
 นาน AV O I_CLS
 กว่า AJ O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ชม. CL E_MEA E_CLS
+2 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ชม. CL E_DUR E_CLS
 
 ภายหลัง PS O B_CLS
 การ FX O I_CLS
 ประชุม VV O I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 คำรณวิทย์ NN B_PER I_CLS
 _ PU O I_CLS
 กล่าว VV O I_CLS
@@ -160,7 +160,7 @@ _ PU O O
 เอทีเอ็ม NN O I_CLS
 ของ PS O I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 ชูเกียรติ NN B_PER I_CLS
 _ PU O I_CLS
 ไป AV O I_CLS
@@ -217,7 +217,7 @@ _ PU O I_CLS
 ชัดเจน VV O I_CLS
 แล้ว AX O I_CLS
 _ PU O I_CLS
-พล.ต.ท. NN B_TTL I_CLS
+พล.ต.ท. NN B_DES I_CLS
 ฉลอง NN B_PER I_CLS
 _ PU I_PER I_CLS
 สนใจ NN E_PER I_CLS
@@ -240,7 +240,7 @@ _ PU O I_CLS
 ได้ AX O I_CLS
 สั่งการ VV O I_CLS
 _ PU O I_CLS
-พ.ต.อ. NN B_TTL I_CLS
+พ.ต.อ. NN B_DES I_CLS
 เพชรรัตน์ NN B_PER I_CLS
 _ PU I_PER I_CLS
 แสงไชย NN E_PER I_CLS
@@ -331,9 +331,9 @@ _ PU O I_CLS
 คน NN O I_CLS
 ตาย VV O I_CLS
 _ PU O I_CLS
-2-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ครั้ง CL E_MEA E_CLS
+2-3 NU B_NUM I_CLS
+_ PU O I_CLS
+ครั้ง CL B_MEA E_CLS
 _ PU O O
 ก็ CC O B_CLS
 เป็น VV O I_CLS
@@ -495,10 +495,10 @@ _ PU O O
 ตาย VV O I_CLS
 _ PU O I_CLS
 มูลค่า NN O I_CLS
-หลาย AJ B_MEA I_CLS
-สิบ NU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
-บาท NN E_MEA I_CLS
+หลาย AJ O I_CLS
+สิบ NU B_NUM I_CLS
+ล้าน NU E_NUM I_CLS
+บาท NN B_MEA I_CLS
 _ PU O I_CLS
 ตาม PS O I_CLS
 แหล่ง NN O I_CLS

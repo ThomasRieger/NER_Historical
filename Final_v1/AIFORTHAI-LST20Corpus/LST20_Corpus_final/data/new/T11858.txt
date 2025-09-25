@@ -158,7 +158,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 2 NU B_NUM I_CLS
 _ PU O I_CLS
-ประเทศ CL O E_CLS
+ประเทศ CL B_MEA E_CLS
 _ PU O O
 โดย CC O B_CLS
 จะ AX O I_CLS
@@ -179,7 +179,7 @@ _ PU O O
 _ PU O I_CLS
 2 NU B_NUM I_CLS
 _ PU O I_CLS
-ประเทศ CL O E_CLS
+ประเทศ CL B_MEA E_CLS
 _ PU O O
 ส่วน CC O B_CLS
 การ FX O I_CLS
@@ -751,8 +751,8 @@ _ PU O O
 โดย CC O B_CLS
 ทหาร NN O I_CLS
 ทั้ง AJ O I_CLS
-สอง NU B_MEA I_CLS
-ฝ่าย CL E_MEA I_CLS
+สอง NU B_NUM I_CLS
+ฝ่าย CL B_MEA I_CLS
 ยังคง AX O I_CLS
 อยู่ VV O I_CLS
 _ PU O I_CLS
@@ -789,9 +789,9 @@ _ PU O I_CLS
 กัน AV O I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-50 NN B_MEA I_CLS
-_ PU I_MEA I_CLS
-เมตร CL E_MEA I_CLS
+50 NN B_NUM I_CLS
+_ PU O I_CLS
+เมตร CL B_MEA I_CLS
 เท่านั้น AV O E_CLS
 _ PU O O
 ซึ่ง CC O B_CLS
@@ -800,7 +800,7 @@ _ PU O O
 _ PU O I_CLS
 2 NU B_NUM I_CLS
 _ PU O I_CLS
-ฝ่าย CL O I_CLS
+ฝ่าย CL B_MEA I_CLS
 _ PU O I_CLS
 ยัง AX O I_CLS
 ไม่ NG O I_CLS
@@ -838,7 +838,7 @@ _ PU O O
 _ PU O I_CLS
 2 NU B_NUM I_CLS
 _ PU O I_CLS
-ฝ่าย CL O I_CLS
+ฝ่าย CL B_MEA I_CLS
 อีก AV O I_CLS
 _ PU O I_CLS
 จาก PS O I_CLS

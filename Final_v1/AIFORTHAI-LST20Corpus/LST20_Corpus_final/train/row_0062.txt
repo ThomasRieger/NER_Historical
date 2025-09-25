@@ -33,9 +33,9 @@ _ PU O I_CLS
 _ PU O I_CLS
 จำนวน NN O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ถ้ำ CL E_MEA I_CLS
+3 NU B_NUM I_CLS
+_ PU O I_CLS
+ถ้ำ CL B_MEA I_CLS
 _ PU O I_CLS
 จำแนก VV O I_CLS
 พื้นที่ NN O I_CLS
@@ -149,9 +149,9 @@ _ PU O I_CLS
 ทะเล NN O I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-8 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-กิโลเมตร CL E_MEA E_CLS
+8 NU B_NUM I_CLS
+_ PU O I_CLS
+กิโลเมตร CL B_MEA E_CLS
 
 ถ้ำ NN O B_CLS
 ถ้วย NN O I_CLS
@@ -365,9 +365,9 @@ _ PU I_DUR I_CLS
 ได้ AX O I_CLS
 เป็น VV O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ระยะ CL E_MEA I_CLS
+2 NU B_NUM I_CLS
+_ PU O I_CLS
+ระยะ CL B_MEA I_CLS
 _ PU O I_CLS
 กำหนด VV O I_CLS
 อายุ NN O I_CLS

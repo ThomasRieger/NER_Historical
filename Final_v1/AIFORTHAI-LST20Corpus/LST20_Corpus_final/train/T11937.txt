@@ -1,9 +1,9 @@
 " PU O B_CLS
-เป้ย NN B_NIC I_CLS
+เป้ย NN B_PER I_CLS
 " PU O I_CLS
 โบ้ย VV O I_CLS
 " PU O I_CLS
-กระแต NN B_NIC I_CLS
+กระแต NN B_PER I_CLS
 " PU O I_CLS
 _ PU O I_CLS
 ชิง VV O I_CLS
@@ -13,7 +13,7 @@ _ PU O I_CLS
 แก้ผ้า VV O I_CLS
 หนัง NN O I_CLS
 " PU O I_CLS
-ตั๊ก NN B_NIC I_CLS
+ตั๊ก NN B_PER I_CLS
 " PU O E_CLS
 
 เมื่อ CC O B_CLS
@@ -21,7 +21,7 @@ _ PU O I_CLS
 เป็น VV O I_CLS
 สี NN O I_CLS
 ชมพู VV O I_CLS
-เป้ย NN B_NIC I_CLS
+เป้ย NN B_PER I_CLS
 - PU O I_CLS
 ปานวาด NN B_PER I_CLS
 _ PU I_PER I_CLS
@@ -67,7 +67,7 @@ _ PU O O
 " PU O B_CLS
 หนัง NN O I_CLS
 ของ PS O I_CLS
-ตั๊กเป้ย NN B_NIC I_CLS
+ตั๊กเป้ย NN B_PER I_CLS
 ได้ AX O I_CLS
 อ่าน VV O I_CLS
 บท NN O I_CLS
@@ -215,7 +215,7 @@ _ PU O I_CLS
 _ PU O O
 ซึ่ง CC O B_CLS
 กับ PS O I_CLS
-ตั๊กเป้ย NN B_NIC I_CLS
+ตั๊กเป้ย NN B_PER I_CLS
 ยัง AX O I_CLS
 ไม่ NG O I_CLS
 ได้ AX O I_CLS
@@ -263,15 +263,15 @@ _ PU O I_CLS
 มา AV O I_CLS
 คุย VV O I_CLS
 กับ PS O I_CLS
-ตั๊ก NN B_NIC I_CLS
+ตั๊ก NN B_PER I_CLS
 แล้ว AX O I_CLS
 _ PU O I_CLS
 ถึง PS O I_CLS
 ยัง NN O I_CLS
 ไง AJ O I_CLS
-ตั๊ก NN B_NIC I_CLS
+ตั๊ก NN B_PER I_CLS
 กับ PS O I_CLS
-กระแต NN B_NIC I_CLS
+กระแต NN B_PER I_CLS
 เป็น VV O I_CLS
 เพื่อน NN O I_CLS
 กัน AV O I_CLS
@@ -284,14 +284,14 @@ _ PU O I_CLS
 จะ AX O I_CLS
 เหมาะ VV O I_CLS
 กับ PS O I_CLS
-กระแต NN B_NIC I_CLS
+กระแต NN B_PER I_CLS
 มาก AV O I_CLS
 กว่า PS O I_CLS
-เป้ย NN B_NIC I_CLS
+เป้ย NN B_PER I_CLS
 ก็ CC O I_CLS
 ได้ AX O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-เป้ย NN B_NIC I_CLS
+เป้ย NN B_PER I_CLS
 กล่าว VV O E_CLS
 

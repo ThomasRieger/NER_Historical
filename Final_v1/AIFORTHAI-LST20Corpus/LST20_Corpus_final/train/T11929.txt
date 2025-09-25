@@ -2,7 +2,7 @@
 แพทย์	NN	O	I_CLS
 _ PU O I_CLS
 ' PU O I_CLS
-ปอ NN B_NIC I_CLS
+ปอ NN B_PER I_CLS
 ' PU O I_CLS
 _ PU O I_CLS
 เฮ VV O I_CLS
@@ -259,7 +259,7 @@ _ PU O O
 เอง AV O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-ปอ NN B_NIC I_CLS
+ปอ NN B_PER I_CLS
 กล่าว VV O I_CLS
 พร้อม CC O I_CLS
 หัวเราะ VV O E_CLS
@@ -404,9 +404,9 @@ _ PU O O
 อิ๊กซี่ NN O I_CLS
 มา VV O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ครั้ง CL E_MEA I_CLS
+1 NU B_NUM I_CLS
+_ PU O I_CLS
+ครั้ง CL B_MEA I_CLS
 _ PU O I_CLS
 นี่ PR O I_CLS
 เป็น VV O I_CLS
@@ -545,7 +545,7 @@ _ PU O O
 อยู่ AX O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-ปอ NN B_NIC I_CLS
+ปอ NN B_PER I_CLS
 กล่าว VV O I_CLS
 ทิ้งท้าย AV O E_CLS
 

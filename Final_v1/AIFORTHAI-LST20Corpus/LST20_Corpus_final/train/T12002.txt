@@ -1,5 +1,5 @@
 " PU O B_CLS
-ชมพู่ NN B_NIC I_CLS
+ชมพู่ NN B_PER I_CLS
 " PU O I_CLS
 ถอย VV O I_CLS
 รถ NN B_VEH I_CLS
@@ -193,6 +193,6 @@ _ PU O I_CLS
 หรอก PA O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-ชมพู่ NN B_NIC I_CLS
+ชมพู่ NN B_PER I_CLS
 กล่าว VV O E_CLS
 

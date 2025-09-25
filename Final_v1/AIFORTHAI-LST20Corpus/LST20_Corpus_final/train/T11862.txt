@@ -31,7 +31,7 @@ _ PU I_DTM I_CLS
 ก.ค. NN I_DTM I_CLS
 52 NU E_DTM I_CLS
 _ PU O I_CLS
-พ.ต.อ. NN B_TTL I_CLS
+พ.ต.อ. NN B_DES I_CLS
 ประเวช NN B_PER I_CLS
 _ PU I_PER I_CLS
 มูลประมุข NN E_PER I_CLS
@@ -152,7 +152,7 @@ _ PU O O
 ด้วย AV O I_CLS
 ใน PS O I_CLS
 _ PU O I_CLS
-4 NU B_MEA I_CLS
+4 NU B_NUM I_CLS
 _ PU O I_CLS
 ประเด็น CL B_MEA I_CLS
 คือ VV O I_CLS
@@ -196,7 +196,7 @@ _ PU O O
 รถ NN B_VEH I_CLS
 บีอาร์ที NN E_VEH E_CLS
 
-พ.ต.อ. NN B_TTL B_CLS
+พ.ต.อ. NN B_DES B_CLS
 ประเวช NN B_PER I_CLS
 _ PU O I_CLS
 กล่าว VV O I_CLS
@@ -226,9 +226,9 @@ _ PU O O
 ป.ป.ช. NN B_STY I_CLS
 ภายใน PS O I_CLS
 _ PU O I_CLS
-30 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA E_CLS
+30 NU B_NUM I_CLS
+_ PU O I_CLS
+วัน CL B_MEA E_CLS
 _ PU O O
 ตามที่ CC O B_CLS
 กฎหมาย NN O I_CLS
@@ -352,10 +352,10 @@ _ PU O O
 แล้ว AX O I_CLS
 กว่า AJ O I_CLS
 _ PU O I_CLS
-1,200 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
-บาท NN E_MEA I_CLS
+1,200 NU B_NUM I_CLS
+_ PU I_NUM I_CLS
+ล้าน NU E_NUM I_CLS
+บาท NN B_MEA I_CLS
 " PU O E_CLS
 
 ด้าน NN O B_CLS

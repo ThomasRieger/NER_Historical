@@ -48,11 +48,11 @@ _ PU O I_CLS
 มี VV O I_CLS
 ยอด NN O I_CLS
 ขาย VV O I_CLS
-ประมาณ AJ B_MEA I_CLS
-_ PU I_MEA I_CLS
-236,000 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-คัน CL E_MEA E_CLS
+ประมาณ AJ O I_CLS
+_ PU O I_CLS
+236,000 NU B_NUM I_CLS
+_ PU O I_CLS
+คัน CL B_MEA E_CLS
 
 บริษัท NN B_ORG B_CLS
 _ PU I_ORG I_CLS
@@ -67,8 +67,8 @@ _ PU O I_CLS
 รถยนต์ NN B_VEH I_CLS
 ใน PS O I_CLS
 ประเทศ NN O I_CLS
-ครึ่ง NU O I_CLS
-ปี CL B_MEA I_CLS
+ครึ่ง NU B_DUR I_CLS
+ปี CL E_DUR I_CLS
 หลัง NU O I_CLS
 _ PU O I_CLS
 ปี NN B_DTM I_CLS
@@ -192,10 +192,10 @@ _ PU O I_CLS
 หด VV O I_CLS
 ตัว NN O I_CLS
 ถึง PS O I_CLS
-ร้อย NU B_MEA I_CLS
-ละ AJ I_MEA I_CLS
-_ PU I_MEA I_CLS
-30.4 NU E_MEA E_CLS
+ร้อย NU B_NUM I_CLS
+ละ AJ I_NUM I_CLS
+_ PU I_NUM I_CLS
+30.4 NU E_NUM E_CLS
 _ PU O O
 เมื่อ CC O B_CLS
 เทียบ VV O I_CLS
@@ -243,15 +243,15 @@ _ PU O O
 ยอด NN O I_CLS
 ขาย VV O I_CLS
 ทั้งสิ้น AJ O I_CLS
-ประมาณ AJ B_MEA I_CLS
-_ PU I_MEA I_CLS
-229,000 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-ถึง PS I_MEA I_CLS
-_ PU I_MEA I_CLS
-236,000 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-คัน CL E_MEA E_CLS
+ประมาณ AJ O I_CLS
+_ PU O I_CLS
+229,000 NU B_NUM I_CLS
+_ PU I_NUM I_CLS
+ถึง PS I_NUM I_CLS
+_ PU I_NUM I_CLS
+236,000 NU E_NUM I_CLS
+_ PU O I_CLS
+คัน CL B_MEA E_CLS
 
 อย่างไรก็ดี CC O B_CLS
 _ PU O I_CLS

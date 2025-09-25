@@ -88,9 +88,9 @@ _ PU O O
 ได้รับบาดเจ็บ VV O I_CLS
 รวม VV O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-คน CL E_MEA E_CLS
+3 NU B_NUM I_CLS
+_ PU O I_CLS
+คน CL B_MEA E_CLS
 
 ล่าสุด AV O B_CLS
 _ PU O I_CLS
@@ -131,9 +131,9 @@ _ PU O O
 _ PU O I_CLS
 เจ้าหน้าที่ NN O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ฝ่าย CL E_MEA I_CLS
+3 NU B_NUM I_CLS
+_ PU O I_CLS
+ฝ่าย CL B_MEA I_CLS
 ได้ AX O I_CLS
 สนธิ VV O I_CLS
 กำลัง NN O I_CLS

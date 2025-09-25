@@ -257,8 +257,8 @@ _ PU O I_CLS
 บิน VV O I_CLS
 มา AV O I_CLS
 ถ่าย VV O I_CLS
-อย่าง CL B_MEA I_CLS
-เดียว NU E_MEA I_CLS
+อย่าง CL O I_CLS
+เดียว NU B_NUM I_CLS
 _ PU O I_CLS
 เขา PR O I_CLS
 มา VV O I_CLS
@@ -323,9 +323,9 @@ _ PU O I_CLS
 เอ็มวี NN O I_CLS
 ไป VV O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-เซต CL E_MEA I_CLS
+3 NU B_NUM I_CLS
+_ PU O I_CLS
+เซต CL B_MEA I_CLS
 _ PU O I_CLS
 ตั้งแต่ PS B_DUR I_CLS
 _ PU I_DUR I_CLS

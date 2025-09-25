@@ -114,9 +114,9 @@ _ PU O I_CLS
 ดิน NN O I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-เมตร CL E_MEA I_CLS
+1 NU B_NUM I_CLS
+_ PU O I_CLS
+เมตร CL B_MEA I_CLS
 _ PU O I_CLS
 ได้แก่ CC O I_CLS
 _ PU O I_CLS

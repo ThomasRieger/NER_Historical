@@ -101,8 +101,8 @@ _ PU O I_CLS
 มั่วสุม VV O I_CLS
 กัน AV O I_CLS
 ตั้งแต่ PS O I_CLS
-สิบ NU B_MEA I_CLS
-คน CL E_MEA I_CLS
+สิบ NU B_NUM I_CLS
+คน CL B_MEA I_CLS
 ขึ้น AV O I_CLS
 ไป VV O I_CLS
 _ PU O I_CLS
@@ -175,7 +175,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 9 NU B_NUM I_CLS
 _ PU O I_CLS
-แห่ง PS O E_CLS
+แห่ง PS B_MEA E_CLS
 
 พ.ร.ก. NN B B_CLS
 การ FX O I_CLS
@@ -249,7 +249,7 @@ _ PU O I_CLS
 โดย CC O B_CLS
 มี VV O I_CLS
 _ PU O I_CLS
-พล.ต.ท. NN B_TTL I_CLS
+พล.ต.ท. NN B_DES I_CLS
 วุฒิ NN B_PER I_CLS
 _ PU I_PER I_CLS
 พัวเวส NN E_PER I_CLS
@@ -263,13 +263,13 @@ _ PU O I_CLS
 สอบ VV O I_CLS
 เป็น VV O I_CLS
 เวลา NN O I_CLS
-ประมาณ AJ B_MEA I_CLS
-_ PU I_MEA I_CLS
-2 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-ชั่วโมง CL E_MEA E_CLS
+ประมาณ AJ O I_CLS
+_ PU O I_CLS
+2 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ชั่วโมง CL E_DUR E_CLS
 
-พล.ต.ท. NN B_TTL B_CLS
+พล.ต.ท. NN B_DES B_CLS
 วุฒิ NN B_PER I_CLS
 _ PU O I_CLS
 กล่าว VV O I_CLS
@@ -424,11 +424,11 @@ _ PU O O
 ใน PS O I_CLS
 การ FX O I_CLS
 สอบปากคำ VV O I_CLS
-ประมาณ AJ B_MEA I_CLS
-_ PU I_MEA I_CLS
-2 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-ชั่วโมง CL E_MEA I_CLS
+ประมาณ AJ O I_CLS
+_ PU O I_CLS
+2 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ชั่วโมง CL E_DUR I_CLS
 _ PU O I_CLS
 เบื้องต้น NN O E_CLS
 
@@ -472,11 +472,11 @@ _ PU O I_CLS
 ให้ VV O I_CLS
 พนักงาน NN O I_CLS
 สอบสวน VV O I_CLS
-ภายใน PS B_MEA I_CLS
-_ PU I_MEA I_CLS
-30 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-วัน CL E_MEA E_CLS
+ภายใน PS O I_CLS
+_ PU O I_CLS
+30 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+วัน CL E_DUR E_CLS
 
 และ CC O B_CLS
 ที่ CC O I_CLS
@@ -519,7 +519,7 @@ _ PU O I_CLS
 ประเทศ NN O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-พล.ต.ท. NN B_TTL I_CLS
+พล.ต.ท. NN B_DES I_CLS
 วุฒิ NN B_PER I_CLS
 กล่าว VV O E_CLS
 

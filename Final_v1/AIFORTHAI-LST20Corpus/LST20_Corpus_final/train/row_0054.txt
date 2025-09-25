@@ -47,9 +47,9 @@ _ PU O I_CLS
 อำเภอสุขสำราญ NN B_DIS I_CLS
 มา VV O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-กิโลเมตร CL E_MEA I_CLS
+3 NU B_NUM I_CLS
+_ PU O I_CLS
+กิโลเมตร CL B_MEA I_CLS
 _ PU O I_CLS
 จะ AX O I_CLS
 พบ VV O I_CLS
@@ -61,9 +61,9 @@ _ PU O I_CLS
 ไป VV O I_CLS
 อีก AJ O I_CLS
 _ PU O I_CLS
-10 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-นาที CL E_MEA I_CLS
+10 NU B_NUM I_CLS
+_ PU O I_CLS
+นาที CL B_MEA I_CLS
 _ PU O I_CLS
 เป็น VV O I_CLS
 ที่ NN O I_CLS

@@ -48,9 +48,9 @@ _ PU O I_CLS
 ยาว VV O I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-6 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-กิโลเมตร CL E_MEA I_CLS
+6 NU B_NUM I_CLS
+_ PU O I_CLS
+กิโลเมตร CL B_MEA I_CLS
 _ PU O I_CLS
 ประกอบ VV O I_CLS
 ด้วย PS O I_CLS

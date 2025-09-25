@@ -1,6 +1,6 @@
-ป๋อ NN B_NIC B_CLS
+ป๋อ NN B_PER B_CLS
 รับ VV O I_CLS
-ซี NN B_NIC I_CLS
+ซี NN B_PER I_CLS
 ลูบ VV O I_CLS
 เป้า NN O I_CLS
 เมิน VV O I_CLS
@@ -9,14 +9,14 @@
 เบี่ยงเบน VV O E_CLS
 
 " PU O B_CLS
-ป๋อ NN B_NIC I_CLS
+ป๋อ NN B_PER I_CLS
 " PU O I_CLS
 _ PU O I_CLS
 รับ VV O I_CLS
 _ PU O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-ซี NN B_NIC I_CLS
+ซี NN B_PER I_CLS
 _ PU O I_CLS
 " PU O I_CLS
 ลูบ VV O I_CLS
@@ -39,7 +39,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-เอ๋ NN B_NIC I_CLS
+เอ๋ NN B_PER I_CLS
 _ PU O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
@@ -54,7 +54,7 @@ _ PU O I_CLS
 เด่น VV O I_CLS
 _ PU O I_CLS
 จาก PS O I_CLS
-งานทีวีพูล NN B_EVO E_CLS
+งานทีวีพูล NN O E_CLS
 _ PU O O
 จน CC O B_CLS
 ทำให้ CC O I_CLS
@@ -124,7 +124,7 @@ _ PU O I_CLS
 จริง VV O I_CLS
 _ PU O I_CLS
 หนุ่ม NN O I_CLS
-ป๋อ NN B_NIC I_CLS
+ป๋อ NN B_PER I_CLS
 ก็ CC O I_CLS
 เปิดใจ VV O I_CLS
 เผย VV O I_CLS
@@ -144,7 +144,7 @@ _ PU O I_CLS
 ผม PR O I_CLS
 นั่ง VV O I_CLS
 อยู่แล้ว AX O I_CLS
-ซี NN B_NIC I_CLS
+ซี NN B_PER I_CLS
 ก็ CC O I_CLS
 เข้า AV O I_CLS
 มา AV O I_CLS
@@ -213,7 +213,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 " PU O E_CLS
 
-เอ๋ NN B_NIC B_CLS
+เอ๋ NN B_PER B_CLS
 _ PU O I_CLS
 ว่า CC O I_CLS
 อย่างไร AV O I_CLS
@@ -304,7 +304,7 @@ _ PU O I_CLS
 _ PU O O
 เพราะ CC O B_CLS
 ของ PS O I_CLS
-ซี NN B_NIC I_CLS
+ซี NN B_PER I_CLS
 ไม่ NG O I_CLS
 ใช่ VV O I_CLS
 ของ PS O I_CLS
@@ -355,7 +355,7 @@ _ PU O I_CLS
 ก่อน AV O E_CLS
 
 " PU O B_CLS
-ซี NN B_NIC I_CLS
+ซี NN B_PER I_CLS
 _ PU O I_CLS
 เริ่ม VV O I_CLS
 ทำ VV O I_CLS

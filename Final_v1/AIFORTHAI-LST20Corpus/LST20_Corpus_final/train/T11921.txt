@@ -10,9 +10,9 @@
 วัดระฆัง NN B_ORG I_CLS
 มูลค่า NN O I_CLS
 หลาย AJ O I_CLS
-สิบ NU B_MEA I_CLS
-ล้าน NU I_MEA I_CLS
-บาท NN E_MEA E_CLS
+สิบ NU B_NUM I_CLS
+ล้าน NU E_NUM I_CLS
+บาท NN B_MEA E_CLS
 
 เมื่อ PS O B_CLS
 เวลา NN B_DTM I_CLS
@@ -37,7 +37,7 @@ _ PU O I_CLS
 จังหวัด NN I_STY I_CLS
 นนทบุรี NN E_STY I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 คำรณวิทย์ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ธูปกระจ่าง NN E_PER I_CLS
@@ -49,7 +49,7 @@ _ PU I_ROLE I_CLS
 ภาค NN I_ROLE I_CLS
 _ PU I_ROLE I_CLS
 1 NU E_ROLE I_CLS
-_ PU B_TTL I_CLS
+_ PU O I_CLS
 พล.ต.ต. NN B_DES I_CLS
 ทรงวุฒิ NN B_PER I_CLS
 _ PU I_PER I_CLS
@@ -59,7 +59,7 @@ _ PU O I_CLS
 ภ. NN I_ROLE I_CLS
 นนทบุรี NN E_ROLE I_CLS
 _ PU O I_CLS
-พ.ต.อ. NN B_TTL I_CLS
+พ.ต.อ. NN B_DES I_CLS
 พงษสิทธิ์ NN B_PER I_CLS
 _ PU I_PER I_CLS
 แสงเพชร NN E_PER I_CLS
@@ -70,7 +70,7 @@ _ PU I_ROLE I_CLS
 _ PU I_ROLE I_CLS
 นนทบุรี NN E_ROLE I_CLS
 _ PU O I_CLS
-พ.ต.อ. NN B_TTL I_CLS
+พ.ต.อ. NN B_DES I_CLS
 อัคราเดช NN B_PER I_CLS
 _ PU I_PER I_CLS
 พิมลศรี NN E_PER I_CLS
@@ -82,7 +82,7 @@ _ PU I_ROLE I_CLS
 กอง NN I_ROLE I_CLS
 ปราบปราม VV E_ROLE I_CLS
 _ PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ฐิติพงศ์ NN B_PER I_CLS
 _ PU I_PER I_CLS
 สุริยะฉาย NN E_PER I_CLS
@@ -117,7 +117,7 @@ _ PU O I_CLS
 ไฟ NN O I_CLS
 เผา VV O I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 ชูเกียรติ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ภัยลี้ NN E_PER I_CLS
@@ -140,9 +140,9 @@ _ PU O I_CLS
 นาน VV O I_CLS
 กว่า AJ O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ช.ม. CL E_MEA E_CLS
+2 NU B_DUR I_CLS
+_ PU I_DUR I_CLS
+ช.ม. CL E_DUR E_CLS
 _ PU O O
 โดย CC O B_CLS
 ไม่ NG O I_CLS
@@ -164,7 +164,7 @@ _ PU O O
 ประชุม VV O I_CLS
 ทาง NN O I_CLS
 _ PU O I_CLS
-พล.ต.ต. NN B_TTL I_CLS
+พล.ต.ต. NN B_DES I_CLS
 คำรณวิทย์ NN B_PER I_CLS
 _ PU O I_CLS
 กล่าว VV O I_CLS
@@ -250,7 +250,7 @@ _ PU O I_CLS
 เดี๋ยว AV O I_CLS
 ทาง NN O I_CLS
 _ PU O I_CLS
-พล.ต.ท. NN B_TTL I_CLS
+พล.ต.ท. NN B_DES I_CLS
 ฉลอง NN B_PER I_CLS
 _ PU I_PER I_CLS
 สนใจ NN E_PER I_CLS
@@ -277,7 +277,7 @@ _ PU O I_CLS
 สั่งการ VV O I_CLS
 ให้ CC O E_CLS
 _ PU O O
-พ.ต.อ. NN B_TTL B_CLS
+พ.ต.อ. NN B_DES B_CLS
 เพชรรัตน์ NN B_PER I_CLS
 _ PU I_PER I_CLS
 แสงไชย NN E_PER I_CLS
@@ -370,9 +370,9 @@ _ PU O I_CLS
 คน NN O I_CLS
 ตาย VV O I_CLS
 _ PU O I_CLS
-2-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ครั้ง CL E_MEA E_CLS
+2-3 NU B_NUM I_CLS
+_ PU O I_CLS
+ครั้ง CL B_MEA E_CLS
 _ PU O O
 ก็ CC O B_CLS
 เป็น VV O I_CLS

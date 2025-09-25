@@ -69,7 +69,7 @@ _ PU O I_CLS
 กับ PS O I_CLS
 _ PU O I_CLS
 ' PU O I_CLS
-พ.ต.ท. NN B_TTL I_CLS
+พ.ต.ท. NN B_DES I_CLS
 ทักษิณ NN B_PER I_CLS
 _ PU I_PER I_CLS
 ชินวัตร NN E_PER I_CLS
@@ -182,8 +182,8 @@ _ PU O O
 แค่ AV O I_CLS
 ไป AV O I_CLS
 เลือกตั้ง VV O I_CLS
-อย่าง CL B_MEA I_CLS
-เดียว NU E_MEA I_CLS
+อย่าง CL O I_CLS
+เดียว NU O I_CLS
 _ PU O I_CLS
 ตอน NN O I_CLS
 นี้ AJ O I_CLS

@@ -1,5 +1,5 @@
 " PU O B_CLS
-ปอย NN B_NIC I_CLS
+ปอย NN B_PER I_CLS
 " PU O I_CLS
 อ้าง VV O I_CLS
 คิว NN O I_CLS
@@ -73,8 +73,8 @@ _ PU O O
 อยาก VV O I_CLS
 เล่น VV O I_CLS
 หนัง NN O I_CLS
-พี่ NN B_TTL I_CLS
-พจน์ NN B_PER I_CLS
+พี่ NN B_PER I_CLS
+พจน์ NN E_PER I_CLS
 คะ PA O E_CLS
 _ PU O O
 แต่ CC O B_CLS
@@ -93,7 +93,7 @@ _ PU O O
 ไม่ NG O I_CLS
 เกี่ยวกับ VV O E_CLS
 ว่า CC O B_CLS
-ปอย NN B_NIC I_CLS
+ปอย NN B_PER I_CLS
 โก่ง VV O I_CLS
 ค่า NN O I_CLS
 ตัว NN O I_CLS
@@ -107,7 +107,7 @@ _ PU O I_CLS
 เรื่อง NN O I_CLS
 คิว NN O I_CLS
 _ PU O I_CLS
-ปอย VV B_NIC I_CLS
+ปอย VV B_PER I_CLS
 ไม่ NG O I_CLS
 ค่อย AX O I_CLS
 ทราบ VV O I_CLS
@@ -122,7 +122,7 @@ _ PU O O
 ว่า CC O B_CLS
 ค่า NN O I_CLS
 ตัว NN O I_CLS
-ปอย NN B_NIC I_CLS
+ปอย NN B_PER I_CLS
 ไม่ NG O I_CLS
 แพง VV O I_CLS
 แน่นอน VV O I_CLS
@@ -131,8 +131,8 @@ _ PU O I_CLS
 อย่าง NN O I_CLS
 หนัง NN O I_CLS
 ของ PS O I_CLS
-พี่ NN B_TTL I_CLS
-พจน์ NN B_PER I_CLS
+พี่ NN B_PER I_CLS
+พจน์ NN E_PER I_CLS
 อยาก VV O I_CLS
 เล่น VV O I_CLS
 มาก VV O E_CLS
@@ -161,7 +161,7 @@ _ PU O I_CLS
 บอก VV O E_CLS
 ว่า CC O B_CLS
 คิว NN O I_CLS
-ปอย NN B_NIC I_CLS
+ปอย NN B_PER I_CLS
 ไม่ NG O I_CLS
 ได้ AX O I_CLS
 มี VV O I_CLS
@@ -199,7 +199,7 @@ _ PU O I_CLS
 ไว้ AX O I_CLS
 อยู่แล้ว AX O I_CLS
 _ PU O I_CLS
-ปอย NN B_NIC I_CLS
+ปอย NN B_PER I_CLS
 ก็ CC O I_CLS
 เสียดาย VV O I_CLS
 มาก VV O E_CLS
@@ -209,6 +209,6 @@ _ PU O I_CLS
 เล่น VV O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-ปอย NN B_NIC I_CLS
+ปอย NN B_PER I_CLS
 กล่าว VV O E_CLS
 

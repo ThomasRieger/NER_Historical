@@ -1,5 +1,5 @@
 " PU O B_CLS
-กบ NN B_NIC I_CLS
+กบ NN B_PER I_CLS
 - PU O I_CLS
 บรู๊ค NN E_NIC I_CLS
 " PU O I_CLS
@@ -54,7 +54,7 @@ _ PU O I_CLS
 อ้าง VV O I_CLS
 รอ VV O E_CLS
 ให้ CC O B_CLS
-บรู๊ค NN B_NIC I_CLS
+บรู๊ค NN B_PER I_CLS
 เลิก VV O I_CLS
 เล่น VV O I_CLS
 การเมือง NN O I_CLS
@@ -62,7 +62,7 @@ _ PU O I_CLS
 จด VV O E_CLS
 
 " PU O B_CLS
-กบ NN B_NIC I_CLS
+กบ NN B_PER I_CLS
 ยัง AX O I_CLS
 ใช้ VV O I_CLS
 นาม NN O I_CLS
@@ -81,7 +81,7 @@ _ PU O O
 ความ FX O I_CLS
 ตั้งใจ VV O I_CLS
 ของ PS O I_CLS
-กบ NN B_NIC I_CLS
+กบ NN B_PER I_CLS
 เอง AJ O E_CLS
 _ PU O O
 แต่ CC O B_CLS
@@ -105,11 +105,11 @@ _ PU O I_CLS
 ด้วย PS O I_CLS
 หน้าที่การงาน NN O I_CLS
 ของ PS O I_CLS
-พี่ NN B_TTL I_CLS
-บรู๊ค NN B_NIC E_CLS
+พี่ NN B_PER I_CLS
+บรู๊ค NN E_PER E_CLS
 ถ้า CC O B_CLS
-พี่ NN B_TTL I_CLS
-บรู๊ค NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+บรู๊ค NN E_PER I_CLS
 ทำงาน VV O I_CLS
 อาชีพ NN O I_CLS
 นี้ AJ O I_CLS
@@ -135,8 +135,8 @@ _ PU O I_CLS
 แล้ว AX O I_CLS
 _ PU O I_CLS
 ตัว NN O I_CLS
-พี่ NN B_TTL I_CLS
-บรู๊ค NN B_NIC I_CLS
+พี่ NN B_PER I_CLS
+บรู๊ค NN E_PER I_CLS
 ก็ CC O I_CLS
 เห็นด้วย VV O E_CLS
 แล้ว CC O B_CLS
@@ -183,6 +183,6 @@ _ PU O I_CLS
 เหมือนกัน AV O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-กบ NN B_NIC I_CLS
+กบ NN B_PER I_CLS
 กล่าว VV O E_CLS
 

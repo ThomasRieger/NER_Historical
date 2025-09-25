@@ -1,9 +1,9 @@
 " PU O B_CLS
-พิ้งค์กี้ NN B_NIC I_CLS
+พิ้งค์กี้ NN B_PER I_CLS
 " PU O I_CLS
 เลิก VV O I_CLS
 " PU O I_CLS
-อั้ม NN B_NIC I_CLS
+อั้ม NN B_PER I_CLS
 " PU O I_CLS
 _ PU O I_CLS
 ไม่ NG O I_CLS
@@ -38,14 +38,14 @@ _ PU I_PER I_CLS
 หนุ่ม NN O I_CLS
 คน CL O I_CLS
 ใหม่ VV O I_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 ยัง AX O I_CLS
 ไม่ NG O I_CLS
 มี VV O I_CLS
 นะ PA O I_CLS
 คะ PA O I_CLS
 _ PU O I_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 เพิ่ง AX O I_CLS
 เลิก VV O I_CLS
 กับ PS O I_CLS
@@ -147,7 +147,7 @@ _ PU O I_CLS
 ๆ PU O E_CLS
 
 สำหรับ PS O B_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 ก็ CC O I_CLS
 ยัง AX O I_CLS
 ไม่ NG O I_CLS
@@ -156,7 +156,7 @@ _ PU O I_CLS
 _ PU O I_CLS
 แต่ CC O I_CLS
 สำหรับ PS O I_CLS
-พี่อั้ม NN B_NIC I_CLS
+พี่อั้ม NN B_PER I_CLS
 ก็ CC O I_CLS
 คง AX O I_CLS
 ต้อง AX O I_CLS
@@ -167,15 +167,15 @@ _ PU O I_CLS
 _ PU O I_CLS
 จุดยืน NN O I_CLS
 ของ PS O I_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 ก็ CC O I_CLS
 มี VV O I_CLS
 อยู่แล้ว AX O I_CLS
 _ PU O I_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 รัก VV O I_CLS
 ใคร PR O I_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 ก็ CC O I_CLS
 รัก VV O I_CLS
 จริง VV O I_CLS
@@ -184,14 +184,14 @@ _ PU O I_CLS
 อยู่แล้ว AX O E_CLS
 
 ตั้งแต่ PS O B_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 คบ VV O I_CLS
 กับ PS O I_CLS
 เขา PR O I_CLS
 ตั้งแต่ PS O I_CLS
 แรก NU O I_CLS
 _ PU O I_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 ก็ CC O I_CLS
 ไม่ NG O I_CLS
 รู้ VV O I_CLS
@@ -200,10 +200,10 @@ _ PU O I_CLS
 อะไร PR O E_CLS
 _ PU O O
 แต่ CC O B_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 คิด VV O E_CLS
 ว่า CC O B_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 ทำ VV O I_CLS
 ดี VV O I_CLS
 ที่สุด AV O I_CLS
@@ -232,6 +232,6 @@ _ PU O I_CLS
 กัน PR O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-กี้ NN B_NIC I_CLS
+กี้ NN B_PER I_CLS
 กล่าว VV O E_CLS
 
