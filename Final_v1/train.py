@@ -4,7 +4,7 @@ from datasets import Dataset
 from transformers import (AutoTokenizer, AutoModelForTokenClassification,
                           TrainingArguments, Trainer)
 
-BASE_DIR = r"AIFORTHAI-LST20Corpus/LST20_Corpus_final"
+BASE_DIR = r"Final_v1\AIFORTHAI-LST20Corpus\LST20_Corpus_final"
 SPLIT      = "train"
 ENCODING   = "utf-8"
 
@@ -111,15 +111,16 @@ model = AutoModelForTokenClassification.from_pretrained(
 )
 
 # training arguments
+# pip install --upgrade transformers in case of tranformer error
 training_args = TrainingArguments(
-    output_dir="./ner_model_testtrain",
+    output_dir="./NER_TrainingArgs", 
     logging_strategy="steps", logging_steps=50,
     per_device_train_batch_size=4,
-    num_train_epochs=1000,
+    num_train_epochs=25,
     learning_rate=3e-5,
     fp16=torch.cuda.is_available(),
     save_steps=1000, save_total_limit=1,
-    report_to="none", evaluation_strategy="no"
+    report_to="none", eval_strategy="no"
 )
 
 # trainer
@@ -133,7 +134,7 @@ trainer = Trainer(
 trainer.train()
 
 # save
-SAVE_DIR = "./ner_modelfinal"
+SAVE_DIR = "./ner_modelfinal_v2" # change name every time
 os.makedirs(SAVE_DIR, exist_ok=True)
 model.save_pretrained(SAVE_DIR)
 tokenizer.save_pretrained(SAVE_DIR)
