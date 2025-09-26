@@ -276,7 +276,7 @@ _ PU O I_CLS
 ซาร่า NN B_PER I_CLS
 ประมาณ AJ O I_CLS
 _ PU O I_CLS
-5-6 NU B_NUM I_CLS
+5-6 NU O I_CLS
 _ PU O I_CLS
 คน CL B_MEA E_CLS
 _ PU O O

@@ -178,8 +178,8 @@ _ PU O O
 ที่ CC O B_CLS
 ขาย VV O I_CLS
 ได้ AX O I_CLS
-แผ่น NN B_MEA I_CLS
-เสียง NN I_MEA I_CLS
+แผ่น NN O I_CLS
+เสียง NN O I_CLS
 ได้ AX I_MEA I_CLS
 ถึง PS I_MEA I_CLS
 _ PU I_MEA I_CLS
@@ -206,9 +206,9 @@ _ PU O I_CLS
 หนึ่ง NU O I_CLS
 หนังสือพิมพ์ NN O I_CLS
 ใน PS O I_CLS
-หลาย AJ B_MEA I_CLS
-สิบ NU I_MEA I_CLS
-ประเทศ CL E_MEA E_CLS
+หลาย AJ B_NUM I_CLS
+สิบ NU E_NUM I_CLS
+ประเทศ CL B_MEA E_CLS
 
 นิค NN B_PER B_CLS
 _ PU I_PER I_CLS
@@ -512,9 +512,9 @@ _ PU O O
 ตลอด AJ O I_CLS
 กาล NN O I_CLS
 _ PU O I_CLS
-750 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ก็อปปี้ CL E_MEA I_CLS
+750 NU B_NUM I_CLS
+_ PU O I_CLS
+ก็อปปี้ CL B_MEA I_CLS
 _ PU O I_CLS
 เท่า VV O I_CLS
 ไมเคิล NN B_PER I_CLS

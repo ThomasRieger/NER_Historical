@@ -54,9 +54,9 @@ _ PU O I_CLS
 ใน PS O I_CLS
 ระยะ NN O I_CLS
 _ PU O I_CLS
-1 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-กิโลเมตร CL E_MEA I_CLS
+1 NU B_NUM I_CLS
+_ PU O I_CLS
+กิโลเมตร CL B_MEA I_CLS
 _ PU O I_CLS
 อยู่ VV O I_CLS
 ใกล้ PS O I_CLS

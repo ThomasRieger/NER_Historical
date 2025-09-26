@@ -162,7 +162,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 100	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-อันดับ	CL	O	I_CLS
+อันดับ	CL	B_MEA	I_CLS
 ของ	PS	O	I_CLS
 โลก	NN	O	I_CLS
 แต่อย่างใด	AV	O	E_CLS
@@ -179,7 +179,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 10	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-อันดับ	CL	O	I_CLS
+อันดับ	CL	B_MEA	I_CLS
 แรก	NU	O	I_CLS
 ประจำ	VV	O	I_CLS
 ปี	NN	B_DTM	I_CLS
@@ -373,7 +373,7 @@ _	PU	O	I_CLS
 _	PU	O	I_CLS
 3	NU	B_NUM	I_CLS
 _	PU	O	I_CLS
-คน	CL	O	I_CLS
+คน	CL	B_MEA	I_CLS
 ใน	PS	O	I_CLS
 แวดวง	NN	O	I_CLS
 การเมือง	NN	O	E_CLS

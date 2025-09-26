@@ -41,6 +41,6 @@ def predict(text):
 
 # Example usage
 if __name__ == "__main__":
-    text = str(input())
+    text = "นายพลระดับสูงของกองทัพสหรัฐฯ หลายร้อยนายทั่วโลก ถูกเรียกไปร่วมประชุมร่วมกับรัฐมนตรีกลาโหมที่รัฐเวอร์จิเนียในสัปดาห์หน้า โดยไม่มีใครบอกได้ว่า จุดประสงค์ของการประชุมคืออะไร"
     for word, pos, ner, cls in predict(text):
-        print(f"{word}\t{pos}\t{ner}\t{cls}")
+        print(f"{word}\t{pos}")

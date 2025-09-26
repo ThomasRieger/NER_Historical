@@ -9,7 +9,7 @@ from transformers import (
 BASE_DIR = r"Final_v1\AIFORTHAI-LST20Corpus\LST20_Corpus_final"
 SPLIT = "train"
 ENCODING = "utf-8"
-SAVE_DIR = "./ner_modelfinal_v3"
+SAVE_DIR = "./ner_modelfinal_v4"
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)

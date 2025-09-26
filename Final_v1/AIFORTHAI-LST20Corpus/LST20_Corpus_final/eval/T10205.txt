@@ -60,12 +60,12 @@ _ PU O I_CLS
 
 แต่ CC O B_CLS
 เวลา NN O I_CLS
-ผ่าน VV O I_CLS
-ไป AV O I_CLS
-_ PU O I_CLS
-5 NU B_MEA I_CLS
-_ PU O I_CLS
-ชั่วโมง CL B_MEA I_CLS
+ผ่าน VV B_DUR I_CLS
+ไป AV I_DUR I_CLS
+_ PU I_DUR I_CLS
+5 NU I_DUR I_CLS
+_ PU I_DUR I_CLS
+ชั่วโมง CL E_DUR I_CLS
 ยัง AX O I_CLS
 ไม่ NG O I_CLS
 ยอม VV O I_CLS
@@ -97,7 +97,7 @@ _ PU O I_CLS
 ชาวบ้าน NN O I_CLS
 วัย NN O I_CLS
 _ PU O I_CLS
-66 NU B_MEA I_CLS
+66 NU B_NUM I_CLS
 _ PU O I_CLS
 ปี CL B_MEA I_CLS
 ที่ CC O I_CLS
@@ -243,7 +243,7 @@ _ PU O O
 ความ FX O I_CLS
 สูง VV O I_CLS
 _ PU O I_CLS
-8 NU B_MEA I_CLS
+8 NU B_NUM I_CLS
 _ PU O I_CLS
 เมตร CL B_MEA I_CLS
 _ PU O I_CLS
@@ -361,7 +361,7 @@ _ PU O O
 ก่อสร้าง VV O I_CLS
 ราว NU O I_CLS
 _ PU O I_CLS
-2 NU B_MEA I_CLS
+2 NU B_NUM I_CLS
 _ PU O I_CLS
 ล้าน NU B_MEA I_CLS
 หยวน CL E_MEA I_CLS
@@ -369,9 +369,9 @@ _ PU O I_CLS
 หรือ CC O I_CLS
 ราว NU O I_CLS
 _ PU O I_CLS
-10 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-ล้าน NU I_MEA I_CLS
+10 NU B_NUM I_CLS
+_ PU O I_CLS
+ล้าน NU B_MEA I_CLS
 บาท CL E_MEA I_CLS
 _ PU O I_CLS
 ทำให้ CC O I_CLS

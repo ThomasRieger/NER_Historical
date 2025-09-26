@@ -1,11 +1,11 @@
-พิ้งกี้ NN B_NIC B_CLS
+พิ้งกี้ NN B_PER B_CLS
 _ PU O I_CLS
 รับ VV O I_CLS
 ปิด VV O I_CLS
 ห้อง NN O I_CLS
 เคลียร์ VV O I_CLS
 _ PU O I_CLS
-อั้ม NN B_NIC I_CLS
+อั้ม NN B_PER I_CLS
 _ PU O I_CLS
 2 NU B_NUM I_CLS
 _ PU O I_CLS
@@ -14,7 +14,7 @@ _ PU O I_CLS
 2 NU B_NUM E_CLS
 
 ' PU O B_CLS
-พิ้งกี้ NN B_NIC I_CLS
+พิ้งกี้ NN B_PER I_CLS
 ' PU O I_CLS
 _ PU O I_CLS
 รับ VV O I_CLS
@@ -23,7 +23,7 @@ _ PU O I_CLS
 เคลียร์ VV O I_CLS
 _ PU O I_CLS
 ' PU O I_CLS
-อั้ม NN B_NIC I_CLS
+อั้ม NN B_PER I_CLS
 ' PU O I_CLS
 _ PU O I_CLS
 2 NU B_NUM I_CLS
@@ -220,7 +220,7 @@ _ PU O I_CLS
 ห้อง NN O I_CLS
 เคลียร์ VV O I_CLS
 กับ PS O I_CLS
-อั้ม NN B_NIC I_CLS
+อั้ม NN B_PER I_CLS
 เลย AV O I_CLS
 จริง VV O I_CLS
 มั้ย PA O E_CLS
@@ -281,8 +281,8 @@ _ PU O O
 ก็ CC O B_CLS
 แฮปปี้ VV O I_CLS
 ทั้ง AJ O I_CLS
-สอง NU B_MEA I_CLS
-ฝ่าย CL E_MEA I_CLS
+สอง NU B_NUM I_CLS
+ฝ่าย CL B_MEA I_CLS
 _ PU O I_CLS
 เรา PR O I_CLS
 ไม่ NG O I_CLS

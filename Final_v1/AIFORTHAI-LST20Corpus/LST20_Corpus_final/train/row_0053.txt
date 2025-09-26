@@ -19,11 +19,11 @@ _ PU O I_CLS
 _ PU O I_CLS
 4098 NU B_ROA I_CLS
 _ PU O I_CLS
-ประมาณ AJ B_MEA I_CLS
-_ PU I_MEA I_CLS
-20 NU I_MEA I_CLS
-_ PU I_MEA I_CLS
-กิโลเมตร CL E_MEA I_CLS
+ประมาณ AJ O I_CLS
+_ PU O I_CLS
+20 NU B_NUM I_CLS
+_ PU O I_CLS
+กิโลเมตร CL B_MEA I_CLS
 _ PU O I_CLS
 มี VV O I_CLS
 รถ NN B_VEH I_CLS

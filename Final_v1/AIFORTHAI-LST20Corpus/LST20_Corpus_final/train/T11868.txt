@@ -1,4 +1,4 @@
-แทมมี่ NN B_NIC B_CLS
+แทมมี่ NN B_PER B_CLS
 เข้า VV O I_CLS
 อู่ NN O I_CLS
 ซ่อม VV O I_CLS
@@ -19,7 +19,7 @@ US.Open NN B_TRM E_CLS
 ที่ CC O I_CLS
 _ PU O I_CLS
 " PU O I_CLS
-แทมมี่ NN B_NIC I_CLS
+แทมมี่ NN B_PER I_CLS
 " PU O I_CLS
 _ PU O I_CLS
 แทมมารีน NN B_PER I_CLS
@@ -48,12 +48,12 @@ _ PU O I_CLS
 ตัว NN O I_CLS
 ออก VV O I_CLS
 จาก PS O I_CLS
-เทนนิสแกรนด์สแลม NN B_EVO I_CLS
+เทนนิสแกรนด์สแลม NN O I_CLS
 _ PU O I_CLS
 " PU O I_CLS
-วิมเบิลดัน NN B_EVO I_CLS
-_ PU I_EVO I_CLS
-2009 NU E_EVO I_CLS
+วิมเบิลดัน NN O I_CLS
+_ PU O I_CLS
+2009 NU B_DTM I_CLS
 " PU O I_CLS
 _ PU O I_CLS
 ประเภท NN O I_CLS
@@ -72,7 +72,7 @@ _ PU O I_CLS
 นั้น AJ O E_CLS
 
 ล่าสุด AV O B_CLS
-แทมมี่ NN B_NIC I_CLS
+แทมมี่ NN B_PER I_CLS
 เดินทาง VV O I_CLS
 กลับ VV O I_CLS
 ถึง VV O I_CLS
@@ -155,11 +155,11 @@ _ PU O I_CLS
 ทำ VV O I_CLS
 เอ็มอาร์ไอ NN O E_CLS
 
-นพ. NN B_TTL B_CLS
+นพ. NN B_DES B_CLS
 เอกวิทย์ NN B_PER I_CLS
 กล่าว VV O E_CLS
 ว่า CC O B_CLS
-แทมมี่ NN B_NIC I_CLS
+แทมมี่ NN B_PER I_CLS
 มี VV O I_CLS
 อาการ NN O I_CLS
 บาดเจ็บ VV O I_CLS
@@ -221,7 +221,7 @@ _ PU I_DUR I_CLS
 
 ส่วน CC O B_CLS
 " PU O I_CLS
-แทมมี่ NN B_NIC I_CLS
+แทมมี่ NN B_PER I_CLS
 " PU O I_CLS
 กล่าว VV O E_CLS
 ว่า CC O B_CLS
@@ -341,15 +341,15 @@ _ PU I_DUR I_CLS
 รายการ NN O I_CLS
 อุ่นเครื่อง VV O I_CLS
 _ PU O I_CLS
-2-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-รายการ CL E_MEA I_CLS
+2-3 NU B_NUM I_CLS
+_ PU O I_CLS
+รายการ CL B_MEA I_CLS
 ก่อน PS O I_CLS
-การ FX B_EVO I_CLS
-แข่งขัน VV I_EVO I_CLS
-เทนนิสแกรนด์สแลม NN I_EVO I_CLS
-ยูเอส NN I_EVO I_CLS
-โอเพ่น NN E_EVO I_CLS
+การ FX O I_CLS
+แข่งขัน VV O I_CLS
+เทนนิสแกรนด์สแลม NN O I_CLS
+ยูเอส NN O I_CLS
+โอเพ่น NN O I_CLS
 ที่ PS O I_CLS
 สหรัฐอเมริกา NN B_COU E_CLS
 
@@ -362,7 +362,7 @@ _ PU I_MEA I_CLS
 ล่าสุด AJ O I_CLS
 อันดับ NN O I_CLS
 ของ PS O I_CLS
-แทมมี่ NN B_NIC I_CLS
+แทมมี่ NN B_PER I_CLS
 อาจ AX O I_CLS
 จะ AX O I_CLS
 ตก VV O I_CLS

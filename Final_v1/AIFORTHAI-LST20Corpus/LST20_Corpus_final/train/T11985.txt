@@ -120,9 +120,9 @@ _ PU O I_CLS
 มาก AV O I_CLS
 ว่า CC O E_CLS
 _ PU O O
-30 NU B_MEA B_CLS
-_ PU I_MEA I_CLS
-ปี CL E_MEA I_CLS
+30 NU B_DUR B_CLS
+_ PU I_DUR I_CLS
+ปี CL E_DUR I_CLS
 _ PU O I_CLS
 มา AV O I_CLS
 เชื่อมโยง VV O I_CLS

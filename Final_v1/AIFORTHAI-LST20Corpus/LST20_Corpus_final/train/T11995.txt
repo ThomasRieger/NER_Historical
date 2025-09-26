@@ -1,11 +1,11 @@
 " PU O B_CLS
-เจ NN B_NIC I_CLS
+เจ NN B_PER I_CLS
 " PU O I_CLS
 ควง NN O I_CLS
 _ PU O I_CLS
-3 NU B_MEA I_CLS
-_ PU I_MEA I_CLS
-สาว NN E_MEA I_CLS
+3 NU B_NUM I_CLS
+_ PU O I_CLS
+สาว NN B_MEA I_CLS
 ลง VV O I_CLS
 เอ็มวี NN O I_CLS
 " PU O I_CLS
@@ -276,6 +276,6 @@ _ PU O I_CLS
 ครับ PA O I_CLS
 " PU O I_CLS
 _ PU O I_CLS
-เจ NN B_NIC I_CLS
+เจ NN B_PER I_CLS
 กล่าว VV O E_CLS
 
