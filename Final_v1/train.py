@@ -120,8 +120,8 @@ model = AutoModelForTokenClassification.from_pretrained(
 
 training_args = TrainingArguments(
     output_dir="./NER_TrainingArgs",
-    num_train_epochs=100,
-    learning_rate=5e-5,
+    num_train_epochs=500,
+    learning_rate=2e-5,
     per_device_train_batch_size=8,
     gradient_accumulation_steps=2,
     fp16=torch.cuda.is_available(),

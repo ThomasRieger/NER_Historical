@@ -3,7 +3,7 @@ from typing import List, Dict, Any
 import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
-MODEL_DIR = r"Final_v1\ner_modelfinal_v3"
+MODEL_DIR = r"Final_v1\ner_modelfinal_v4"
 MAX_LENGTH = 510
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 POSTPROCESS_RULES = True   # ตัดแท็กของเครื่องหมายวรรคตอนให้เป็น 'O' หลังทำนาย

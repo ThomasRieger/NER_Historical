@@ -7,3 +7,5 @@ attacut
 tiktoken
 sentencepiece
 'accelerate>=0.26.0'
+matplotlib
+pandas
