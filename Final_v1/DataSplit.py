@@ -34,5 +34,5 @@ if __name__ == "__main__":
     output_dir = r"Final_v1\AIFORTHAI-LST20Corpus\LST20_Corpus_final"
 
     # Source dirs: all/new, all/old
-    source_dirs = [os.path.join(base_dir, "new"), os.path.join(base_dir, "old")]
+    source_dirs = [os.path.join(base_dir, "new_fix"), os.path.join(base_dir, "old_fix")]
     split_and_copy(source_dirs, output_dir)
