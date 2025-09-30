@@ -452,7 +452,7 @@ _	PU	O	I_CLS
 แข็งแรง	VV	O	I_CLS
 _	PU	O	I_CLS
 คุณ	NN	O	I_CLS
-หมอ	NN	I_CLS
+หมอ	NN  O   I_CLS
 แจ้ง	VV	O	E_CLS
 ว่า	CC	O	B_CLS
 สุขภาพ	NN	O	I_CLS
