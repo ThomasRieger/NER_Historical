@@ -5,11 +5,12 @@ from transformers import (
     AutoTokenizer, AutoModelForTokenClassification,
     TrainingArguments, Trainer
 )
+import matplotlib.pyplot as plt
 
 BASE_DIR = r"Final_v1\AIFORTHAI-LST20Corpus\LST20_Corpus_final"
 SPLIT = "train"
 ENCODING = "utf-8"
-SAVE_DIR = "./ner_modelfinal_v"
+SAVE_DIR = "./ner_modelfinal_v5"
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -57,7 +58,7 @@ def parse_lines_to_sentences(raw: List[Tuple[str, str]]) -> List[List[List[str]]
 
 # label
 def extract_labels(sentences: List[List[List[str]]]) -> List[str]:
-    labels = sorted({f"{tok[1]} | {tok[2]} | {tok[3]}" for sent in sentences for tok in sent})
+    labels = sorted({f"{tok[1]}|{tok[2]}|{tok[3]}" for sent in sentences for tok in sent})
     logger.info(f"พบ label รวม {len(labels)} ชนิด: {labels}")
     return labels
 
@@ -97,6 +98,7 @@ def tokenize_and_align(batch: Dict) -> Dict:
     tok_out["labels"] = aligned_labels
     return tok_out
 
+
 if __name__ == "__main__":
     # load
     raw_lines = load_split_lines(BASE_DIR, SPLIT)
@@ -129,7 +131,7 @@ if __name__ == "__main__":
     # training args
     training_args = TrainingArguments(
         output_dir="./NER_TrainingArgs",
-        num_train_epochs=250,
+        num_train_epochs=50,
         learning_rate=2e-5,
         per_device_train_batch_size=8,
         gradient_accumulation_steps=2,
@@ -137,9 +139,9 @@ if __name__ == "__main__":
         logging_strategy="steps",
         logging_steps=50,
         save_strategy="steps",
-        save_steps=500,
+        save_steps=100,
         save_total_limit=1,
-        eval_strategy="no"
+        eval_strategy="no" 
     )
     trainer = Trainer(
         model=model,
@@ -147,9 +149,30 @@ if __name__ == "__main__":
         train_dataset=tokenized_train,
         tokenizer=tokenizer
     )
+    
+    # train
     trainer.train()
 
+    # save model
     os.makedirs(SAVE_DIR, exist_ok=True)
     model.save_pretrained(SAVE_DIR)
     tokenizer.save_pretrained(SAVE_DIR)
     logger.info(f"บันทึกโมเดลที่ {SAVE_DIR}")
+
+    # plot
+    history = trainer.state.log_history
+    loss_steps, losses = [], []
+
+    for entry in history:
+        if "loss" in entry:
+            losses.append(entry["loss"])
+            loss_steps.append(entry["step"])
+
+    plt.figure(figsize=(8,5))
+    plt.plot(loss_steps, losses, marker="o")
+    plt.xlabel("Step")
+    plt.ylabel("Training Loss")
+    plt.title("Training Loss Curve")
+    plt.grid(True)
+    plt.savefig(os.path.join(SAVE_DIR, "loss_curve.png"))
+    plt.show()
