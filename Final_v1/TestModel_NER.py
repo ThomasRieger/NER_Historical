@@ -3,7 +3,7 @@ from typing import List, Dict, Any
 import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
-MODEL_DIR = r"Final_v1\ner_modelfinal_v4"
+MODEL_DIR = r"Final_v1\ner_modelfinal_v5"
 MAX_LENGTH = 510
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 POSTPROCESS_RULES = True   # ตัดแท็กของเครื่องหมายวรรคตอนให้เป็น 'O' หลังทำนาย
@@ -66,11 +66,11 @@ def predict_from_tokens(tokens: List[str]) -> List[str]:
         padding=False,
         max_length=MAX_LENGTH,
     )
-    word_ids = enc.word_ids(batch_index=0)  # mapping subword
+    word_ids = enc.word_ids(batch_index=0)
     inputs = {k: v.to(DEVICE) for k, v in enc.items() if isinstance(v, torch.Tensor)}
 
     with torch.no_grad():
-        logits = model(**inputs).logits[0]  # [seq_len, num_labels]
+        logits = model(**inputs).logits[0]
 
     preds, prev_wi = [], None
     for i, wi in enumerate(word_ids):
@@ -109,7 +109,7 @@ def predict_batch_texts(texts: List[str]) -> List[List[Dict[str, str]]]:
     )
     inputs = {k: v.to(DEVICE) for k, v in enc.items() if isinstance(v, torch.Tensor)}
     with torch.no_grad():
-        logits = model(**inputs).logits                 # [B, L, C]
+        logits = model(**inputs).logits
         pred_ids = torch.argmax(logits, dim=-1).cpu().tolist()
 
     results: List[List[Dict[str, str]]] = []
