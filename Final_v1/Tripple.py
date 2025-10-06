@@ -1,6 +1,6 @@
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
-MODEL_PATH = r"./Final_v1/ner_modelfinal_v4"
+MODEL_PATH = r"./Final_v1/ner_modelfinal_v5"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
 model = AutoModelForTokenClassification.from_pretrained(MODEL_PATH)
@@ -24,7 +24,7 @@ def run_ner_pos(text):
         pos = entity_group[0]
         ne = entity_group[1]
         tokens.append((word, pos, ne))
-        print(tokens)
+    print(tokens)
     return tokens
 
 def extract_triples(tokens):
@@ -35,13 +35,13 @@ def extract_triples(tokens):
     start_idx = None
 
     for idx, (word, pos, ne) in enumerate(tokens):
-        if ne.startswith("B-"):
+        if ne.startswith("B_"):
             if current_entity:
                 entities.append(("".join(current_entity), current_type, start_idx))
             current_entity = [word]
             current_type = ne[2:]
             start_idx = idx
-        elif ne.startswith("I-") and current_entity:
+        elif ne.startswith("I_") and current_entity:
             current_entity.append(word)
         else:
             if current_entity:
@@ -73,7 +73,7 @@ def extract_triples_from_text(text):
     return triples
 
 if __name__ == "__main__":
-    text = "สมชายทำงานที่ธนาคารกรุงเทพและพักอยู่ในกรุงเทพ"
+    text = "สมชายไปเที่ยวทะเล"
     triples = extract_triples_from_text(text)
     print("Extracted triples:")
     for t in triples:
