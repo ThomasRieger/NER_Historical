@@ -6,21 +6,21 @@ from transformers import (
     TrainingArguments, Trainer
 )
 import matplotlib.pyplot as plt
+import numpy as np
 
 BASE_DIR = r"Final_v1\AIFORTHAI-LST20Corpus\LST20_Corpus_final"
-SPLIT = "train"
 ENCODING = "utf-8"
-SAVE_DIR = "./ner_modelfinal_v5"
+SAVE_DIR = "./ner_modelfinal_10"
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
-# load
-def load_split_lines(base_dir: str, split: str = "train") -> List[Tuple[str, str]]:
+# --- Load files ---
+def load_split_lines(base_dir: str, split: str) -> List[Tuple[str, str]]:
     pattern = os.path.join(base_dir, split, "*.txt")
     files = sorted(glob.glob(pattern))
     if not files:
-        raise FileNotFoundError(f"ไม่พบไฟล์ที่ {pattern}")
+        raise FileNotFoundError(f"ไม่พบไฟล์ใน {pattern}")
     logger.info(f"{split}: พบ {len(files)} ไฟล์")
     lines = []
     for fp in files:
@@ -30,7 +30,7 @@ def load_split_lines(base_dir: str, split: str = "train") -> List[Tuple[str, str
             lines.append((fp, "\n"))
     return lines
 
-# parse sentence
+# --- Parse to sentences ---
 def parse_lines_to_sentences(raw: List[Tuple[str, str]]) -> List[List[List[str]]]:
     sentences, current = [], []
     for i, (fname, line) in enumerate(raw):
@@ -41,7 +41,6 @@ def parse_lines_to_sentences(raw: List[Tuple[str, str]]) -> List[List[List[str]]
                 current = []
             continue
         parts = re.split(r"\s+", line)
-
         if len(parts) == 4:
             current.append(parts)
         elif len(parts) > 4:
@@ -52,26 +51,24 @@ def parse_lines_to_sentences(raw: List[Tuple[str, str]]) -> List[List[List[str]]
 
     if current:
         sentences.append(current)
-
     logger.info(f"รวม {len(sentences)} ประโยค (ยาวสุด {max(map(len, sentences))} token)")
     return sentences
 
-# label
+# --- Label extraction ---
 def extract_labels(sentences: List[List[List[str]]]) -> List[str]:
     labels = sorted({f"{tok[1]}|{tok[2]}|{tok[3]}" for sent in sentences for tok in sent})
-    logger.info(f"พบ label รวม {len(labels)} ชนิด: {labels}")
+    logger.info(f"พบ label รวม {len(labels)} ชนิด")
     return labels
 
-# convert huggin face
+# --- Convert to HF dataset ---
 def convert_to_hf(sentences: List[List[List[str]]], label2id: Dict[str, int]) -> List[Dict]:
-    data = []
-    for sent in sentences:
-        tokens = [w[0] for w in sent]
-        tags = [label2id[f"{w[1]}|{w[2]}|{w[3]}"] for w in sent]
-        data.append({"tokens": tokens, "labels": tags})
-    return data
+    return [
+        {"tokens": [w[0] for w in sent],
+         "labels": [label2id[f"{w[1]}|{w[2]}|{w[3]}"] for w in sent]}
+        for sent in sentences
+    ]
 
-# token
+# --- Token alignment ---
 def tokenize_and_align(batch: Dict) -> Dict:
     tok_out = tokenizer(
         batch["tokens"],
@@ -98,81 +95,132 @@ def tokenize_and_align(batch: Dict) -> Dict:
     tok_out["labels"] = aligned_labels
     return tok_out
 
+# --- Compute metrics ---
+def compute_metrics(p):
+    predictions, labels = p
+    predictions = np.argmax(predictions, axis=2)
 
+    true_labels = [
+        [id2label[l] for (p, l) in zip(pred, label) if l != -100]
+        for pred, label in zip(predictions, labels)
+    ]
+    true_predictions = [
+        [id2label[p] for (p, l) in zip(pred, label) if l != -100]
+        for pred, label in zip(predictions, labels)
+    ]
+
+    correct, total = 0, 0
+    for t, p in zip(true_labels, true_predictions):
+        for a, b in zip(t, p):
+            total += 1
+            if a == b:
+                correct += 1
+    acc = correct / total if total > 0 else 0.0
+    return {"accuracy": acc}
+
+# --- MAIN ---
 if __name__ == "__main__":
-    # load
-    raw_lines = load_split_lines(BASE_DIR, SPLIT)
-    # parse to sentences
-    train_sentences = parse_lines_to_sentences(raw_lines)
-    # extract labels
-    labels = extract_labels(train_sentences)
+    # Load all splits
+    raw_train = load_split_lines(BASE_DIR, "train")
+    raw_eval = load_split_lines(BASE_DIR, "eval")
+    raw_test = load_split_lines(BASE_DIR, "test")
+
+    train_sentences = parse_lines_to_sentences(raw_train)
+    eval_sentences = parse_lines_to_sentences(raw_eval)
+    test_sentences = parse_lines_to_sentences(raw_test)
+
+    # Labels
+    labels = extract_labels(train_sentences + eval_sentences + test_sentences)
     label2id = {l: i for i, l in enumerate(labels)}
     id2label = {i: l for l, i in label2id.items()}
-    # convert to HF dataset
+
+    # Convert
     hf_train = convert_to_hf(train_sentences, label2id)
+    hf_eval = convert_to_hf(eval_sentences, label2id)
+    hf_test = convert_to_hf(test_sentences, label2id)
     train_ds = Dataset.from_list(hf_train)
-    # tokenizer
-    tokenizer = AutoTokenizer.from_pretrained(
-        "airesearch/wangchanberta-base-att-spm-uncased"
-    )
-    tokenized_train = train_ds.map(
-        tokenize_and_align,
-        batched=True,
-        batch_size=1000,
-        remove_columns=["tokens", "labels"]
-    )
-    # load model
+    eval_ds = Dataset.from_list(hf_eval)
+    test_ds = Dataset.from_list(hf_test)
+
+    # Tokenizer
+    tokenizer = AutoTokenizer.from_pretrained("airesearch/wangchanberta-base-att-spm-uncased")
+
+    tokenized_train = train_ds.map(tokenize_and_align, batched=True, batch_size=1000, remove_columns=["tokens", "labels"])
+    tokenized_eval = eval_ds.map(tokenize_and_align, batched=True, batch_size=1000, remove_columns=["tokens", "labels"])
+    tokenized_test = test_ds.map(tokenize_and_align, batched=True, batch_size=1000, remove_columns=["tokens", "labels"])
+
+    # Model
     model = AutoModelForTokenClassification.from_pretrained(
         "airesearch/wangchanberta-base-att-spm-uncased",
         num_labels=len(labels),
         id2label=id2label,
         label2id=label2id
     )
-    # training args
+
+    # Training args
     training_args = TrainingArguments(
-        output_dir="./NER_TrainingArgs",
-        num_train_epochs=50,
+        output_dir="./NER_TrainingArgs_10",
+        num_train_epochs=10,
         learning_rate=2e-5,
         per_device_train_batch_size=8,
         gradient_accumulation_steps=2,
+        warmup_ratio=0.1,
+        weight_decay=0.01,
         fp16=torch.cuda.is_available(),
         logging_strategy="steps",
-        logging_steps=50,
-        save_strategy="steps",
-        save_steps=100,
+        logging_steps=2,
+        save_strategy="epoch",
         save_total_limit=1,
-        eval_strategy="no" 
+        eval_strategy="epoch",
+        load_best_model_at_end=True,
+        metric_for_best_model="loss",
+        greater_is_better=False
     )
+
+    # Trainer
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=tokenized_train,
-        tokenizer=tokenizer
+        eval_dataset=tokenized_eval,
+        tokenizer=tokenizer,
+        compute_metrics=compute_metrics
     )
-    
-    # train
+
+    # Train
     trainer.train()
 
-    # save model
+    # Save model
     os.makedirs(SAVE_DIR, exist_ok=True)
     model.save_pretrained(SAVE_DIR)
     tokenizer.save_pretrained(SAVE_DIR)
     logger.info(f"บันทึกโมเดลที่ {SAVE_DIR}")
 
-    # plot
+    # Plot losses
     history = trainer.state.log_history
-    loss_steps, losses = [], []
+    train_steps, train_losses, eval_steps, eval_losses = [], [], [], []
 
     for entry in history:
         if "loss" in entry:
-            losses.append(entry["loss"])
-            loss_steps.append(entry["step"])
+            train_steps.append(entry["step"])
+            train_losses.append(entry["loss"])
+        if "eval_loss" in entry:
+            eval_steps.append(entry["step"])
+            eval_losses.append(entry["eval_loss"])
 
-    plt.figure(figsize=(8,5))
-    plt.plot(loss_steps, losses, marker="o")
+    plt.figure(figsize=(8, 5))
+    plt.plot(train_steps, train_losses, label="Train Loss", marker="o")
+    if eval_losses:
+        plt.plot(eval_steps, eval_losses, label="Eval Loss", marker="x")
     plt.xlabel("Step")
-    plt.ylabel("Training Loss")
-    plt.title("Training Loss Curve")
+    plt.ylabel("Loss")
+    plt.title("Training vs Evaluation Loss Curve")
+    plt.legend()
     plt.grid(True)
     plt.savefig(os.path.join(SAVE_DIR, "loss_curve.png"))
     plt.show()
+
+    # Final test evaluation
+    logger.info("ประเมินโมเดลบนชุด test ...")
+    test_results = trainer.evaluate(tokenized_test)
+    logger.info(f"ผลลัพธ์บน test set: {test_results}")
