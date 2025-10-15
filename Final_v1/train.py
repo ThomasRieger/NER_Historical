@@ -10,7 +10,7 @@ import numpy as np
 
 BASE_DIR = r"Final_v1\AIFORTHAI-LST20Corpus\LST20_Corpus_final"
 ENCODING = "utf-8"
-SAVE_DIR = "./ner_modelfinal_10"
+SAVE_DIR = "./ner_modelfinal_25"
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
@@ -159,8 +159,8 @@ if __name__ == "__main__":
 
     # Training args
     training_args = TrainingArguments(
-        output_dir="./NER_TrainingArgs_10",
-        num_train_epochs=10,
+        output_dir="./NER_TrainingArgs_25",
+        num_train_epochs=25,
         learning_rate=2e-5,
         per_device_train_batch_size=8,
         gradient_accumulation_steps=2,

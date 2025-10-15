@@ -8,3 +8,6 @@ Final_v1/ner_modelfinal_v3
 /.streamlit
 /Website/utils_old.py
 Final_v1/train_old.py
+/NER_TrainingArgs_10
+/NER_TrainingArgs_3
+/NER_TrainingArgs_25
