@@ -4,3 +4,6 @@ Final_v1/ner_modelfinal_v5/model.safetensors filter=lfs diff=lfs merge=lfs -text
 Final_v1/ner_modelfinal_3/model.safetensors filter=lfs diff=lfs merge=lfs -text
 Final_v1/ner_modelfinal_10/model.safetensors filter=lfs diff=lfs merge=lfs -text
 Final_v1/ner_modelfinal_25/model.safetensors filter=lfs diff=lfs merge=lfs -text
+Final_v1/ner_modelfinal_5/model.safetensors filter=lfs diff=lfs merge=lfs -text
+Final_v1/ner_modelfinal_15/model.safetensors filter=lfs diff=lfs merge=lfs -text
+Final_v1/ner_modelfinal_20/model.safetensors filter=lfs diff=lfs merge=lfs -text

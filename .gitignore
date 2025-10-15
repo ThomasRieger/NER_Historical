@@ -7,8 +7,14 @@ Final_v1/ner_modelfinal_v3
 Final_v1/ner_modelfinal_v5
 /NER_TrainingArgs
 /.streamlit
+Final_v1/pull_loss.py
+Final_v1/train.py
 /Website/utils_old.py
 Final_v1/train_old.py
 /NER_TrainingArgs_10
 /NER_TrainingArgs_3
 /NER_TrainingArgs_25
+/NER_TrainingArgs_20
+/NER_TrainingArgs_5
+/NER_TrainingArgs_10
+/NER_TrainingArgs_15

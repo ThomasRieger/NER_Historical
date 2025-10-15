@@ -73,7 +73,7 @@ def extract_triples_from_text(text):
     return triples
 
 if __name__ == "__main__":
-    text = "สมชายไปเที่ยวทะเล"
+    text = "ทหารประกาศยึดอำนาจในมาดากัสการ์ หลัง ปธน.หนีออกจากประเทศ"
     triples = extract_triples_from_text(text)
     print("Extracted triples:")
     for t in triples:
