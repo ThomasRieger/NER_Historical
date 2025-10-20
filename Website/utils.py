@@ -3,7 +3,7 @@ from typing import List, Dict, Any
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
 # --- Config ---
-MODEL_DIR = os.path.join("Final_v1", "ner_modelfinal_v5")
+MODEL_DIR = os.path.join("Final_v1", "ner_modelfinal_25")
 GITHUB_REPO = "ThomasRieger/NER_Historical_Storage"
 GITHUB_BRANCH = "main"
 GITHUB_FILE_PATH = "Saved_Data.csv"
