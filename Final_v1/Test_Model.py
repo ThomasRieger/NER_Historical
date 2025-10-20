@@ -1,7 +1,7 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
-MODEL_DIR = r"Final_v1\ner_modelfinal_10"
+MODEL_DIR = r"Final_v1\ner_modelfinal_25"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
