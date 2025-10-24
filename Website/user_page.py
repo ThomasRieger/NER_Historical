@@ -24,7 +24,7 @@ def run_user_page():
             if st.button("I Understand"):
                 st.session_state.disclaimer_shown = True
                 st.rerun() # Use st.rerun to reload the page immediately
-        st.stop() # Stop execution if disclaimer is not accepted
+        st.stop()
 
     st.title("Historical Text Analysis - NER & Triple Extraction")
     
@@ -60,7 +60,7 @@ def run_user_page():
                         clean_ner_parts.append(f"{token}: {ner_tag}")
 
                 clean_ner_output = "; ".join(clean_ner_parts)
-                # Triples Output (using the new SPO logic)
+                # Triples Output
                 triples_output = ", ".join([f"({s}, {p}, {o})" for s, p, o in triples])
                 result = {
                     "text": text,
